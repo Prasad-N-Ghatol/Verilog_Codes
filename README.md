@@ -47,6 +47,8 @@ Each module focuses on illustrating key concepts in **digital design, simulation
         📑 DeMultiplxer (DEMUX)
         📑 Encoder
         📑 Multiplxer (MUX)
+    📂 Flip Flops
+        📑 Flip Flop
 ```
 
 ---

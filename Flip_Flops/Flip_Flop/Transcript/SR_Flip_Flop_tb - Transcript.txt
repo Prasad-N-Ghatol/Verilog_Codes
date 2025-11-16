@@ -1,0 +1,52 @@
+
+--------------------------------------------------
+
+SR_Flip_Flop - Test
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+All Combinations
+
+--------------------------------------------------
+
+Reset
+[          20.000 ns] : Reset_In = 0x1 , S_In = 0x0 , R_In = 0x0 , Q_Out = 0x0 , Qb_Out = 0x1 , tb_Q_Out = 0x0 , tb_Qb_Out = 0x1 , Is_Same = 1
+[          40.000 ns] : Reset_In = 0x0 , S_In = 0x0 , R_In = 0x0 , Q_Out = 0x0 , Qb_Out = 0x1 , tb_Q_Out = 0x0 , tb_Qb_Out = 0x1 , Is_Same = 1
+Set
+[          60.000 ns] : Reset_In = 0x0 , S_In = 0x1 , R_In = 0x0 , Q_Out = 0x1 , Qb_Out = 0x0 , tb_Q_Out = 0x1 , tb_Qb_Out = 0x0 , Is_Same = 1
+[          80.000 ns] : Reset_In = 0x0 , S_In = 0x0 , R_In = 0x0 , Q_Out = 0x1 , Qb_Out = 0x0 , tb_Q_Out = 0x1 , tb_Qb_Out = 0x0 , Is_Same = 1
+Reset
+[         100.000 ns] : Reset_In = 0x0 , S_In = 0x0 , R_In = 0x1 , Q_Out = 0x0 , Qb_Out = 0x1 , tb_Q_Out = 0x0 , tb_Qb_Out = 0x1 , Is_Same = 1
+[         120.000 ns] : Reset_In = 0x0 , S_In = 0x0 , R_In = 0x0 , Q_Out = 0x0 , Qb_Out = 0x1 , tb_Q_Out = 0x0 , tb_Qb_Out = 0x1 , Is_Same = 1
+Race Condition
+[         140.000 ns] : Reset_In = 0x0 , S_In = 0x1 , R_In = 0x1 , Q_Out = 0xx , Qb_Out = 0xx , tb_Q_Out = 0xx , tb_Qb_Out = 0xx , Is_Same = 1
+[         160.000 ns] : Reset_In = 0x0 , S_In = 0x0 , R_In = 0x0 , Q_Out = 0xx , Qb_Out = 0xx , tb_Q_Out = 0xx , tb_Qb_Out = 0xx , Is_Same = 1
+
+--------------------------------------------------
+
+Random Combinations
+
+--------------------------------------------------
+
+[         180.000 ns] : Reset_In = 0x0 , S_In = 0x0 , R_In = 0x1 , Q_Out = 0x0 , Qb_Out = 0x1 , tb_Q_Out = 0x0 , tb_Qb_Out = 0x1 , Is_Same = 1
+[         200.000 ns] : Reset_In = 0x0 , S_In = 0x1 , R_In = 0x1 , Q_Out = 0xx , Qb_Out = 0xx , tb_Q_Out = 0xx , tb_Qb_Out = 0xx , Is_Same = 1
+[         220.000 ns] : Reset_In = 0x0 , S_In = 0x1 , R_In = 0x1 , Q_Out = 0xx , Qb_Out = 0xx , tb_Q_Out = 0xx , tb_Qb_Out = 0xx , Is_Same = 1
+[         240.000 ns] : Reset_In = 0x0 , S_In = 0x1 , R_In = 0x0 , Q_Out = 0x1 , Qb_Out = 0x0 , tb_Q_Out = 0x1 , tb_Qb_Out = 0x0 , Is_Same = 1
+[         260.000 ns] : Reset_In = 0x0 , S_In = 0x1 , R_In = 0x1 , Q_Out = 0xx , Qb_Out = 0xx , tb_Q_Out = 0xx , tb_Qb_Out = 0xx , Is_Same = 1
+[         280.000 ns] : Reset_In = 0x0 , S_In = 0x0 , R_In = 0x1 , Q_Out = 0x0 , Qb_Out = 0x1 , tb_Q_Out = 0x0 , tb_Qb_Out = 0x1 , Is_Same = 1
+[         300.000 ns] : Reset_In = 0x0 , S_In = 0x1 , R_In = 0x0 , Q_Out = 0x1 , Qb_Out = 0x0 , tb_Q_Out = 0x1 , tb_Qb_Out = 0x0 , Is_Same = 1
+[         320.000 ns] : Reset_In = 0x0 , S_In = 0x1 , R_In = 0x0 , Q_Out = 0x1 , Qb_Out = 0x0 , tb_Q_Out = 0x1 , tb_Qb_Out = 0x0 , Is_Same = 1
+[         340.000 ns] : Reset_In = 0x0 , S_In = 0x1 , R_In = 0x0 , Q_Out = 0x1 , Qb_Out = 0x0 , tb_Q_Out = 0x1 , tb_Qb_Out = 0x0 , Is_Same = 1
+[         360.000 ns] : Reset_In = 0x0 , S_In = 0x1 , R_In = 0x1 , Q_Out = 0xx , Qb_Out = 0xx , tb_Q_Out = 0xx , tb_Qb_Out = 0xx , Is_Same = 1
+
+--------------------------------------------------
+Test Results :
+--------------------------------------------------
+Passed_Checks =          18
+Failed_Checks =           0
+Total_Checks  =          18
+--------------------------------------------------
+
