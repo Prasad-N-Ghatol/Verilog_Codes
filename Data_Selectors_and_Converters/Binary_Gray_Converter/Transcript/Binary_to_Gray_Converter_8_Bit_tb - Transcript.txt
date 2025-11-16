@@ -1,0 +1,59 @@
+
+--------------------------------------------------
+
+Binary_to_Gray_Converter_8_Bit - Test
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+Few Input Combinations
+
+--------------------------------------------------
+
+[          20.000 ns] : Enable_In = 0x0 , Binary_Data_In = 0x24 , Gray_Data_Out = 0xzz , tb_Gray_Data_Out = 0xzz , Is_Same = 1
+[          40.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x01 , Gray_Data_Out = 0x01 , tb_Gray_Data_Out = 0x01 , Is_Same = 1
+[          60.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x02 , Gray_Data_Out = 0x03 , tb_Gray_Data_Out = 0x03 , Is_Same = 1
+[          80.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x04 , Gray_Data_Out = 0x06 , tb_Gray_Data_Out = 0x06 , Is_Same = 1
+[         100.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x08 , Gray_Data_Out = 0x0c , tb_Gray_Data_Out = 0x0c , Is_Same = 1
+[         120.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x10 , Gray_Data_Out = 0x18 , tb_Gray_Data_Out = 0x18 , Is_Same = 1
+[         140.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x20 , Gray_Data_Out = 0x30 , tb_Gray_Data_Out = 0x30 , Is_Same = 1
+[         160.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x40 , Gray_Data_Out = 0x60 , tb_Gray_Data_Out = 0x60 , Is_Same = 1
+[         180.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x80 , Gray_Data_Out = 0xc0 , tb_Gray_Data_Out = 0xc0 , Is_Same = 1
+
+--------------------------------------------------
+
+Random Input Combinations
+
+--------------------------------------------------
+
+[         240.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x09 , Gray_Data_Out = 0x0d , tb_Gray_Data_Out = 0x0d , Is_Same = 1
+[         260.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x0d , Gray_Data_Out = 0x0b , tb_Gray_Data_Out = 0x0b , Is_Same = 1
+[         280.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x65 , Gray_Data_Out = 0x57 , tb_Gray_Data_Out = 0x57 , Is_Same = 1
+[         300.000 ns] : Enable_In = 0x0 , Binary_Data_In = 0x01 , Gray_Data_Out = 0xzz , tb_Gray_Data_Out = 0xzz , Is_Same = 1
+[         320.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x76 , Gray_Data_Out = 0x4d , tb_Gray_Data_Out = 0x4d , Is_Same = 1
+[         340.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0xed , Gray_Data_Out = 0x9b , tb_Gray_Data_Out = 0x9b , Is_Same = 1
+[         360.000 ns] : Enable_In = 0x0 , Binary_Data_In = 0xf9 , Gray_Data_Out = 0xzz , tb_Gray_Data_Out = 0xzz , Is_Same = 1
+[         380.000 ns] : Enable_In = 0x0 , Binary_Data_In = 0xc5 , Gray_Data_Out = 0xzz , tb_Gray_Data_Out = 0xzz , Is_Same = 1
+[         400.000 ns] : Enable_In = 0x0 , Binary_Data_In = 0xe5 , Gray_Data_Out = 0xzz , tb_Gray_Data_Out = 0xzz , Is_Same = 1
+[         420.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x12 , Gray_Data_Out = 0x1b , tb_Gray_Data_Out = 0x1b , Is_Same = 1
+[         440.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0xf2 , Gray_Data_Out = 0x8b , tb_Gray_Data_Out = 0x8b , Is_Same = 1
+[         460.000 ns] : Enable_In = 0x0 , Binary_Data_In = 0xe8 , Gray_Data_Out = 0xzz , tb_Gray_Data_Out = 0xzz , Is_Same = 1
+[         480.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x5c , Gray_Data_Out = 0x72 , tb_Gray_Data_Out = 0x72 , Is_Same = 1
+[         500.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x2d , Gray_Data_Out = 0x3b , tb_Gray_Data_Out = 0x3b , Is_Same = 1
+[         520.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x63 , Gray_Data_Out = 0x52 , tb_Gray_Data_Out = 0x52 , Is_Same = 1
+[         540.000 ns] : Enable_In = 0x0 , Binary_Data_In = 0x80 , Gray_Data_Out = 0xzz , tb_Gray_Data_Out = 0xzz , Is_Same = 1
+[         560.000 ns] : Enable_In = 0x0 , Binary_Data_In = 0xaa , Gray_Data_Out = 0xzz , tb_Gray_Data_Out = 0xzz , Is_Same = 1
+[         580.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x96 , Gray_Data_Out = 0xdd , tb_Gray_Data_Out = 0xdd , Is_Same = 1
+[         600.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x0d , Gray_Data_Out = 0x0b , tb_Gray_Data_Out = 0x0b , Is_Same = 1
+[         620.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x6b , Gray_Data_Out = 0x5e , tb_Gray_Data_Out = 0x5e , Is_Same = 1
+
+--------------------------------------------------
+Test Results :
+--------------------------------------------------
+Passed_Checks =          29
+Failed_Checks =           0
+Total_Checks  =          29
+--------------------------------------------------
+

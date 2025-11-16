@@ -1,0 +1,83 @@
+
+--------------------------------------------------
+
+Binary_to_Gray_Converter_32_Bit - Test
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+Few Input Combinations
+
+--------------------------------------------------
+
+[          20.000 ns] : Enable_In = 0x0 , Binary_Data_In = 0x12153524 , Gray_Data_Out = 0xzzzzzzzz , tb_Gray_Data_Out = 0xzzzzzzzz , Is_Same = 1
+[          40.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x00000001 , Gray_Data_Out = 0x00000001 , tb_Gray_Data_Out = 0x00000001 , Is_Same = 1
+[          60.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x00000002 , Gray_Data_Out = 0x00000003 , tb_Gray_Data_Out = 0x00000003 , Is_Same = 1
+[          80.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x00000004 , Gray_Data_Out = 0x00000006 , tb_Gray_Data_Out = 0x00000006 , Is_Same = 1
+[         100.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x00000008 , Gray_Data_Out = 0x0000000c , tb_Gray_Data_Out = 0x0000000c , Is_Same = 1
+[         120.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x00000010 , Gray_Data_Out = 0x00000018 , tb_Gray_Data_Out = 0x00000018 , Is_Same = 1
+[         140.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x00000020 , Gray_Data_Out = 0x00000030 , tb_Gray_Data_Out = 0x00000030 , Is_Same = 1
+[         160.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x00000040 , Gray_Data_Out = 0x00000060 , tb_Gray_Data_Out = 0x00000060 , Is_Same = 1
+[         180.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x00000080 , Gray_Data_Out = 0x000000c0 , tb_Gray_Data_Out = 0x000000c0 , Is_Same = 1
+[         200.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x00000100 , Gray_Data_Out = 0x00000180 , tb_Gray_Data_Out = 0x00000180 , Is_Same = 1
+[         220.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x00000200 , Gray_Data_Out = 0x00000300 , tb_Gray_Data_Out = 0x00000300 , Is_Same = 1
+[         240.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x00000400 , Gray_Data_Out = 0x00000600 , tb_Gray_Data_Out = 0x00000600 , Is_Same = 1
+[         260.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x00000800 , Gray_Data_Out = 0x00000c00 , tb_Gray_Data_Out = 0x00000c00 , Is_Same = 1
+[         280.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x00001000 , Gray_Data_Out = 0x00001800 , tb_Gray_Data_Out = 0x00001800 , Is_Same = 1
+[         300.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x00002000 , Gray_Data_Out = 0x00003000 , tb_Gray_Data_Out = 0x00003000 , Is_Same = 1
+[         320.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x00004000 , Gray_Data_Out = 0x00006000 , tb_Gray_Data_Out = 0x00006000 , Is_Same = 1
+[         340.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x00008000 , Gray_Data_Out = 0x0000c000 , tb_Gray_Data_Out = 0x0000c000 , Is_Same = 1
+[         360.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x00010000 , Gray_Data_Out = 0x00018000 , tb_Gray_Data_Out = 0x00018000 , Is_Same = 1
+[         380.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x00020000 , Gray_Data_Out = 0x00030000 , tb_Gray_Data_Out = 0x00030000 , Is_Same = 1
+[         400.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x00040000 , Gray_Data_Out = 0x00060000 , tb_Gray_Data_Out = 0x00060000 , Is_Same = 1
+[         420.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x00080000 , Gray_Data_Out = 0x000c0000 , tb_Gray_Data_Out = 0x000c0000 , Is_Same = 1
+[         440.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x00100000 , Gray_Data_Out = 0x00180000 , tb_Gray_Data_Out = 0x00180000 , Is_Same = 1
+[         460.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x00200000 , Gray_Data_Out = 0x00300000 , tb_Gray_Data_Out = 0x00300000 , Is_Same = 1
+[         480.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x00400000 , Gray_Data_Out = 0x00600000 , tb_Gray_Data_Out = 0x00600000 , Is_Same = 1
+[         500.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x00800000 , Gray_Data_Out = 0x00c00000 , tb_Gray_Data_Out = 0x00c00000 , Is_Same = 1
+[         520.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x01000000 , Gray_Data_Out = 0x01800000 , tb_Gray_Data_Out = 0x01800000 , Is_Same = 1
+[         540.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x02000000 , Gray_Data_Out = 0x03000000 , tb_Gray_Data_Out = 0x03000000 , Is_Same = 1
+[         560.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x04000000 , Gray_Data_Out = 0x06000000 , tb_Gray_Data_Out = 0x06000000 , Is_Same = 1
+[         580.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x08000000 , Gray_Data_Out = 0x0c000000 , tb_Gray_Data_Out = 0x0c000000 , Is_Same = 1
+[         600.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x10000000 , Gray_Data_Out = 0x18000000 , tb_Gray_Data_Out = 0x18000000 , Is_Same = 1
+[         620.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x20000000 , Gray_Data_Out = 0x30000000 , tb_Gray_Data_Out = 0x30000000 , Is_Same = 1
+[         640.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x40000000 , Gray_Data_Out = 0x60000000 , tb_Gray_Data_Out = 0x60000000 , Is_Same = 1
+[         660.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x80000000 , Gray_Data_Out = 0xc0000000 , tb_Gray_Data_Out = 0xc0000000 , Is_Same = 1
+
+--------------------------------------------------
+
+Random Input Combinations
+
+--------------------------------------------------
+
+[         720.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x8484d609 , Gray_Data_Out = 0xc6c6bd0d , tb_Gray_Data_Out = 0xc6c6bd0d , Is_Same = 1
+[         740.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x06b97b0d , Gray_Data_Out = 0x05e5c68b , tb_Gray_Data_Out = 0x05e5c68b , Is_Same = 1
+[         760.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0xb2c28465 , Gray_Data_Out = 0xeba3c657 , tb_Gray_Data_Out = 0xeba3c657 , Is_Same = 1
+[         780.000 ns] : Enable_In = 0x0 , Binary_Data_In = 0x00f3e301 , Gray_Data_Out = 0xzzzzzzzz , tb_Gray_Data_Out = 0xzzzzzzzz , Is_Same = 1
+[         800.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x3b23f176 , Gray_Data_Out = 0x26b209cd , tb_Gray_Data_Out = 0x26b209cd , Is_Same = 1
+[         820.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x76d457ed , Gray_Data_Out = 0x4dbe7c1b , tb_Gray_Data_Out = 0x4dbe7c1b , Is_Same = 1
+[         840.000 ns] : Enable_In = 0x0 , Binary_Data_In = 0x7cfde9f9 , Gray_Data_Out = 0xzzzzzzzz , tb_Gray_Data_Out = 0xzzzzzzzz , Is_Same = 1
+[         860.000 ns] : Enable_In = 0x0 , Binary_Data_In = 0xe2f784c5 , Gray_Data_Out = 0xzzzzzzzz , tb_Gray_Data_Out = 0xzzzzzzzz , Is_Same = 1
+[         880.000 ns] : Enable_In = 0x0 , Binary_Data_In = 0x72aff7e5 , Gray_Data_Out = 0xzzzzzzzz , tb_Gray_Data_Out = 0xzzzzzzzz , Is_Same = 1
+[         900.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x8932d612 , Gray_Data_Out = 0xcdabbd1b , tb_Gray_Data_Out = 0xcdabbd1b , Is_Same = 1
+[         920.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x793069f2 , Gray_Data_Out = 0x45a85d0b , tb_Gray_Data_Out = 0x45a85d0b , Is_Same = 1
+[         940.000 ns] : Enable_In = 0x0 , Binary_Data_In = 0xf4007ae8 , Gray_Data_Out = 0xzzzzzzzz , tb_Gray_Data_Out = 0xzzzzzzzz , Is_Same = 1
+[         960.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x2e58495c , Gray_Data_Out = 0x39746df2 , tb_Gray_Data_Out = 0x39746df2 , Is_Same = 1
+[         980.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x96ab582d , Gray_Data_Out = 0xddfef43b , tb_Gray_Data_Out = 0xddfef43b , Is_Same = 1
+[        1000.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0xb1ef6263 , Gray_Data_Out = 0xe918d352 , tb_Gray_Data_Out = 0xe918d352 , Is_Same = 1
+[        1020.000 ns] : Enable_In = 0x0 , Binary_Data_In = 0xc03b2280 , Gray_Data_Out = 0xzzzzzzzz , tb_Gray_Data_Out = 0xzzzzzzzz , Is_Same = 1
+[        1040.000 ns] : Enable_In = 0x0 , Binary_Data_In = 0x557845aa , Gray_Data_Out = 0xzzzzzzzz , tb_Gray_Data_Out = 0xzzzzzzzz , Is_Same = 1
+[        1060.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0xcb203e96 , Gray_Data_Out = 0xaeb021dd , tb_Gray_Data_Out = 0xaeb021dd , Is_Same = 1
+[        1080.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x86bc380d , Gray_Data_Out = 0xc5e2240b , tb_Gray_Data_Out = 0xc5e2240b , Is_Same = 1
+[        1100.000 ns] : Enable_In = 0x1 , Binary_Data_In = 0x359fdd6b , Gray_Data_Out = 0x2f5033de , tb_Gray_Data_Out = 0x2f5033de , Is_Same = 1
+
+--------------------------------------------------
+Test Results :
+--------------------------------------------------
+Passed_Checks =          53
+Failed_Checks =           0
+Total_Checks  =          53
+--------------------------------------------------
+

@@ -1,0 +1,65 @@
+
+--------------------------------------------------
+
+DEMUX_1_2 - Test
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+All Input Combinations
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+[          20.000 ns] : Enable_In = 0 , Data_In = 0 , Select_In = 1 , {DEMUX_Result_Data_1_Out, DEMUX_Result_Data_0_Out} = zz , {tb_DEMUX_Result_Data_1_Out, tb_DEMUX_Result_Data_0_Out} = zz , Is_Same = 1
+[          40.000 ns] : Enable_In = 1 , Data_In = 0 , Select_In = 0 , {DEMUX_Result_Data_1_Out, DEMUX_Result_Data_0_Out} = 00 , {tb_DEMUX_Result_Data_1_Out, tb_DEMUX_Result_Data_0_Out} = 00 , Is_Same = 1
+[          60.000 ns] : Enable_In = 1 , Data_In = 1 , Select_In = 0 , {DEMUX_Result_Data_1_Out, DEMUX_Result_Data_0_Out} = 01 , {tb_DEMUX_Result_Data_1_Out, tb_DEMUX_Result_Data_0_Out} = 01 , Is_Same = 1
+
+--------------------------------------------------
+
+[          80.000 ns] : Enable_In = 0 , Data_In = 1 , Select_In = 1 , {DEMUX_Result_Data_1_Out, DEMUX_Result_Data_0_Out} = zz , {tb_DEMUX_Result_Data_1_Out, tb_DEMUX_Result_Data_0_Out} = zz , Is_Same = 1
+[         100.000 ns] : Enable_In = 1 , Data_In = 0 , Select_In = 1 , {DEMUX_Result_Data_1_Out, DEMUX_Result_Data_0_Out} = 00 , {tb_DEMUX_Result_Data_1_Out, tb_DEMUX_Result_Data_0_Out} = 00 , Is_Same = 1
+[         120.000 ns] : Enable_In = 1 , Data_In = 1 , Select_In = 1 , {DEMUX_Result_Data_1_Out, DEMUX_Result_Data_0_Out} = 10 , {tb_DEMUX_Result_Data_1_Out, tb_DEMUX_Result_Data_0_Out} = 10 , Is_Same = 1
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+Random Input Combinations
+
+--------------------------------------------------
+
+[         180.000 ns] : Enable_In = 1 , Data_In = 1 , Select_In = 1 , {DEMUX_Result_Data_1_Out, DEMUX_Result_Data_0_Out} = 10 , {tb_DEMUX_Result_Data_1_Out, tb_DEMUX_Result_Data_0_Out} = 10 , Is_Same = 1
+[         200.000 ns] : Enable_In = 0 , Data_In = 1 , Select_In = 1 , {DEMUX_Result_Data_1_Out, DEMUX_Result_Data_0_Out} = zz , {tb_DEMUX_Result_Data_1_Out, tb_DEMUX_Result_Data_0_Out} = zz , Is_Same = 1
+[         220.000 ns] : Enable_In = 0 , Data_In = 1 , Select_In = 1 , {DEMUX_Result_Data_1_Out, DEMUX_Result_Data_0_Out} = zz , {tb_DEMUX_Result_Data_1_Out, tb_DEMUX_Result_Data_0_Out} = zz , Is_Same = 1
+[         240.000 ns] : Enable_In = 0 , Data_In = 1 , Select_In = 0 , {DEMUX_Result_Data_1_Out, DEMUX_Result_Data_0_Out} = zz , {tb_DEMUX_Result_Data_1_Out, tb_DEMUX_Result_Data_0_Out} = zz , Is_Same = 1
+[         260.000 ns] : Enable_In = 1 , Data_In = 0 , Select_In = 1 , {DEMUX_Result_Data_1_Out, DEMUX_Result_Data_0_Out} = 00 , {tb_DEMUX_Result_Data_1_Out, tb_DEMUX_Result_Data_0_Out} = 00 , Is_Same = 1
+[         280.000 ns] : Enable_In = 1 , Data_In = 0 , Select_In = 1 , {DEMUX_Result_Data_1_Out, DEMUX_Result_Data_0_Out} = 00 , {tb_DEMUX_Result_Data_1_Out, tb_DEMUX_Result_Data_0_Out} = 00 , Is_Same = 1
+[         300.000 ns] : Enable_In = 0 , Data_In = 0 , Select_In = 0 , {DEMUX_Result_Data_1_Out, DEMUX_Result_Data_0_Out} = zz , {tb_DEMUX_Result_Data_1_Out, tb_DEMUX_Result_Data_0_Out} = zz , Is_Same = 1
+[         320.000 ns] : Enable_In = 1 , Data_In = 0 , Select_In = 1 , {DEMUX_Result_Data_1_Out, DEMUX_Result_Data_0_Out} = 00 , {tb_DEMUX_Result_Data_1_Out, tb_DEMUX_Result_Data_0_Out} = 00 , Is_Same = 1
+[         340.000 ns] : Enable_In = 1 , Data_In = 1 , Select_In = 1 , {DEMUX_Result_Data_1_Out, DEMUX_Result_Data_0_Out} = 10 , {tb_DEMUX_Result_Data_1_Out, tb_DEMUX_Result_Data_0_Out} = 10 , Is_Same = 1
+[         360.000 ns] : Enable_In = 0 , Data_In = 0 , Select_In = 0 , {DEMUX_Result_Data_1_Out, DEMUX_Result_Data_0_Out} = zz , {tb_DEMUX_Result_Data_1_Out, tb_DEMUX_Result_Data_0_Out} = zz , Is_Same = 1
+[         380.000 ns] : Enable_In = 0 , Data_In = 1 , Select_In = 0 , {DEMUX_Result_Data_1_Out, DEMUX_Result_Data_0_Out} = zz , {tb_DEMUX_Result_Data_1_Out, tb_DEMUX_Result_Data_0_Out} = zz , Is_Same = 1
+[         400.000 ns] : Enable_In = 1 , Data_In = 1 , Select_In = 1 , {DEMUX_Result_Data_1_Out, DEMUX_Result_Data_0_Out} = 10 , {tb_DEMUX_Result_Data_1_Out, tb_DEMUX_Result_Data_0_Out} = 10 , Is_Same = 1
+[         420.000 ns] : Enable_In = 1 , Data_In = 1 , Select_In = 0 , {DEMUX_Result_Data_1_Out, DEMUX_Result_Data_0_Out} = 01 , {tb_DEMUX_Result_Data_1_Out, tb_DEMUX_Result_Data_0_Out} = 01 , Is_Same = 1
+[         440.000 ns] : Enable_In = 0 , Data_In = 1 , Select_In = 1 , {DEMUX_Result_Data_1_Out, DEMUX_Result_Data_0_Out} = zz , {tb_DEMUX_Result_Data_1_Out, tb_DEMUX_Result_Data_0_Out} = zz , Is_Same = 1
+[         460.000 ns] : Enable_In = 1 , Data_In = 0 , Select_In = 0 , {DEMUX_Result_Data_1_Out, DEMUX_Result_Data_0_Out} = 00 , {tb_DEMUX_Result_Data_1_Out, tb_DEMUX_Result_Data_0_Out} = 00 , Is_Same = 1
+[         480.000 ns] : Enable_In = 0 , Data_In = 0 , Select_In = 0 , {DEMUX_Result_Data_1_Out, DEMUX_Result_Data_0_Out} = zz , {tb_DEMUX_Result_Data_1_Out, tb_DEMUX_Result_Data_0_Out} = zz , Is_Same = 1
+[         500.000 ns] : Enable_In = 1 , Data_In = 0 , Select_In = 0 , {DEMUX_Result_Data_1_Out, DEMUX_Result_Data_0_Out} = 00 , {tb_DEMUX_Result_Data_1_Out, tb_DEMUX_Result_Data_0_Out} = 00 , Is_Same = 1
+[         520.000 ns] : Enable_In = 1 , Data_In = 1 , Select_In = 0 , {DEMUX_Result_Data_1_Out, DEMUX_Result_Data_0_Out} = 01 , {tb_DEMUX_Result_Data_1_Out, tb_DEMUX_Result_Data_0_Out} = 01 , Is_Same = 1
+[         540.000 ns] : Enable_In = 0 , Data_In = 0 , Select_In = 0 , {DEMUX_Result_Data_1_Out, DEMUX_Result_Data_0_Out} = zz , {tb_DEMUX_Result_Data_1_Out, tb_DEMUX_Result_Data_0_Out} = zz , Is_Same = 1
+[         560.000 ns] : Enable_In = 0 , Data_In = 1 , Select_In = 1 , {DEMUX_Result_Data_1_Out, DEMUX_Result_Data_0_Out} = zz , {tb_DEMUX_Result_Data_1_Out, tb_DEMUX_Result_Data_0_Out} = zz , Is_Same = 1
+
+--------------------------------------------------
+Test Results :
+--------------------------------------------------
+Passed_Checks =          26
+Failed_Checks =           0
+Total_Checks  =          26
+--------------------------------------------------
+

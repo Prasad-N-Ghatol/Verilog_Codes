@@ -1,0 +1,55 @@
+
+--------------------------------------------------
+
+MUX_2_1 - Test
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+All Input Combinations
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+[          20.000 ns] : Enable_In = 0x0, {Data_1_In, Data_0_In} = 00 , Select_In = 1 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[          40.000 ns] : Enable_In = 0x1, {Data_1_In, Data_0_In} = 01 , Select_In = 0 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[          60.000 ns] : Enable_In = 0x1, {Data_1_In, Data_0_In} = 10 , Select_In = 0 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[          80.000 ns] : Enable_In = 0x0, {Data_1_In, Data_0_In} = 01 , Select_In = 1 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[         100.000 ns] : Enable_In = 0x1, {Data_1_In, Data_0_In} = 10 , Select_In = 1 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[         120.000 ns] : Enable_In = 0x1, {Data_1_In, Data_0_In} = 01 , Select_In = 1 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+Random Input Combinations
+
+--------------------------------------------------
+
+[         180.000 ns] : Enable_In = 0x1, {Data_1_In, Data_0_In} = 01 , Select_In = 1 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+[         200.000 ns] : Enable_In = 0x0, {Data_1_In, Data_0_In} = 01 , Select_In = 1 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[         220.000 ns] : Enable_In = 0x0, {Data_1_In, Data_0_In} = 01 , Select_In = 1 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[         240.000 ns] : Enable_In = 0x0, {Data_1_In, Data_0_In} = 01 , Select_In = 0 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[         260.000 ns] : Enable_In = 0x1, {Data_1_In, Data_0_In} = 10 , Select_In = 1 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[         280.000 ns] : Enable_In = 0x1, {Data_1_In, Data_0_In} = 10 , Select_In = 1 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[         300.000 ns] : Enable_In = 0x0, {Data_1_In, Data_0_In} = 10 , Select_In = 0 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[         320.000 ns] : Enable_In = 0x1, {Data_1_In, Data_0_In} = 00 , Select_In = 1 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+[         340.000 ns] : Enable_In = 0x1, {Data_1_In, Data_0_In} = 01 , Select_In = 1 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+[         360.000 ns] : Enable_In = 0x0, {Data_1_In, Data_0_In} = 00 , Select_In = 0 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+
+--------------------------------------------------
+Test Results :
+--------------------------------------------------
+Passed_Checks =          16
+Failed_Checks =           0
+Total_Checks  =          16
+--------------------------------------------------
+

@@ -1,0 +1,45 @@
+/*
+--------------------------------------------------
+Module :
+--------------------------------------------------
+Decoder_2_4
+
+
+--------------------------------------------------
+Description :
+--------------------------------------------------
+This is a verilog code, to implement a 2:4 Decoder.
+
+Data_0_Out is treated as the LSB.
+Data_3_Out is treated as the MSB.
+
+
+
+--------------------------------------------------
+Author : Prasad Narayan Ghatol
+--------------------------------------------------
+*/
+module Decoder_2_4 (
+    input        Enable_In,
+
+    input  [1:0] Encoded_Value_In,
+    
+    output       Data_0_Out,
+    output       Data_1_Out,
+    output       Data_2_Out,
+    output       Data_3_Out
+);
+
+
+
+// --------------------------------------------------
+// Decoder_2_4 Logic
+// --------------------------------------------------
+assign Data_0_Out = Enable_In ? ((Encoded_Value_In == 2'd0) ? 1'b1 : 1'b0) : 1'bZ;
+assign Data_1_Out = Enable_In ? ((Encoded_Value_In == 2'd1) ? 1'b1 : 1'b0) : 1'bZ;
+assign Data_2_Out = Enable_In ? ((Encoded_Value_In == 2'd2) ? 1'b1 : 1'b0) : 1'bZ;
+assign Data_3_Out = Enable_In ? ((Encoded_Value_In == 2'd3) ? 1'b1 : 1'b0) : 1'bZ;
+
+
+
+endmodule

@@ -1,0 +1,83 @@
+
+--------------------------------------------------
+
+Decoder_5_32 - Test
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+All Input Combinations
+
+--------------------------------------------------
+
+[          20.000 ns] : Enable_In = 0x0 , Encoded_Value_In = 0x4 , {Data_31_Out ... Data_0_Out} = zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz , {tb_Data_31_Out ... tb_Data_0_Out} = zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz , Is_Same = 1
+[          40.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x0 , {Data_31_Out ... Data_0_Out} = 00000000000000000000000000000001 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000000000000000000000000001 , Is_Same = 1
+[          60.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x1 , {Data_31_Out ... Data_0_Out} = 00000000000000000000000000000010 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000000000000000000000000010 , Is_Same = 1
+[          80.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x2 , {Data_31_Out ... Data_0_Out} = 00000000000000000000000000000100 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000000000000000000000000100 , Is_Same = 1
+[         100.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x3 , {Data_31_Out ... Data_0_Out} = 00000000000000000000000000001000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000000000000000000000001000 , Is_Same = 1
+[         120.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x4 , {Data_31_Out ... Data_0_Out} = 00000000000000000000000000010000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000000000000000000000010000 , Is_Same = 1
+[         140.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x5 , {Data_31_Out ... Data_0_Out} = 00000000000000000000000000100000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000000000000000000000100000 , Is_Same = 1
+[         160.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x6 , {Data_31_Out ... Data_0_Out} = 00000000000000000000000001000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000000000000000000001000000 , Is_Same = 1
+[         180.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x7 , {Data_31_Out ... Data_0_Out} = 00000000000000000000000010000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000000000000000000010000000 , Is_Same = 1
+[         200.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x8 , {Data_31_Out ... Data_0_Out} = 00000000000000000000000100000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000000000000000000100000000 , Is_Same = 1
+[         220.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x9 , {Data_31_Out ... Data_0_Out} = 00000000000000000000001000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000000000000000001000000000 , Is_Same = 1
+[         240.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0xa , {Data_31_Out ... Data_0_Out} = 00000000000000000000010000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000000000000000010000000000 , Is_Same = 1
+[         260.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0xb , {Data_31_Out ... Data_0_Out} = 00000000000000000000100000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000000000000000100000000000 , Is_Same = 1
+[         280.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0xc , {Data_31_Out ... Data_0_Out} = 00000000000000000001000000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000000000000001000000000000 , Is_Same = 1
+[         300.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0xd , {Data_31_Out ... Data_0_Out} = 00000000000000000010000000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000000000000010000000000000 , Is_Same = 1
+[         320.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0xe , {Data_31_Out ... Data_0_Out} = 00000000000000000100000000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000000000000100000000000000 , Is_Same = 1
+[         340.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0xf , {Data_31_Out ... Data_0_Out} = 00000000000000001000000000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000000000001000000000000000 , Is_Same = 1
+[         360.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x10 , {Data_31_Out ... Data_0_Out} = 00000000000000010000000000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000000000010000000000000000 , Is_Same = 1
+[         380.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x11 , {Data_31_Out ... Data_0_Out} = 00000000000000100000000000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000000000100000000000000000 , Is_Same = 1
+[         400.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x12 , {Data_31_Out ... Data_0_Out} = 00000000000001000000000000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000000001000000000000000000 , Is_Same = 1
+[         420.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x13 , {Data_31_Out ... Data_0_Out} = 00000000000010000000000000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000000010000000000000000000 , Is_Same = 1
+[         440.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x14 , {Data_31_Out ... Data_0_Out} = 00000000000100000000000000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000000100000000000000000000 , Is_Same = 1
+[         460.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x15 , {Data_31_Out ... Data_0_Out} = 00000000001000000000000000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000001000000000000000000000 , Is_Same = 1
+[         480.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x16 , {Data_31_Out ... Data_0_Out} = 00000000010000000000000000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000010000000000000000000000 , Is_Same = 1
+[         500.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x17 , {Data_31_Out ... Data_0_Out} = 00000000100000000000000000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000100000000000000000000000 , Is_Same = 1
+[         520.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x18 , {Data_31_Out ... Data_0_Out} = 00000001000000000000000000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000001000000000000000000000000 , Is_Same = 1
+[         540.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x19 , {Data_31_Out ... Data_0_Out} = 00000010000000000000000000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000010000000000000000000000000 , Is_Same = 1
+[         560.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x1a , {Data_31_Out ... Data_0_Out} = 00000100000000000000000000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000100000000000000000000000000 , Is_Same = 1
+[         580.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x1b , {Data_31_Out ... Data_0_Out} = 00001000000000000000000000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00001000000000000000000000000000 , Is_Same = 1
+[         600.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x1c , {Data_31_Out ... Data_0_Out} = 00010000000000000000000000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00010000000000000000000000000000 , Is_Same = 1
+[         620.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x1d , {Data_31_Out ... Data_0_Out} = 00100000000000000000000000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00100000000000000000000000000000 , Is_Same = 1
+[         640.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x1e , {Data_31_Out ... Data_0_Out} = 01000000000000000000000000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 01000000000000000000000000000000 , Is_Same = 1
+[         660.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x1f , {Data_31_Out ... Data_0_Out} = 10000000000000000000000000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 10000000000000000000000000000000 , Is_Same = 1
+
+--------------------------------------------------
+
+Random Input Combinations
+
+--------------------------------------------------
+
+[         720.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x9 , {Data_31_Out ... Data_0_Out} = 00000000000000000000001000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000000000000000001000000000 , Is_Same = 1
+[         740.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0xd , {Data_31_Out ... Data_0_Out} = 00000000000000000010000000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000000000000010000000000000 , Is_Same = 1
+[         760.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x5 , {Data_31_Out ... Data_0_Out} = 00000000000000000000000000100000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000000000000000000000100000 , Is_Same = 1
+[         780.000 ns] : Enable_In = 0x0 , Encoded_Value_In = 0x1 , {Data_31_Out ... Data_0_Out} = zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz , {tb_Data_31_Out ... tb_Data_0_Out} = zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz , Is_Same = 1
+[         800.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x16 , {Data_31_Out ... Data_0_Out} = 00000000010000000000000000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000010000000000000000000000 , Is_Same = 1
+[         820.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0xd , {Data_31_Out ... Data_0_Out} = 00000000000000000010000000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000000000000010000000000000 , Is_Same = 1
+[         840.000 ns] : Enable_In = 0x0 , Encoded_Value_In = 0x19 , {Data_31_Out ... Data_0_Out} = zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz , {tb_Data_31_Out ... tb_Data_0_Out} = zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz , Is_Same = 1
+[         860.000 ns] : Enable_In = 0x0 , Encoded_Value_In = 0x5 , {Data_31_Out ... Data_0_Out} = zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz , {tb_Data_31_Out ... tb_Data_0_Out} = zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz , Is_Same = 1
+[         880.000 ns] : Enable_In = 0x0 , Encoded_Value_In = 0x5 , {Data_31_Out ... Data_0_Out} = zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz , {tb_Data_31_Out ... tb_Data_0_Out} = zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz , Is_Same = 1
+[         900.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x12 , {Data_31_Out ... Data_0_Out} = 00000000000001000000000000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000000001000000000000000000 , Is_Same = 1
+[         920.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x12 , {Data_31_Out ... Data_0_Out} = 00000000000001000000000000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000000001000000000000000000 , Is_Same = 1
+[         940.000 ns] : Enable_In = 0x0 , Encoded_Value_In = 0x8 , {Data_31_Out ... Data_0_Out} = zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz , {tb_Data_31_Out ... tb_Data_0_Out} = zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz , Is_Same = 1
+[         960.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x1c , {Data_31_Out ... Data_0_Out} = 00010000000000000000000000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00010000000000000000000000000000 , Is_Same = 1
+[         980.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0xd , {Data_31_Out ... Data_0_Out} = 00000000000000000010000000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000000000000010000000000000 , Is_Same = 1
+[        1000.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x3 , {Data_31_Out ... Data_0_Out} = 00000000000000000000000000001000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000000000000000000000001000 , Is_Same = 1
+[        1020.000 ns] : Enable_In = 0x0 , Encoded_Value_In = 0x0 , {Data_31_Out ... Data_0_Out} = zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz , {tb_Data_31_Out ... tb_Data_0_Out} = zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz , Is_Same = 1
+[        1040.000 ns] : Enable_In = 0x0 , Encoded_Value_In = 0xa , {Data_31_Out ... Data_0_Out} = zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz , {tb_Data_31_Out ... tb_Data_0_Out} = zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz , Is_Same = 1
+[        1060.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0x16 , {Data_31_Out ... Data_0_Out} = 00000000010000000000000000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000010000000000000000000000 , Is_Same = 1
+[        1080.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0xd , {Data_31_Out ... Data_0_Out} = 00000000000000000010000000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000000000000010000000000000 , Is_Same = 1
+[        1100.000 ns] : Enable_In = 0x1 , Encoded_Value_In = 0xb , {Data_31_Out ... Data_0_Out} = 00000000000000000000100000000000 , {tb_Data_31_Out ... tb_Data_0_Out} = 00000000000000000000100000000000 , Is_Same = 1
+
+--------------------------------------------------
+Test Results :
+--------------------------------------------------
+Passed_Checks =          53
+Failed_Checks =           0
+Total_Checks  =          53
+--------------------------------------------------
+

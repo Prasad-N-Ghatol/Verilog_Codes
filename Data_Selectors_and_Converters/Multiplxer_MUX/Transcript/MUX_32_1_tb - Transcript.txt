@@ -1,0 +1,235 @@
+
+--------------------------------------------------
+
+MUX_32_1 - Test
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+All Input Combinations
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+[          20.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 00010010000101010011010100100100 , Select_In =  1 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[          40.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 00000000000000000000000000000001 , Select_In =  0 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[          60.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 11111111111111111111111111111110 , Select_In =  0 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[          80.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 10000100100001001101011000001001 , Select_In =  3 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[         100.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 00000000000000000000000000000010 , Select_In =  1 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[         120.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 11111111111111111111111111111101 , Select_In =  1 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[         140.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 00000110101110010111101100001101 , Select_In = 13 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[         160.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 00000000000000000000000000000100 , Select_In =  2 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[         180.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 11111111111111111111111111111011 , Select_In =  2 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[         200.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 10110010110000101000010001100101 , Select_In = 18 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[         220.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 00000000000000000000000000001000 , Select_In =  3 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[         240.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 11111111111111111111111111110111 , Select_In =  3 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[         260.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 00000000111100111110001100000001 , Select_In = 13 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[         280.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 00000000000000000000000000010000 , Select_In =  4 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[         300.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 11111111111111111111111111101111 , Select_In =  4 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[         320.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 00111011001000111111000101110110 , Select_In = 29 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[         340.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 00000000000000000000000000100000 , Select_In =  5 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[         360.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 11111111111111111111111111011111 , Select_In =  5 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[         380.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 01110110110101000101011111101101 , Select_In = 12 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[         400.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 00000000000000000000000001000000 , Select_In =  6 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[         420.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 11111111111111111111111110111111 , Select_In =  6 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[         440.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 01111100111111011110100111111001 , Select_In =  6 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[         460.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 00000000000000000000000010000000 , Select_In =  7 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[         480.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 11111111111111111111111101111111 , Select_In =  7 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[         500.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 11100010111101111000010011000101 , Select_In = 10 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[         520.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 00000000000000000000000100000000 , Select_In =  8 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[         540.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 11111111111111111111111011111111 , Select_In =  8 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[         560.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 01110010101011111111011111100101 , Select_In = 23 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[         580.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 00000000000000000000001000000000 , Select_In =  9 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[         600.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 11111111111111111111110111111111 , Select_In =  9 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[         620.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 10001001001100101101011000010010 , Select_In = 15 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[         640.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 00000000000000000000010000000000 , Select_In = 10 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[         660.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 11111111111111111111101111111111 , Select_In = 10 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[         680.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 01111001001100000110100111110010 , Select_In = 14 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[         700.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 00000000000000000000100000000000 , Select_In = 11 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[         720.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 11111111111111111111011111111111 , Select_In = 11 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[         740.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 11110100000000000111101011101000 , Select_In =  5 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[         760.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 00000000000000000001000000000000 , Select_In = 12 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[         780.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 11111111111111111110111111111111 , Select_In = 12 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[         800.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 00101110010110000100100101011100 , Select_In = 29 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[         820.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 00000000000000000010000000000000 , Select_In = 13 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[         840.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 11111111111111111101111111111111 , Select_In = 13 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[         860.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 10010110101010110101100000101101 , Select_In =  5 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[         880.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 00000000000000000100000000000000 , Select_In = 14 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[         900.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 11111111111111111011111111111111 , Select_In = 14 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[         920.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 10110001111011110110001001100011 , Select_In = 10 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[         940.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 00000000000000001000000000000000 , Select_In = 15 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[         960.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 11111111111111110111111111111111 , Select_In = 15 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[         980.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 11000000001110110010001010000000 , Select_In =  0 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[        1000.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 00000000000000010000000000000000 , Select_In = 16 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[        1020.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 11111111111111101111111111111111 , Select_In = 16 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[        1040.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 01010101011110000100010110101010 , Select_In = 29 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[        1060.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 00000000000000100000000000000000 , Select_In = 17 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[        1080.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 11111111111111011111111111111111 , Select_In = 17 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[        1100.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 11001011001000000011111010010110 , Select_In = 19 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[        1120.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 00000000000001000000000000000000 , Select_In = 18 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[        1140.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 11111111111110111111111111111111 , Select_In = 18 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[        1160.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 10000110101111000011100000001101 , Select_In = 19 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[        1180.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 00000000000010000000000000000000 , Select_In = 19 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[        1200.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 11111111111101111111111111111111 , Select_In = 19 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[        1220.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 00110101100111111101110101101011 , Select_In = 21 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[        1240.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 00000000000100000000000000000000 , Select_In = 20 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[        1260.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 11111111111011111111111111111111 , Select_In = 20 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[        1280.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 10000001000101110100101000000010 , Select_In = 14 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[        1300.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 00000000001000000000000000000000 , Select_In = 21 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[        1320.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 11111111110111111111111111111111 , Select_In = 21 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[        1340.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 00001110111111111110100100011101 , Select_In = 15 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[        1360.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 00000000010000000000000000000000 , Select_In = 22 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[        1380.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 11111111101111111111111111111111 , Select_In = 22 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[        1400.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 00010001100001000100100100100011 , Select_In = 10 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[        1420.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 00000000100000000000000000000000 , Select_In = 23 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[        1440.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 11111111011111111111111111111111 , Select_In = 23 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[        1460.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 11100101011100110000101011001010 , Select_In = 28 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[        1480.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 00000001000000000000000000000000 , Select_In = 24 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[        1500.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 11111110111111111111111111111111 , Select_In = 24 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[        1520.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 01111001011010001011110111110010 , Select_In = 10 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[        1540.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 00000010000000000000000000000000 , Select_In = 25 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[        1560.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 11111101111111111111111111111111 , Select_In = 25 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[        1580.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 00100000110001001011001101000001 , Select_In = 24 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[        1600.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 00000100000000000000000000000000 , Select_In = 26 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[        1620.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 11111011111111111111111111111111 , Select_In = 26 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[        1640.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 00111100001000001111001101111000 , Select_In =  9 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[        1660.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 00001000000000000000000000000000 , Select_In = 27 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[        1680.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 11110111111111111111111111111111 , Select_In = 27 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[        1700.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 01110101110001010000110111101011 , Select_In = 22 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[        1720.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 00010000000000000000000000000000 , Select_In = 28 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[        1740.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 11101111111111111111111111111111 , Select_In = 28 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[        1760.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 01100011010010111111100111000110 , Select_In = 14 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[        1780.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 00100000000000000000000000000000 , Select_In = 29 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[        1800.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 11011111111111111111111111111111 , Select_In = 29 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[        1820.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 11011110011101010000001010111100 , Select_In = 10 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[        1840.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 01000000000000000000000000000000 , Select_In = 30 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[        1860.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 10111111111111111111111111111111 , Select_In = 30 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[        1880.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 10000101110101111001101000001011 , Select_In = 17 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[        1900.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 10000000000000000000000000000000 , Select_In = 31 , MUX_Result_Data_Out = 0x1 , tb_MUX_Result_Data_Out = 0x1 , Is_Same = 1
+[        1920.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 01111111111111111111111111111111 , Select_In = 31 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+Random Input Combinations
+
+--------------------------------------------------
+
+[        1980.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 00100111111100100101010101001111 , Select_In = 27 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+[        2000.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 10111111001000110011001001111110 , Select_In = 21 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[        2020.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 01101100100111000100101111011001 , Select_In =  2 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+[        2040.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 01001111101000010101010110011111 , Select_In = 15 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[        2060.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 11011011110011010110000010110111 , Select_In = 31 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[        2080.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 10101101110010111100000001011011 , Select_In =  9 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[        2100.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 11101000001000110011111011010000 , Select_In = 23 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+[        2120.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 01001011001000010010111110010110 , Select_In = 12 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+[        2140.000 ns] : Enable_In = 0x0, {Data_31_In ... Data_0_In} = 01100100010101111110110111001000 , Select_In = 23 , MUX_Result_Data_Out = 0xz , tb_MUX_Result_Data_Out = 0xz , Is_Same = 1
+[        2160.000 ns] : Enable_In = 0x1, {Data_31_In ... Data_0_In} = 00001001000011001101101100010010 , Select_In = 30 , MUX_Result_Data_Out = 0x0 , tb_MUX_Result_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+Test Results :
+--------------------------------------------------
+Passed_Checks =         106
+Failed_Checks =           0
+Total_Checks  =         106
+--------------------------------------------------
+

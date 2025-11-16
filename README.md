@@ -41,6 +41,12 @@ Each module focuses on illustrating key concepts in **digital design, simulation
         📑 Ring Counter
         📑 Timer
         📑 Up-Down MOD Counter
+    📂 Data Selectors and Converters
+        📑 Binary Gray Converter
+        📑 Decoder
+        📑 DeMultiplxer (DEMUX)
+        📑 Encoder
+        📑 Multiplxer (MUX)
 ```
 
 ---
