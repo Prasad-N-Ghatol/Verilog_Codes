@@ -1,0 +1,52 @@
+
+--------------------------------------------------
+
+Unsigned_Array_Multiplier_8_Bit - Test
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+A Few Combinations
+
+--------------------------------------------------
+
+[          20.000 ns] : Enable_In = 0x0 , Data_A_In = 0x24 , Data_B_In = 0x81 , Multiplied_Result_Out = 0xzzzz , tb_Multiplied_Result_Out = 0xzzzz , Is_Same = 1
+[          40.000 ns] : Enable_In = 0x1 , Data_A_In = 0x09 , Data_B_In = 0x63 , Multiplied_Result_Out = 0x037b , tb_Multiplied_Result_Out = 0x037b , Is_Same = 1
+
+--------------------------------------------------
+
+Random Combinations
+
+--------------------------------------------------
+
+[          60.000 ns] : Enable_In = 0x1 , Data_A_In = 0x8d , Data_B_In = 0x65 , Multiplied_Result_Out = 0x37a1 , tb_Multiplied_Result_Out = 0x37a1 , Is_Same = 1
+[          80.000 ns] : Enable_In = 0x0 , Data_A_In = 0x01 , Data_B_In = 0x0d , Multiplied_Result_Out = 0xzzzz , tb_Multiplied_Result_Out = 0xzzzz , Is_Same = 1
+[         100.000 ns] : Enable_In = 0x0 , Data_A_In = 0x3d , Data_B_In = 0xed , Multiplied_Result_Out = 0xzzzz , tb_Multiplied_Result_Out = 0xzzzz , Is_Same = 1
+[         120.000 ns] : Enable_In = 0x0 , Data_A_In = 0xf9 , Data_B_In = 0xc6 , Multiplied_Result_Out = 0xzzzz , tb_Multiplied_Result_Out = 0xzzzz , Is_Same = 1
+[         140.000 ns] : Enable_In = 0x1 , Data_A_In = 0xaa , Data_B_In = 0xe5 , Multiplied_Result_Out = 0x9812 , tb_Multiplied_Result_Out = 0x9812 , Is_Same = 1
+[         160.000 ns] : Enable_In = 0x1 , Data_A_In = 0x12 , Data_B_In = 0x8f , Multiplied_Result_Out = 0x0a0e , tb_Multiplied_Result_Out = 0x0a0e , Is_Same = 1
+[         180.000 ns] : Enable_In = 0x0 , Data_A_In = 0xce , Data_B_In = 0xe8 , Multiplied_Result_Out = 0xzzzz , tb_Multiplied_Result_Out = 0xzzzz , Is_Same = 1
+[         200.000 ns] : Enable_In = 0x1 , Data_A_In = 0x5c , Data_B_In = 0xbd , Multiplied_Result_Out = 0x43ec , tb_Multiplied_Result_Out = 0x43ec , Is_Same = 1
+[         220.000 ns] : Enable_In = 0x1 , Data_A_In = 0x65 , Data_B_In = 0x63 , Multiplied_Result_Out = 0x270f , tb_Multiplied_Result_Out = 0x270f , Is_Same = 1
+[         240.000 ns] : Enable_In = 0x0 , Data_A_In = 0x80 , Data_B_In = 0x20 , Multiplied_Result_Out = 0xzzzz , tb_Multiplied_Result_Out = 0xzzzz , Is_Same = 1
+[         260.000 ns] : Enable_In = 0x0 , Data_A_In = 0x9d , Data_B_In = 0x96 , Multiplied_Result_Out = 0xzzzz , tb_Multiplied_Result_Out = 0xzzzz , Is_Same = 1
+[         280.000 ns] : Enable_In = 0x1 , Data_A_In = 0x0d , Data_B_In = 0x53 , Multiplied_Result_Out = 0x0437 , tb_Multiplied_Result_Out = 0x0437 , Is_Same = 1
+[         300.000 ns] : Enable_In = 0x1 , Data_A_In = 0xd5 , Data_B_In = 0x02 , Multiplied_Result_Out = 0x01aa , tb_Multiplied_Result_Out = 0x01aa , Is_Same = 1
+[         320.000 ns] : Enable_In = 0x0 , Data_A_In = 0x1d , Data_B_In = 0xcf , Multiplied_Result_Out = 0xzzzz , tb_Multiplied_Result_Out = 0xzzzz , Is_Same = 1
+[         340.000 ns] : Enable_In = 0x1 , Data_A_In = 0x0a , Data_B_In = 0xca , Multiplied_Result_Out = 0x07e4 , tb_Multiplied_Result_Out = 0x07e4 , Is_Same = 1
+[         360.000 ns] : Enable_In = 0x0 , Data_A_In = 0xf2 , Data_B_In = 0x8a , Multiplied_Result_Out = 0xzzzz , tb_Multiplied_Result_Out = 0xzzzz , Is_Same = 1
+[         380.000 ns] : Enable_In = 0x1 , Data_A_In = 0xd8 , Data_B_In = 0x78 , Multiplied_Result_Out = 0x6540 , tb_Multiplied_Result_Out = 0x6540 , Is_Same = 1
+[         400.000 ns] : Enable_In = 0x1 , Data_A_In = 0xeb , Data_B_In = 0xb6 , Multiplied_Result_Out = 0xa712 , tb_Multiplied_Result_Out = 0xa712 , Is_Same = 1
+[         420.000 ns] : Enable_In = 0x0 , Data_A_In = 0xae , Data_B_In = 0xbc , Multiplied_Result_Out = 0xzzzz , tb_Multiplied_Result_Out = 0xzzzz , Is_Same = 1
+[         440.000 ns] : Enable_In = 0x0 , Data_A_In = 0x0b , Data_B_In = 0x71 , Multiplied_Result_Out = 0xzzzz , tb_Multiplied_Result_Out = 0xzzzz , Is_Same = 1
+
+--------------------------------------------------
+Test Results :
+--------------------------------------------------
+Passed_Checks =          22
+Failed_Checks =           0
+Total_Checks  =          22
+--------------------------------------------------
+

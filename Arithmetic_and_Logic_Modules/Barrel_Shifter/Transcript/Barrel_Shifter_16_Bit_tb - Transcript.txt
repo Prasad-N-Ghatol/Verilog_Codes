@@ -1,0 +1,213 @@
+
+--------------------------------------------------
+
+Barrel_Shifter_16_Bit - Test
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+All Operations
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+[          20.000 ns] : Enable_In = 0x0 , Shift_Operation_In = 0x0 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x0 , Data_In = 0x5e81 , Shifted_Data_Out = 0xzzzz , Carry_Out = 0xz , tb_Shifted_Data_Out = 0xzzzz , tb_Carry_Out = 0xz , Is_Same = 1
+[          40.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x0 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x1 , Data_In = 0x5663 , Shifted_Data_Out = 0x5663 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x5663 , tb_Carry_Out = 0x0 , Is_Same = 1
+[          60.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x0 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x1 , Data_In = 0x998d , Shifted_Data_Out = 0x331a , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x331a , tb_Carry_Out = 0x0 , Is_Same = 1
+[          80.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x0 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x1 , Data_In = 0x5212 , Shifted_Data_Out = 0x4848 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x4848 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         100.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x0 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x1 , Data_In = 0xcd0d , Shifted_Data_Out = 0x6868 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x6868 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         120.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x0 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x0 , Data_In = 0xcd3d , Shifted_Data_Out = 0xcd3d , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xcd3d , tb_Carry_Out = 0x0 , Is_Same = 1
+[         140.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x0 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x1 , Data_In = 0xf78c , Shifted_Data_Out = 0xef18 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xef18 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         160.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x0 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x1 , Data_In = 0x24c6 , Shifted_Data_Out = 0x9318 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x9318 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         180.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x0 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x1 , Data_In = 0xd2aa , Shifted_Data_Out = 0x9550 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x9550 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         200.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x0 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x1 , Data_In = 0x7277 , Shifted_Data_Out = 0x7277 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x7277 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         220.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x0 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x0 , Data_In = 0xdb8f , Shifted_Data_Out = 0xb71e , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xb71e , tb_Carry_Out = 0x0 , Is_Same = 1
+[         240.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x0 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x0 , Data_In = 0x96ce , Shifted_Data_Out = 0x5b38 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x5b38 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         260.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x0 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x0 , Data_In = 0x4ec5 , Shifted_Data_Out = 0x7628 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x7628 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         280.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x0 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x0 , Data_In = 0x28bd , Shifted_Data_Out = 0x28bd , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x28bd , tb_Carry_Out = 0x0 , Is_Same = 1
+[         300.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x0 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x1 , Data_In = 0x2665 , Shifted_Data_Out = 0x4cca , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x4cca , tb_Carry_Out = 0x0 , Is_Same = 1
+[         320.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x0 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x1 , Data_In = 0x870a , Shifted_Data_Out = 0x1c28 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x1c28 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         340.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x0 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x0 , Data_In = 0x2120 , Shifted_Data_Out = 0x0900 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x0900 , tb_Carry_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[         360.000 ns] : Enable_In = 0x0 , Shift_Operation_In = 0x1 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x0 , Data_In = 0xcc9d , Shifted_Data_Out = 0xzzzz , Carry_Out = 0xz , tb_Shifted_Data_Out = 0xzzzz , tb_Carry_Out = 0xz , Is_Same = 1
+[         380.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x1 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x0 , Data_In = 0xb813 , Shifted_Data_Out = 0xb813 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xb813 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         400.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x1 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x1 , Data_In = 0xd653 , Shifted_Data_Out = 0x6b29 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x6b29 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         420.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x1 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x1 , Data_In = 0x2ad5 , Shifted_Data_Out = 0x0ab5 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x0ab5 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         440.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x1 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x0 , Data_In = 0x3eae , Shifted_Data_Out = 0x07d5 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x07d5 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         460.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x1 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x1 , Data_In = 0x72cf , Shifted_Data_Out = 0x72cf , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x72cf , tb_Carry_Out = 0x0 , Is_Same = 1
+[         480.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x1 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x1 , Data_In = 0x650a , Shifted_Data_Out = 0x3285 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x3285 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         500.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x1 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x0 , Data_In = 0x4c3c , Shifted_Data_Out = 0x130f , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x130f , tb_Carry_Out = 0x0 , Is_Same = 1
+[         520.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x1 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x0 , Data_In = 0x618a , Shifted_Data_Out = 0x0c31 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x0c31 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         540.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x1 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x1 , Data_In = 0x34d8 , Shifted_Data_Out = 0x34d8 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x34d8 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         560.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x1 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x0 , Data_In = 0x1289 , Shifted_Data_Out = 0x0944 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x0944 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         580.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x1 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x1 , Data_In = 0x65b6 , Shifted_Data_Out = 0x196d , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x196d , tb_Carry_Out = 0x0 , Is_Same = 1
+[         600.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x1 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x0 , Data_In = 0x13ae , Shifted_Data_Out = 0x0275 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x0275 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         620.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x1 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x0 , Data_In = 0xdd2a , Shifted_Data_Out = 0xdd2a , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xdd2a , tb_Carry_Out = 0x0 , Is_Same = 1
+[         640.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x1 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x1 , Data_In = 0xbe71 , Shifted_Data_Out = 0x5f38 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x5f38 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         660.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x1 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x1 , Data_In = 0x554f , Shifted_Data_Out = 0x1553 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x1553 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         680.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x1 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x1 , Data_In = 0x333a , Shifted_Data_Out = 0x0667 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x0667 , tb_Carry_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[         700.000 ns] : Enable_In = 0x0 , Shift_Operation_In = 0x2 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x0 , Data_In = 0x4b15 , Shifted_Data_Out = 0xzzzz , Carry_Out = 0xz , tb_Shifted_Data_Out = 0xzzzz , tb_Carry_Out = 0xz , Is_Same = 1
+[         720.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x2 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x1 , Data_In = 0x4bd9 , Shifted_Data_Out = 0x4bd9 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x4bd9 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         740.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x2 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x0 , Data_In = 0xfb4c , Shifted_Data_Out = 0xf698 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xf698 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         760.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x2 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x1 , Data_In = 0xa18f , Shifted_Data_Out = 0x863c , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x863c , tb_Carry_Out = 0x0 , Is_Same = 1
+[         780.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x2 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x0 , Data_In = 0x60b7 , Shifted_Data_Out = 0x05b8 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x05b8 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         800.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x2 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x1 , Data_In = 0x945c , Shifted_Data_Out = 0x945c , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x945c , tb_Carry_Out = 0x0 , Is_Same = 1
+[         820.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x2 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x1 , Data_In = 0x3789 , Shifted_Data_Out = 0x6f12 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x6f12 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         840.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x2 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x1 , Data_In = 0x3ed0 , Shifted_Data_Out = 0xfb40 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xfb40 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         860.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x2 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x1 , Data_In = 0xfc51 , Shifted_Data_Out = 0xe288 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xe288 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         880.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x2 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x0 , Data_In = 0x7f0c , Shifted_Data_Out = 0x7f0c , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x7f0c , tb_Carry_Out = 0x0 , Is_Same = 1
+[         900.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x2 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x0 , Data_In = 0xedc8 , Shifted_Data_Out = 0xdb90 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xdb90 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         920.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x2 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x1 , Data_In = 0xed3d , Shifted_Data_Out = 0xb4f4 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xb4f4 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         940.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x2 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x0 , Data_In = 0x007e , Shifted_Data_Out = 0x03f0 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x03f0 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         960.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x2 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x1 , Data_In = 0xe739 , Shifted_Data_Out = 0xe739 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xe739 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         980.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x2 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x1 , Data_In = 0xf6d3 , Shifted_Data_Out = 0xeda6 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xeda6 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1000.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x2 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x1 , Data_In = 0x8878 , Shifted_Data_Out = 0x21e0 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x21e0 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1020.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x2 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x1 , Data_In = 0x4b49 , Shifted_Data_Out = 0x5a48 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x5a48 , tb_Carry_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[        1040.000 ns] : Enable_In = 0x0 , Shift_Operation_In = 0x3 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x1 , Data_In = 0xaf2a , Shifted_Data_Out = 0xzzzz , Carry_Out = 0xz , tb_Shifted_Data_Out = 0xzzzz , tb_Carry_Out = 0xz , Is_Same = 1
+[        1060.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x3 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x0 , Data_In = 0x3886 , Shifted_Data_Out = 0x3886 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x3886 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1080.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x3 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x0 , Data_In = 0xf29c , Shifted_Data_Out = 0xf94e , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xf94e , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1100.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x3 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x0 , Data_In = 0xbc26 , Shifted_Data_Out = 0xef09 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xef09 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1120.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x3 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x1 , Data_In = 0xb4a3 , Shifted_Data_Out = 0xf694 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xf694 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1140.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x3 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x1 , Data_In = 0x92b3 , Shifted_Data_Out = 0x92b3 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x92b3 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1160.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x3 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x1 , Data_In = 0x0d44 , Shifted_Data_Out = 0x06a2 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x06a2 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1180.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x3 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x1 , Data_In = 0x36cb , Shifted_Data_Out = 0x0db2 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x0db2 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1200.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x3 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x0 , Data_In = 0xdb5a , Shifted_Data_Out = 0xfb6b , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xfb6b , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1220.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x3 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x1 , Data_In = 0xe2ed , Shifted_Data_Out = 0xe2ed , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xe2ed , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1240.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x3 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x0 , Data_In = 0xb665 , Shifted_Data_Out = 0xdb32 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xdb32 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1260.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x3 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x1 , Data_In = 0x94df , Shifted_Data_Out = 0xe537 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xe537 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1280.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x3 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x1 , Data_In = 0xff44 , Shifted_Data_Out = 0xffe8 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xffe8 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1300.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x3 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x0 , Data_In = 0x0b2a , Shifted_Data_Out = 0x0b2a , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x0b2a , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1320.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x3 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x1 , Data_In = 0xcf0e , Shifted_Data_Out = 0xe787 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xe787 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1340.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x3 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x0 , Data_In = 0xbc9a , Shifted_Data_Out = 0xef26 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xef26 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1360.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x3 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x1 , Data_In = 0x02c3 , Shifted_Data_Out = 0x0058 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x0058 , tb_Carry_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[        1380.000 ns] : Enable_In = 0x0 , Shift_Operation_In = 0x4 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x0 , Data_In = 0xe94e , Shifted_Data_Out = 0xzzzz , Carry_Out = 0xz , tb_Shifted_Data_Out = 0xzzzz , tb_Carry_Out = 0xz , Is_Same = 1
+[        1400.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x4 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x1 , Data_In = 0x340a , Shifted_Data_Out = 0x340a , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x340a , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1420.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x4 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x0 , Data_In = 0x8a38 , Shifted_Data_Out = 0x1471 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x1471 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1440.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x4 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x1 , Data_In = 0xc4b8 , Shifted_Data_Out = 0x12e3 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x12e3 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1460.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x4 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x0 , Data_In = 0x5d93 , Shifted_Data_Out = 0xec9a , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xec9a , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1480.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x4 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x0 , Data_In = 0xca59 , Shifted_Data_Out = 0xca59 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xca59 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1500.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x4 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x1 , Data_In = 0xde4d , Shifted_Data_Out = 0xbc9b , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xbc9b , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1520.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x4 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x1 , Data_In = 0x266d , Shifted_Data_Out = 0x99b4 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x99b4 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1540.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x4 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x0 , Data_In = 0x49ca , Shifted_Data_Out = 0x4e52 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x4e52 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1560.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x4 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x0 , Data_In = 0x7195 , Shifted_Data_Out = 0x7195 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x7195 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1580.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x4 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x0 , Data_In = 0x9b04 , Shifted_Data_Out = 0x3609 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x3609 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1600.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x4 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x1 , Data_In = 0x0769 , Shifted_Data_Out = 0x1da4 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x1da4 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1620.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x4 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x0 , Data_In = 0x8d88 , Shifted_Data_Out = 0x6c44 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x6c44 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1640.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x4 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x0 , Data_In = 0x042d , Shifted_Data_Out = 0x042d , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x042d , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1660.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x4 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x1 , Data_In = 0x9c2e , Shifted_Data_Out = 0x385d , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x385d , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1680.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x4 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x0 , Data_In = 0x451c , Shifted_Data_Out = 0x1471 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x1471 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1700.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x4 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x1 , Data_In = 0x0729 , Shifted_Data_Out = 0x3948 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x3948 , tb_Carry_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[        1720.000 ns] : Enable_In = 0x0 , Shift_Operation_In = 0x5 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x0 , Data_In = 0x6786 , Shifted_Data_Out = 0xzzzz , Carry_Out = 0xz , tb_Shifted_Data_Out = 0xzzzz , tb_Carry_Out = 0xz , Is_Same = 1
+[        1740.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x5 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x0 , Data_In = 0xc63d , Shifted_Data_Out = 0xc63d , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xc63d , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1760.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x5 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x0 , Data_In = 0xc470 , Shifted_Data_Out = 0x6238 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x6238 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1780.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x5 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x1 , Data_In = 0x99ba , Shifted_Data_Out = 0xa66e , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xa66e , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1800.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x5 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x0 , Data_In = 0x79fa , Shifted_Data_Out = 0x4f3f , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x4f3f , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1820.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x5 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x1 , Data_In = 0xf61a , Shifted_Data_Out = 0xf61a , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xf61a , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1840.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x5 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x1 , Data_In = 0x6137 , Shifted_Data_Out = 0xb09b , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xb09b , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1860.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x5 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x0 , Data_In = 0x21c0 , Shifted_Data_Out = 0x0870 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x0870 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1880.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x5 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x0 , Data_In = 0x1ab6 , Shifted_Data_Out = 0xc356 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xc356 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1900.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x5 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x1 , Data_In = 0x0fdc , Shifted_Data_Out = 0x0fdc , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x0fdc , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1920.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x5 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x0 , Data_In = 0xff78 , Shifted_Data_Out = 0x7fbc , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x7fbc , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1940.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x5 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x0 , Data_In = 0x80db , Shifted_Data_Out = 0xe036 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xe036 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1960.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x5 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x1 , Data_In = 0x2b79 , Shifted_Data_Out = 0x256f , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x256f , tb_Carry_Out = 0x0 , Is_Same = 1
+[        1980.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x5 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x0 , Data_In = 0xee61 , Shifted_Data_Out = 0xee61 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xee61 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        2000.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x5 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x1 , Data_In = 0x78a1 , Shifted_Data_Out = 0xbc50 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xbc50 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        2020.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x5 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x0 , Data_In = 0x9650 , Shifted_Data_Out = 0x2594 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x2594 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        2040.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x5 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x1 , Data_In = 0x8835 , Shifted_Data_Out = 0xb106 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xb106 , tb_Carry_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[        2060.000 ns] : Enable_In = 0x0 , Shift_Operation_In = 0x6 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x1 , Data_In = 0x75c1 , Shifted_Data_Out = 0xzzzz , Carry_Out = 0xz , tb_Shifted_Data_Out = 0xzzzz , tb_Carry_Out = 0xz , Is_Same = 1
+[        2080.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x6 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x1 , Data_In = 0xb498 , Shifted_Data_Out = 0xb498 , Carry_Out = 0x1 , tb_Shifted_Data_Out = 0xb498 , tb_Carry_Out = 0x1 , Is_Same = 1
+[        2100.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x6 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x1 , Data_In = 0x4273 , Shifted_Data_Out = 0x84e7 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x84e7 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        2120.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x6 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x0 , Data_In = 0x168a , Shifted_Data_Out = 0x5a28 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x5a28 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        2140.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x6 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x0 , Data_In = 0x80a8 , Shifted_Data_Out = 0x0542 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x0542 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        2160.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x6 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x1 , Data_In = 0x8ca1 , Shifted_Data_Out = 0x8ca1 , Carry_Out = 0x1 , tb_Shifted_Data_Out = 0x8ca1 , tb_Carry_Out = 0x1 , Is_Same = 1
+[        2180.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x6 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x0 , Data_In = 0x66e6 , Shifted_Data_Out = 0xcdcc , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xcdcc , tb_Carry_Out = 0x0 , Is_Same = 1
+[        2200.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x6 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x1 , Data_In = 0xb52a , Shifted_Data_Out = 0xd4ab , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xd4ab , tb_Carry_Out = 0x0 , Is_Same = 1
+[        2220.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x6 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x0 , Data_In = 0xf48d , Shifted_Data_Out = 0xa46b , Carry_Out = 0x1 , tb_Shifted_Data_Out = 0xa46b , tb_Carry_Out = 0x1 , Is_Same = 1
+[        2240.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x6 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x0 , Data_In = 0xe638 , Shifted_Data_Out = 0xe638 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xe638 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        2260.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x6 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x1 , Data_In = 0xe3c8 , Shifted_Data_Out = 0xc791 , Carry_Out = 0x1 , tb_Shifted_Data_Out = 0xc791 , tb_Carry_Out = 0x1 , Is_Same = 1
+[        2280.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x6 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x0 , Data_In = 0x4113 , Shifted_Data_Out = 0x044c , Carry_Out = 0x1 , tb_Shifted_Data_Out = 0x044c , tb_Carry_Out = 0x1 , Is_Same = 1
+[        2300.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x6 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x1 , Data_In = 0xaec7 , Shifted_Data_Out = 0x763e , Carry_Out = 0x1 , tb_Shifted_Data_Out = 0x763e , tb_Carry_Out = 0x1 , Is_Same = 1
+[        2320.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x6 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x0 , Data_In = 0x9dba , Shifted_Data_Out = 0x9dba , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x9dba , tb_Carry_Out = 0x0 , Is_Same = 1
+[        2340.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x6 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x0 , Data_In = 0x95b9 , Shifted_Data_Out = 0x2b72 , Carry_Out = 0x1 , tb_Shifted_Data_Out = 0x2b72 , tb_Carry_Out = 0x1 , Is_Same = 1
+[        2360.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x6 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x0 , Data_In = 0x9ab4 , Shifted_Data_Out = 0x6ad1 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x6ad1 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        2380.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x6 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x1 , Data_In = 0x9086 , Shifted_Data_Out = 0x8436 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x8436 , tb_Carry_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+[        2400.000 ns] : Enable_In = 0x0 , Shift_Operation_In = 0x7 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x0 , Data_In = 0x94f2 , Shifted_Data_Out = 0xzzzz , Carry_Out = 0xz , tb_Shifted_Data_Out = 0xzzzz , tb_Carry_Out = 0xz , Is_Same = 1
+[        2420.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x7 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x0 , Data_In = 0x5ebd , Shifted_Data_Out = 0x5ebd , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x5ebd , tb_Carry_Out = 0x0 , Is_Same = 1
+[        2440.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x7 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x0 , Data_In = 0xa4e4 , Shifted_Data_Out = 0x5272 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x5272 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        2460.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x7 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x0 , Data_In = 0x79a9 , Shifted_Data_Out = 0x9e6a , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x9e6a , tb_Carry_Out = 0x0 , Is_Same = 1
+[        2480.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x7 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x1 , Data_In = 0xa98e , Shifted_Data_Out = 0xb531 , Carry_Out = 0x1 , tb_Shifted_Data_Out = 0xb531 , tb_Carry_Out = 0x1 , Is_Same = 1
+[        2500.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x7 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x1 , Data_In = 0x1e0b , Shifted_Data_Out = 0x1e0b , Carry_Out = 0x1 , tb_Shifted_Data_Out = 0x1e0b , tb_Carry_Out = 0x1 , Is_Same = 1
+[        2520.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x7 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x1 , Data_In = 0x3dc9 , Shifted_Data_Out = 0x9ee4 , Carry_Out = 0x1 , tb_Shifted_Data_Out = 0x9ee4 , tb_Carry_Out = 0x1 , Is_Same = 1
+[        2540.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x7 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x0 , Data_In = 0x4875 , Shifted_Data_Out = 0x921d , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x921d , tb_Carry_Out = 0x0 , Is_Same = 1
+[        2560.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x7 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x1 , Data_In = 0xbf6b , Shifted_Data_Out = 0xf7ed , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xf7ed , tb_Carry_Out = 0x0 , Is_Same = 1
+[        2580.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x7 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x0 , Data_In = 0xb4ae , Shifted_Data_Out = 0xb4ae , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xb4ae , tb_Carry_Out = 0x0 , Is_Same = 1
+[        2600.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x7 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x1 , Data_In = 0x4592 , Shifted_Data_Out = 0xa2c9 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xa2c9 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        2620.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x7 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x0 , Data_In = 0xe02d , Shifted_Data_Out = 0xb80b , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xb80b , tb_Carry_Out = 0x0 , Is_Same = 1
+[        2640.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x7 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x1 , Data_In = 0xb0c2 , Shifted_Data_Out = 0xb618 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xb618 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        2660.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x7 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x0 , Data_In = 0x050d , Shifted_Data_Out = 0x050d , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x050d , tb_Carry_Out = 0x0 , Is_Same = 1
+[        2680.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x7 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x0 , Data_In = 0x9d18 , Shifted_Data_Out = 0x4e8c , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x4e8c , tb_Carry_Out = 0x0 , Is_Same = 1
+[        2700.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x7 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x1 , Data_In = 0x1c86 , Shifted_Data_Out = 0x4721 , Carry_Out = 0x1 , tb_Shifted_Data_Out = 0x4721 , tb_Carry_Out = 0x1 , Is_Same = 1
+[        2720.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x7 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x1 , Data_In = 0x643b , Shifted_Data_Out = 0xec87 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xec87 , tb_Carry_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+Random Combinations
+
+--------------------------------------------------
+
+[        2780.000 ns] : Enable_In = 0x0 , Shift_Operation_In = 0x3 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x1 , Data_In = 0xfae2 , Shifted_Data_Out = 0xzzzz , Carry_Out = 0xz , tb_Shifted_Data_Out = 0xzzzz , tb_Carry_Out = 0xz , Is_Same = 1
+[        2800.000 ns] : Enable_In = 0x0 , Shift_Operation_In = 0x3 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x0 , Data_In = 0x44b8 , Shifted_Data_Out = 0xzzzz , Carry_Out = 0xz , tb_Shifted_Data_Out = 0xzzzz , tb_Carry_Out = 0xz , Is_Same = 1
+[        2820.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x5 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x1 , Data_In = 0x5d81 , Shifted_Data_Out = 0xaec0 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0xaec0 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        2840.000 ns] : Enable_In = 0x0 , Shift_Operation_In = 0x7 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x1 , Data_In = 0x3a04 , Shifted_Data_Out = 0xzzzz , Carry_Out = 0xz , tb_Shifted_Data_Out = 0xzzzz , tb_Carry_Out = 0xz , Is_Same = 1
+[        2860.000 ns] : Enable_In = 0x0 , Shift_Operation_In = 0x6 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x0 , Data_In = 0x7096 , Shifted_Data_Out = 0xzzzz , Carry_Out = 0xz , tb_Shifted_Data_Out = 0xzzzz , tb_Carry_Out = 0xz , Is_Same = 1
+[        2880.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x5 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x1 , Data_In = 0x1bf5 , Shifted_Data_Out = 0x8dfa , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x8dfa , tb_Carry_Out = 0x0 , Is_Same = 1
+[        2900.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x7 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x1 , Data_In = 0xa6e7 , Shifted_Data_Out = 0xa6e7 , Carry_Out = 0x1 , tb_Shifted_Data_Out = 0xa6e7 , tb_Carry_Out = 0x1 , Is_Same = 1
+[        2920.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x1 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x1 , Data_In = 0xb151 , Shifted_Data_Out = 0x162a , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x162a , tb_Carry_Out = 0x0 , Is_Same = 1
+[        2940.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x2 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x1 , Data_In = 0x0583 , Shifted_Data_Out = 0x160c , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x160c , tb_Carry_Out = 0x0 , Is_Same = 1
+[        2960.000 ns] : Enable_In = 0x0 , Shift_Operation_In = 0x2 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x0 , Data_In = 0xaa6f , Shifted_Data_Out = 0xzzzz , Carry_Out = 0xz , tb_Shifted_Data_Out = 0xzzzz , tb_Carry_Out = 0xz , Is_Same = 1
+[        2980.000 ns] : Enable_In = 0x0 , Shift_Operation_In = 0x0 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x0 , Data_In = 0x7628 , Shifted_Data_Out = 0xzzzz , Carry_Out = 0xz , tb_Shifted_Data_Out = 0xzzzz , tb_Carry_Out = 0xz , Is_Same = 1
+[        3000.000 ns] : Enable_In = 0x0 , Shift_Operation_In = 0x5 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x0 , Data_In = 0x7139 , Shifted_Data_Out = 0xzzzz , Carry_Out = 0xz , tb_Shifted_Data_Out = 0xzzzz , tb_Carry_Out = 0xz , Is_Same = 1
+[        3020.000 ns] : Enable_In = 0x0 , Shift_Operation_In = 0x4 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x0 , Data_In = 0x3515 , Shifted_Data_Out = 0xzzzz , Carry_Out = 0xz , tb_Shifted_Data_Out = 0xzzzz , tb_Carry_Out = 0xz , Is_Same = 1
+[        3040.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x7 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x1 , Data_In = 0x0486 , Shifted_Data_Out = 0xa090 , Carry_Out = 0x1 , tb_Shifted_Data_Out = 0xa090 , tb_Carry_Out = 0x1 , Is_Same = 1
+[        3060.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x1 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x0 , Data_In = 0x2707 , Shifted_Data_Out = 0x1383 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x1383 , tb_Carry_Out = 0x0 , Is_Same = 1
+[        3080.000 ns] : Enable_In = 0x0 , Shift_Operation_In = 0x4 , Shift_Bits_Length_In = 0x1 , Carry_In = 0x1 , Data_In = 0xe5b6 , Shifted_Data_Out = 0xzzzz , Carry_Out = 0xz , tb_Shifted_Data_Out = 0xzzzz , tb_Carry_Out = 0xz , Is_Same = 1
+[        3100.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x6 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x1 , Data_In = 0x3a20 , Shifted_Data_Out = 0x3a20 , Carry_Out = 0x1 , tb_Shifted_Data_Out = 0x3a20 , tb_Carry_Out = 0x1 , Is_Same = 1
+[        3120.000 ns] : Enable_In = 0x0 , Shift_Operation_In = 0x2 , Shift_Bits_Length_In = 0x0 , Carry_In = 0x1 , Data_In = 0xf00d , Shifted_Data_Out = 0xzzzz , Carry_Out = 0xz , tb_Shifted_Data_Out = 0xzzzz , tb_Carry_Out = 0xz , Is_Same = 1
+[        3140.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x1 , Shift_Bits_Length_In = 0x2 , Carry_In = 0x1 , Data_In = 0xd27b , Shifted_Data_Out = 0x349e , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x349e , tb_Carry_Out = 0x0 , Is_Same = 1
+[        3160.000 ns] : Enable_In = 0x1 , Shift_Operation_In = 0x3 , Shift_Bits_Length_In = 0x3 , Carry_In = 0x1 , Data_In = 0x3db1 , Shifted_Data_Out = 0x07b6 , Carry_Out = 0x0 , tb_Shifted_Data_Out = 0x07b6 , tb_Carry_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+Test Results :
+--------------------------------------------------
+Passed_Checks =         156
+Failed_Checks =           0
+Total_Checks  =         156
+--------------------------------------------------
+

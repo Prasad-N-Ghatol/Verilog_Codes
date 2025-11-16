@@ -1,0 +1,45 @@
+
+--------------------------------------------------
+
+Adder_with_Look_Ahead_Carry_Generator_32_Bit - Test
+
+--------------------------------------------------
+
+[          20.000 ns] : Enable_In = 0x0 , Data_A_In = 0x12153524 , Data_B_In = 0xc0895e81 , Carry_In = 0x1 , Sum_Out = 0xzzzzzzzz , Carry_Out = 0xz , tb_Sum_Out = 0xzzzzzzzz , tb_Carry_Out = 0xz , Is_Same = 1
+[          40.000 ns] : Enable_In = 0x1 , Data_A_In = 0xb1f05663 , Data_B_In = 0x06b97b0d , Carry_In = 0x1 , Sum_Out = 0xb8a9d171 , Carry_Out = 0x0 , tb_Sum_Out = 0xb8a9d171 , tb_Carry_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+Random Input Combinations
+
+--------------------------------------------------
+
+[         100.000 ns] : Enable_In = 0x1 , Data_A_In = 0x89375212 , Data_B_In = 0x00f3e301 , Carry_In = 0x1 , Sum_Out = 0x8a2b3514 , Carry_Out = 0x0 , tb_Sum_Out = 0x8a2b3514 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         120.000 ns] : Enable_In = 0x0 , Data_A_In = 0x1e8dcd3d , Data_B_In = 0x76d457ed , Carry_In = 0x0 , Sum_Out = 0xzzzzzzzz , Carry_Out = 0xz , tb_Sum_Out = 0xzzzzzzzz , tb_Carry_Out = 0xz , Is_Same = 1
+[         140.000 ns] : Enable_In = 0x1 , Data_A_In = 0xe33724c6 , Data_B_In = 0xe2f784c5 , Carry_In = 0x0 , Sum_Out = 0xc62ea98b , Carry_Out = 0x1 , tb_Sum_Out = 0xc62ea98b , tb_Carry_Out = 0x1 , Is_Same = 1
+[         160.000 ns] : Enable_In = 0x1 , Data_A_In = 0xbbd27277 , Data_B_In = 0x8932d612 , Carry_In = 0x1 , Sum_Out = 0x4505488a , Carry_Out = 0x1 , tb_Sum_Out = 0x4505488a , tb_Carry_Out = 0x1 , Is_Same = 1
+[         180.000 ns] : Enable_In = 0x0 , Data_A_In = 0xe77696ce , Data_B_In = 0xf4007ae8 , Carry_In = 0x1 , Sum_Out = 0xzzzzzzzz , Carry_Out = 0xz , tb_Sum_Out = 0xzzzzzzzz , tb_Carry_Out = 0xz , Is_Same = 1
+[         200.000 ns] : Enable_In = 0x0 , Data_A_In = 0xde8e28bd , Data_B_In = 0x96ab582d , Carry_In = 0x1 , Sum_Out = 0xzzzzzzzz , Carry_Out = 0xz , tb_Sum_Out = 0xzzzzzzzz , tb_Carry_Out = 0xz , Is_Same = 1
+[         220.000 ns] : Enable_In = 0x1 , Data_A_In = 0x0573870a , Data_B_In = 0xc03b2280 , Carry_In = 0x0 , Sum_Out = 0xc5aea98a , Carry_Out = 0x0 , tb_Sum_Out = 0xc5aea98a , tb_Carry_Out = 0x0 , Is_Same = 1
+[         240.000 ns] : Enable_In = 0x0 , Data_A_In = 0xcecccc9d , Data_B_In = 0xcb203e96 , Carry_In = 0x1 , Sum_Out = 0xzzzzzzzz , Carry_Out = 0xz , tb_Sum_Out = 0xzzzzzzzz , tb_Carry_Out = 0xz , Is_Same = 1
+[         260.000 ns] : Enable_In = 0x1 , Data_A_In = 0xa9a7d653 , Data_B_In = 0x359fdd6b , Carry_In = 0x1 , Sum_Out = 0xdf47b3bf , Carry_Out = 0x0 , tb_Sum_Out = 0xdf47b3bf , tb_Carry_Out = 0x0 , Is_Same = 1
+[         280.000 ns] : Enable_In = 0x0 , Data_A_In = 0xd7563eae , Data_B_In = 0x0effe91d , Carry_In = 0x1 , Sum_Out = 0xzzzzzzzz , Carry_Out = 0xz , tb_Sum_Out = 0xzzzzzzzz , tb_Carry_Out = 0xz , Is_Same = 1
+[         300.000 ns] : Enable_In = 0x1 , Data_A_In = 0x0509650a , Data_B_In = 0xe5730aca , Carry_In = 0x0 , Sum_Out = 0xea7c6fd4 , Carry_Out = 0x0 , tb_Sum_Out = 0xea7c6fd4 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         320.000 ns] : Enable_In = 0x0 , Data_A_In = 0x452e618a , Data_B_In = 0x20c4b341 , Carry_In = 0x0 , Sum_Out = 0xzzzzzzzz , Carry_Out = 0xz , tb_Sum_Out = 0xzzzzzzzz , tb_Carry_Out = 0xz , Is_Same = 1
+[         340.000 ns] : Enable_In = 0x0 , Data_A_In = 0xc48a1289 , Data_B_In = 0x75c50deb , Carry_In = 0x0 , Sum_Out = 0xzzzzzzzz , Carry_Out = 0xz , tb_Sum_Out = 0xzzzzzzzz , tb_Carry_Out = 0xz , Is_Same = 1
+[         360.000 ns] : Enable_In = 0x0 , Data_A_In = 0x571513ae , Data_B_In = 0xde7502bc , Carry_In = 0x0 , Sum_Out = 0xzzzzzzzz , Carry_Out = 0xz , tb_Sum_Out = 0xzzzzzzzz , tb_Carry_Out = 0xz , Is_Same = 1
+[         380.000 ns] : Enable_In = 0x1 , Data_A_In = 0xb897be71 , Data_B_In = 0x42f24185 , Carry_In = 0x1 , Sum_Out = 0xfb89fff7 , Carry_Out = 0x0 , tb_Sum_Out = 0xfb89fff7 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         400.000 ns] : Enable_In = 0x1 , Data_A_In = 0x1d06333a , Data_B_In = 0xbf23327e , Carry_In = 0x1 , Sum_Out = 0xdc2965b9 , Carry_Out = 0x0 , tb_Sum_Out = 0xdc2965b9 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         420.000 ns] : Enable_In = 0x1 , Data_A_In = 0x6c9c4bd9 , Data_B_In = 0x31230762 , Carry_In = 0x0 , Sum_Out = 0x9dbf533b , Carry_Out = 0x0 , tb_Sum_Out = 0x9dbf533b , tb_Carry_Out = 0x0 , Is_Same = 1
+[         440.000 ns] : Enable_In = 0x1 , Data_A_In = 0x47b9a18f , Data_B_In = 0x7c6da9f8 , Carry_In = 0x1 , Sum_Out = 0xc4274b88 , Carry_Out = 0x0 , tb_Sum_Out = 0xc4274b88 , tb_Carry_Out = 0x0 , Is_Same = 1
+[         460.000 ns] : Enable_In = 0x1 , Data_A_In = 0xae7d945c , Data_B_In = 0xadcbc05b , Carry_In = 0x1 , Sum_Out = 0x5c4954b8 , Carry_Out = 0x1 , tb_Sum_Out = 0x5c4954b8 , tb_Carry_Out = 0x1 , Is_Same = 1
+[         480.000 ns] : Enable_In = 0x1 , Data_A_In = 0xe8233ed0 , Data_B_In = 0xebfec0d7 , Carry_In = 0x1 , Sum_Out = 0xd421ffa8 , Carry_Out = 0x1 , tb_Sum_Out = 0xd421ffa8 , tb_Carry_Out = 0x1 , Is_Same = 1
+
+--------------------------------------------------
+Test Results :
+--------------------------------------------------
+Passed_Checks =          22
+Failed_Checks =           0
+Total_Checks  =          22
+--------------------------------------------------
+

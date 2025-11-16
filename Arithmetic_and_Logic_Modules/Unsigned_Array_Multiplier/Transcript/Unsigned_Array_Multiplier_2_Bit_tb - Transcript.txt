@@ -1,0 +1,52 @@
+
+--------------------------------------------------
+
+Unsigned_Array_Multiplier_2_Bit - Test
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+A Few Combinations
+
+--------------------------------------------------
+
+[          20.000 ns] : Enable_In = 0x0 , Data_A_In = 0x0 , Data_B_In = 0x1 , Multiplied_Result_Out = 0xz , tb_Multiplied_Result_Out = 0xz , Is_Same = 1
+[          40.000 ns] : Enable_In = 0x1 , Data_A_In = 0x1 , Data_B_In = 0x3 , Multiplied_Result_Out = 0x3 , tb_Multiplied_Result_Out = 0x3 , Is_Same = 1
+
+--------------------------------------------------
+
+Random Combinations
+
+--------------------------------------------------
+
+[          60.000 ns] : Enable_In = 0x1 , Data_A_In = 0x1 , Data_B_In = 0x1 , Multiplied_Result_Out = 0x1 , tb_Multiplied_Result_Out = 0x1 , Is_Same = 1
+[          80.000 ns] : Enable_In = 0x0 , Data_A_In = 0x1 , Data_B_In = 0x1 , Multiplied_Result_Out = 0xz , tb_Multiplied_Result_Out = 0xz , Is_Same = 1
+[         100.000 ns] : Enable_In = 0x0 , Data_A_In = 0x1 , Data_B_In = 0x1 , Multiplied_Result_Out = 0xz , tb_Multiplied_Result_Out = 0xz , Is_Same = 1
+[         120.000 ns] : Enable_In = 0x0 , Data_A_In = 0x1 , Data_B_In = 0x2 , Multiplied_Result_Out = 0xz , tb_Multiplied_Result_Out = 0xz , Is_Same = 1
+[         140.000 ns] : Enable_In = 0x1 , Data_A_In = 0x2 , Data_B_In = 0x1 , Multiplied_Result_Out = 0x2 , tb_Multiplied_Result_Out = 0x2 , Is_Same = 1
+[         160.000 ns] : Enable_In = 0x1 , Data_A_In = 0x2 , Data_B_In = 0x3 , Multiplied_Result_Out = 0x6 , tb_Multiplied_Result_Out = 0x6 , Is_Same = 1
+[         180.000 ns] : Enable_In = 0x0 , Data_A_In = 0x2 , Data_B_In = 0x0 , Multiplied_Result_Out = 0xz , tb_Multiplied_Result_Out = 0xz , Is_Same = 1
+[         200.000 ns] : Enable_In = 0x1 , Data_A_In = 0x0 , Data_B_In = 0x1 , Multiplied_Result_Out = 0x0 , tb_Multiplied_Result_Out = 0x0 , Is_Same = 1
+[         220.000 ns] : Enable_In = 0x1 , Data_A_In = 0x1 , Data_B_In = 0x3 , Multiplied_Result_Out = 0x3 , tb_Multiplied_Result_Out = 0x3 , Is_Same = 1
+[         240.000 ns] : Enable_In = 0x0 , Data_A_In = 0x0 , Data_B_In = 0x0 , Multiplied_Result_Out = 0xz , tb_Multiplied_Result_Out = 0xz , Is_Same = 1
+[         260.000 ns] : Enable_In = 0x0 , Data_A_In = 0x1 , Data_B_In = 0x2 , Multiplied_Result_Out = 0xz , tb_Multiplied_Result_Out = 0xz , Is_Same = 1
+[         280.000 ns] : Enable_In = 0x1 , Data_A_In = 0x1 , Data_B_In = 0x3 , Multiplied_Result_Out = 0x3 , tb_Multiplied_Result_Out = 0x3 , Is_Same = 1
+[         300.000 ns] : Enable_In = 0x1 , Data_A_In = 0x1 , Data_B_In = 0x2 , Multiplied_Result_Out = 0x2 , tb_Multiplied_Result_Out = 0x2 , Is_Same = 1
+[         320.000 ns] : Enable_In = 0x0 , Data_A_In = 0x1 , Data_B_In = 0x3 , Multiplied_Result_Out = 0xz , tb_Multiplied_Result_Out = 0xz , Is_Same = 1
+[         340.000 ns] : Enable_In = 0x1 , Data_A_In = 0x2 , Data_B_In = 0x2 , Multiplied_Result_Out = 0x4 , tb_Multiplied_Result_Out = 0x4 , Is_Same = 1
+[         360.000 ns] : Enable_In = 0x0 , Data_A_In = 0x2 , Data_B_In = 0x2 , Multiplied_Result_Out = 0xz , tb_Multiplied_Result_Out = 0xz , Is_Same = 1
+[         380.000 ns] : Enable_In = 0x1 , Data_A_In = 0x0 , Data_B_In = 0x0 , Multiplied_Result_Out = 0x0 , tb_Multiplied_Result_Out = 0x0 , Is_Same = 1
+[         400.000 ns] : Enable_In = 0x1 , Data_A_In = 0x3 , Data_B_In = 0x2 , Multiplied_Result_Out = 0x6 , tb_Multiplied_Result_Out = 0x6 , Is_Same = 1
+[         420.000 ns] : Enable_In = 0x0 , Data_A_In = 0x2 , Data_B_In = 0x0 , Multiplied_Result_Out = 0xz , tb_Multiplied_Result_Out = 0xz , Is_Same = 1
+[         440.000 ns] : Enable_In = 0x0 , Data_A_In = 0x3 , Data_B_In = 0x1 , Multiplied_Result_Out = 0xz , tb_Multiplied_Result_Out = 0xz , Is_Same = 1
+
+--------------------------------------------------
+Test Results :
+--------------------------------------------------
+Passed_Checks =          22
+Failed_Checks =           0
+Total_Checks  =          22
+--------------------------------------------------
+

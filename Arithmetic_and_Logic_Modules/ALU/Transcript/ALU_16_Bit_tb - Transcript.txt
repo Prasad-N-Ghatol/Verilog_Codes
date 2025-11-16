@@ -1,0 +1,67 @@
+
+--------------------------------------------------
+
+ALU_16_Bit - Test
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+All Operations
+
+--------------------------------------------------
+
+[          20.000 ns] : Enable_In = 0x0 , Data_A_In = 0x3524 , Data_B_In = 0x5e81 , ALU_Operation_Select_In = 0x9 , Carry_Out = 0xz , Result_Out = 0xzzzz , tb_Carry_Out = 0xz , tb_Result_Out = 0xzzzz , Is_Same = 1
+[          40.000 ns] : Enable_In = 0x1 , Data_A_In = 0x5663 , Data_B_In = 0x7b0d , ALU_Operation_Select_In = 0x0 , Carry_Out = 0x0 , Result_Out = 0x5664 , tb_Carry_Out = 0x0 , tb_Result_Out = 0x5664 , Is_Same = 1
+[          60.000 ns] : Enable_In = 0x1 , Data_A_In = 0x998d , Data_B_In = 0x8465 , ALU_Operation_Select_In = 0x1 , Carry_Out = 0x0 , Result_Out = 0x998c , tb_Carry_Out = 0x0 , tb_Result_Out = 0x998c , Is_Same = 1
+[          80.000 ns] : Enable_In = 0x1 , Data_A_In = 0x5212 , Data_B_In = 0xe301 , ALU_Operation_Select_In = 0x2 , Carry_Out = 0x1 , Result_Out = 0x3513 , tb_Carry_Out = 0x1 , tb_Result_Out = 0x3513 , Is_Same = 1
+[         100.000 ns] : Enable_In = 0x1 , Data_A_In = 0xcd0d , Data_B_In = 0xf176 , ALU_Operation_Select_In = 0x3 , Carry_Out = 0x1 , Result_Out = 0xdb97 , tb_Carry_Out = 0x1 , tb_Result_Out = 0xdb97 , Is_Same = 1
+[         120.000 ns] : Enable_In = 0x1 , Data_A_In = 0xcd3d , Data_B_In = 0x57ed , ALU_Operation_Select_In = 0x4 , Carry_Out = 0x1 , Result_Out = 0x8ab0 , tb_Carry_Out = 0x1 , tb_Result_Out = 0x8ab0 , Is_Same = 1
+[         140.000 ns] : Enable_In = 0x1 , Data_A_In = 0xf78c , Data_B_In = 0xe9f9 , ALU_Operation_Select_In = 0x5 , Carry_Out = 0x1 , Result_Out = 0x332c , tb_Carry_Out = 0x1 , tb_Result_Out = 0x332c , Is_Same = 1
+[         160.000 ns] : Enable_In = 0x1 , Data_A_In = 0x24c6 , Data_B_In = 0x84c5 , ALU_Operation_Select_In = 0x6 , Carry_Out = 0x0 , Result_Out = 0x0000 , tb_Carry_Out = 0x0 , tb_Result_Out = 0x0000 , Is_Same = 1
+[         180.000 ns] : Enable_In = 0x1 , Data_A_In = 0xd2aa , Data_B_In = 0xf7e5 , ALU_Operation_Select_In = 0x7 , Carry_Out = 0x0 , Result_Out = 0xd2aa , tb_Carry_Out = 0x0 , tb_Result_Out = 0xd2aa , Is_Same = 1
+[         200.000 ns] : Enable_In = 0x1 , Data_A_In = 0x7277 , Data_B_In = 0xd612 , ALU_Operation_Select_In = 0x8 , Carry_Out = 0x0 , Result_Out = 0x5212 , tb_Carry_Out = 0x0 , tb_Result_Out = 0x5212 , Is_Same = 1
+[         220.000 ns] : Enable_In = 0x1 , Data_A_In = 0xdb8f , Data_B_In = 0x69f2 , ALU_Operation_Select_In = 0x9 , Carry_Out = 0x0 , Result_Out = 0xfbff , tb_Carry_Out = 0x0 , tb_Result_Out = 0xfbff , Is_Same = 1
+[         240.000 ns] : Enable_In = 0x1 , Data_A_In = 0x96ce , Data_B_In = 0x7ae8 , ALU_Operation_Select_In = 0xa , Carry_Out = 0x1 , Result_Out = 0x6931 , tb_Carry_Out = 0x1 , tb_Result_Out = 0x6931 , Is_Same = 1
+[         260.000 ns] : Enable_In = 0x1 , Data_A_In = 0x4ec5 , Data_B_In = 0x495c , ALU_Operation_Select_In = 0xb , Carry_Out = 0x1 , Result_Out = 0xb6a3 , tb_Carry_Out = 0x1 , tb_Result_Out = 0xb6a3 , Is_Same = 1
+[         280.000 ns] : Enable_In = 0x1 , Data_A_In = 0x28bd , Data_B_In = 0x582d , ALU_Operation_Select_In = 0xc , Carry_Out = 0x1 , Result_Out = 0xf7d2 , tb_Carry_Out = 0x1 , tb_Result_Out = 0xf7d2 , Is_Same = 1
+[         300.000 ns] : Enable_In = 0x1 , Data_A_In = 0x2665 , Data_B_In = 0x6263 , ALU_Operation_Select_In = 0xd , Carry_Out = 0x1 , Result_Out = 0x9998 , tb_Carry_Out = 0x1 , tb_Result_Out = 0x9998 , Is_Same = 1
+[         320.000 ns] : Enable_In = 0x1 , Data_A_In = 0x870a , Data_B_In = 0x2280 , ALU_Operation_Select_In = 0xe , Carry_Out = 0x0 , Result_Out = 0xa58a , tb_Carry_Out = 0x0 , tb_Result_Out = 0xa58a , Is_Same = 1
+[         340.000 ns] : Enable_In = 0x1 , Data_A_In = 0x2120 , Data_B_In = 0x45aa , ALU_Operation_Select_In = 0xf , Carry_Out = 0x1 , Result_Out = 0x9b75 , tb_Carry_Out = 0x1 , tb_Result_Out = 0x9b75 , Is_Same = 1
+
+--------------------------------------------------
+
+Random Combinations
+
+--------------------------------------------------
+
+[         400.000 ns] : Enable_In = 0x1 , Data_A_In = 0x3e96 , Data_B_In = 0xb813 , ALU_Operation_Select_In = 0xd , Carry_Out = 0x1 , Result_Out = 0x4168 , tb_Carry_Out = 0x1 , tb_Result_Out = 0x4168 , Is_Same = 1
+[         420.000 ns] : Enable_In = 0x1 , Data_A_In = 0xdd6b , Data_B_In = 0x2ad5 , ALU_Operation_Select_In = 0x2 , Carry_Out = 0x1 , Result_Out = 0x0840 , tb_Carry_Out = 0x1 , tb_Result_Out = 0x0840 , Is_Same = 1
+[         440.000 ns] : Enable_In = 0x0 , Data_A_In = 0xe91d , Data_B_In = 0x72cf , ALU_Operation_Select_In = 0x3 , Carry_Out = 0xz , Result_Out = 0xzzzz , tb_Carry_Out = 0xz , tb_Result_Out = 0xzzzz , Is_Same = 1
+[         460.000 ns] : Enable_In = 0x0 , Data_A_In = 0x0aca , Data_B_In = 0x4c3c , ALU_Operation_Select_In = 0x2 , Carry_Out = 0xz , Result_Out = 0xzzzz , tb_Carry_Out = 0xz , tb_Result_Out = 0xzzzz , Is_Same = 1
+[         480.000 ns] : Enable_In = 0x0 , Data_A_In = 0xb341 , Data_B_In = 0x34d8 , ALU_Operation_Select_In = 0x8 , Carry_Out = 0xz , Result_Out = 0xzzzz , tb_Carry_Out = 0xz , tb_Result_Out = 0xzzzz , Is_Same = 1
+[         500.000 ns] : Enable_In = 0x1 , Data_A_In = 0x0deb , Data_B_In = 0x65b6 , ALU_Operation_Select_In = 0x6 , Carry_Out = 0x0 , Result_Out = 0x0000 , tb_Carry_Out = 0x0 , tb_Result_Out = 0x0000 , Is_Same = 1
+[         520.000 ns] : Enable_In = 0x0 , Data_A_In = 0x02bc , Data_B_In = 0xdd2a , ALU_Operation_Select_In = 0xb , Carry_Out = 0xz , Result_Out = 0xzzzz , tb_Carry_Out = 0xz , tb_Result_Out = 0xzzzz , Is_Same = 1
+[         540.000 ns] : Enable_In = 0x1 , Data_A_In = 0x4185 , Data_B_In = 0x554f , ALU_Operation_Select_In = 0xb , Carry_Out = 0x1 , Result_Out = 0xaab0 , tb_Carry_Out = 0x1 , tb_Result_Out = 0xaab0 , Is_Same = 1
+[         560.000 ns] : Enable_In = 0x0 , Data_A_In = 0x327e , Data_B_In = 0x4b15 , ALU_Operation_Select_In = 0x1 , Carry_Out = 0xz , Result_Out = 0xzzzz , tb_Carry_Out = 0xz , tb_Result_Out = 0xzzzz , Is_Same = 1
+[         580.000 ns] : Enable_In = 0x1 , Data_A_In = 0x0762 , Data_B_In = 0xfb4c , ALU_Operation_Select_In = 0xf , Carry_Out = 0x1 , Result_Out = 0x03d1 , tb_Carry_Out = 0x1 , tb_Result_Out = 0x03d1 , Is_Same = 1
+[         600.000 ns] : Enable_In = 0x1 , Data_A_In = 0xa9f8 , Data_B_In = 0x60b7 , ALU_Operation_Select_In = 0xf , Carry_Out = 0x1 , Result_Out = 0x36b0 , tb_Carry_Out = 0x1 , tb_Result_Out = 0x36b0 , Is_Same = 1
+[         620.000 ns] : Enable_In = 0x0 , Data_A_In = 0xc05b , Data_B_In = 0x3789 , ALU_Operation_Select_In = 0x9 , Carry_Out = 0xz , Result_Out = 0xzzzz , tb_Carry_Out = 0xz , tb_Result_Out = 0xzzzz , Is_Same = 1
+[         640.000 ns] : Enable_In = 0x0 , Data_A_In = 0xc0d7 , Data_B_In = 0xfc51 , ALU_Operation_Select_In = 0x6 , Carry_Out = 0xz , Result_Out = 0xzzzz , tb_Carry_Out = 0xz , tb_Result_Out = 0xzzzz , Is_Same = 1
+[         660.000 ns] : Enable_In = 0x0 , Data_A_In = 0xcec2 , Data_B_In = 0xedc8 , ALU_Operation_Select_In = 0x7 , Carry_Out = 0xz , Result_Out = 0xzzzz , tb_Carry_Out = 0xz , tb_Result_Out = 0xzzzz , Is_Same = 1
+[         680.000 ns] : Enable_In = 0x1 , Data_A_In = 0xdb12 , Data_B_In = 0x007e , ALU_Operation_Select_In = 0xd , Carry_Out = 0x1 , Result_Out = 0x2481 , tb_Carry_Out = 0x1 , tb_Result_Out = 0x2481 , Is_Same = 1
+[         700.000 ns] : Enable_In = 0x1 , Data_A_In = 0x8f1f , Data_B_In = 0xf6d3 , ALU_Operation_Select_In = 0x5 , Carry_Out = 0x1 , Result_Out = 0xc08d , tb_Carry_Out = 0x1 , tb_Result_Out = 0xc08d , Is_Same = 1
+[         720.000 ns] : Enable_In = 0x0 , Data_A_In = 0x595b , Data_B_In = 0x4b49 , ALU_Operation_Select_In = 0xf , Carry_Out = 0xz , Result_Out = 0xzzzz , tb_Carry_Out = 0xz , tb_Result_Out = 0xzzzz , Is_Same = 1
+[         740.000 ns] : Enable_In = 0x0 , Data_A_In = 0x6358 , Data_B_In = 0x3886 , ALU_Operation_Select_In = 0xe , Carry_Out = 0xz , Result_Out = 0xzzzz , tb_Carry_Out = 0xz , tb_Result_Out = 0xzzzz , Is_Same = 1
+[         760.000 ns] : Enable_In = 0x0 , Data_A_In = 0x99fa , Data_B_In = 0xbc26 , ALU_Operation_Select_In = 0x3 , Carry_Out = 0xz , Result_Out = 0xzzzz , tb_Carry_Out = 0xz , tb_Result_Out = 0xzzzz , Is_Same = 1
+[         780.000 ns] : Enable_In = 0x1 , Data_A_In = 0xa82f , Data_B_In = 0x92b3 , ALU_Operation_Select_In = 0xf , Carry_Out = 0x1 , Result_Out = 0xc563 , tb_Carry_Out = 0x1 , tb_Result_Out = 0xc563 , Is_Same = 1
+
+--------------------------------------------------
+Test Results :
+--------------------------------------------------
+Passed_Checks =          37
+Failed_Checks =           0
+Total_Checks  =          37
+--------------------------------------------------
+

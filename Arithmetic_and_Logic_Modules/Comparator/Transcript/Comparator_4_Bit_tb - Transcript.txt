@@ -1,0 +1,45 @@
+
+--------------------------------------------------
+
+Comparator_4_Bit - Test
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+Basic Comparison
+
+--------------------------------------------------
+
+[          20.000 ns] : Enable_In = 0x0 , Data_A_In = 0x4 , Data_B_In = 0x1 , A_gt_B_Out = 0xz , A_eq_B_Out = 0xz , A_lt_B_Out = 0xz , tb_A_gt_B_Out = 0xz , tb_A_eq_B_Out = 0xz , tb_A_lt_B_Out = 0xz , Is_Same = 1
+[          40.000 ns] : Enable_In = 0x1 , Data_A_In = 0x1 , Data_B_In = 0x0 , A_gt_B_Out = 0x1 , A_eq_B_Out = 0x0 , A_lt_B_Out = 0x0 , tb_A_gt_B_Out = 0x1 , tb_A_eq_B_Out = 0x0 , tb_A_lt_B_Out = 0x0 , Is_Same = 1
+[          60.000 ns] : Enable_In = 0x1 , Data_A_In = 0x0 , Data_B_In = 0x0 , A_gt_B_Out = 0x0 , A_eq_B_Out = 0x1 , A_lt_B_Out = 0x0 , tb_A_gt_B_Out = 0x0 , tb_A_eq_B_Out = 0x1 , tb_A_lt_B_Out = 0x0 , Is_Same = 1
+[          80.000 ns] : Enable_In = 0x1 , Data_A_In = 0xf , Data_B_In = 0xf , A_gt_B_Out = 0x0 , A_eq_B_Out = 0x1 , A_lt_B_Out = 0x0 , tb_A_gt_B_Out = 0x0 , tb_A_eq_B_Out = 0x1 , tb_A_lt_B_Out = 0x0 , Is_Same = 1
+[         100.000 ns] : Enable_In = 0x1 , Data_A_In = 0x0 , Data_B_In = 0x1 , A_gt_B_Out = 0x0 , A_eq_B_Out = 0x0 , A_lt_B_Out = 0x1 , tb_A_gt_B_Out = 0x0 , tb_A_eq_B_Out = 0x0 , tb_A_lt_B_Out = 0x1 , Is_Same = 1
+
+--------------------------------------------------
+
+Random Combinations
+
+--------------------------------------------------
+
+[         160.000 ns] : Enable_In = 0x1 , Data_A_In = 0x3 , Data_B_In = 0xd , A_gt_B_Out = 0x0 , A_eq_B_Out = 0x0 , A_lt_B_Out = 0x1 , tb_A_gt_B_Out = 0x0 , tb_A_eq_B_Out = 0x0 , tb_A_lt_B_Out = 0x1 , Is_Same = 1
+[         180.000 ns] : Enable_In = 0x1 , Data_A_In = 0x5 , Data_B_In = 0x2 , A_gt_B_Out = 0x1 , A_eq_B_Out = 0x0 , A_lt_B_Out = 0x0 , tb_A_gt_B_Out = 0x1 , tb_A_eq_B_Out = 0x0 , tb_A_lt_B_Out = 0x0 , Is_Same = 1
+[         200.000 ns] : Enable_In = 0x1 , Data_A_In = 0xd , Data_B_In = 0x6 , A_gt_B_Out = 0x1 , A_eq_B_Out = 0x0 , A_lt_B_Out = 0x0 , tb_A_gt_B_Out = 0x1 , tb_A_eq_B_Out = 0x0 , tb_A_lt_B_Out = 0x0 , Is_Same = 1
+[         220.000 ns] : Enable_In = 0x1 , Data_A_In = 0xd , Data_B_In = 0xc , A_gt_B_Out = 0x1 , A_eq_B_Out = 0x0 , A_lt_B_Out = 0x0 , tb_A_gt_B_Out = 0x1 , tb_A_eq_B_Out = 0x0 , tb_A_lt_B_Out = 0x0 , Is_Same = 1
+[         240.000 ns] : Enable_In = 0x1 , Data_A_In = 0x6 , Data_B_In = 0x5 , A_gt_B_Out = 0x1 , A_eq_B_Out = 0x0 , A_lt_B_Out = 0x0 , tb_A_gt_B_Out = 0x1 , tb_A_eq_B_Out = 0x0 , tb_A_lt_B_Out = 0x0 , Is_Same = 1
+[         260.000 ns] : Enable_In = 0x0 , Data_A_In = 0x5 , Data_B_In = 0x7 , A_gt_B_Out = 0xz , A_eq_B_Out = 0xz , A_lt_B_Out = 0xz , tb_A_gt_B_Out = 0xz , tb_A_eq_B_Out = 0xz , tb_A_lt_B_Out = 0xz , Is_Same = 1
+[         280.000 ns] : Enable_In = 0x0 , Data_A_In = 0xf , Data_B_In = 0x2 , A_gt_B_Out = 0xz , A_eq_B_Out = 0xz , A_lt_B_Out = 0xz , tb_A_gt_B_Out = 0xz , tb_A_eq_B_Out = 0xz , tb_A_lt_B_Out = 0xz , Is_Same = 1
+[         300.000 ns] : Enable_In = 0x0 , Data_A_In = 0x8 , Data_B_In = 0x5 , A_gt_B_Out = 0xz , A_eq_B_Out = 0xz , A_lt_B_Out = 0xz , tb_A_gt_B_Out = 0xz , tb_A_eq_B_Out = 0xz , tb_A_lt_B_Out = 0xz , Is_Same = 1
+[         320.000 ns] : Enable_In = 0x0 , Data_A_In = 0xd , Data_B_In = 0xd , A_gt_B_Out = 0xz , A_eq_B_Out = 0xz , A_lt_B_Out = 0xz , tb_A_gt_B_Out = 0xz , tb_A_eq_B_Out = 0xz , tb_A_lt_B_Out = 0xz , Is_Same = 1
+[         340.000 ns] : Enable_In = 0x1 , Data_A_In = 0x3 , Data_B_In = 0xa , A_gt_B_Out = 0x0 , A_eq_B_Out = 0x0 , A_lt_B_Out = 0x1 , tb_A_gt_B_Out = 0x0 , tb_A_eq_B_Out = 0x0 , tb_A_lt_B_Out = 0x1 , Is_Same = 1
+
+--------------------------------------------------
+Test Results :
+--------------------------------------------------
+Passed_Checks =          15
+Failed_Checks =           0
+Total_Checks  =          15
+--------------------------------------------------
+

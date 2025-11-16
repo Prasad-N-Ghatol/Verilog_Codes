@@ -1,0 +1,52 @@
+
+--------------------------------------------------
+
+Unsigned_Array_Multiplier_32_Bit - Test
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+A Few Combinations
+
+--------------------------------------------------
+
+[          20.000 ns] : Enable_In = 0x0 , Data_A_In = 0x12153524 , Data_B_In = 0xc0895e81 , Multiplied_Result_Out = 0xzzzzzzzzzzzzzzzz , tb_Multiplied_Result_Out = 0xzzzzzzzzzzzzzzzz , Is_Same = 1
+[          40.000 ns] : Enable_In = 0x1 , Data_A_In = 0x8484d609 , Data_B_In = 0xb1f05663 , Multiplied_Result_Out = 0x5c1c413cc0b5cb7b , tb_Multiplied_Result_Out = 0x5c1c413cc0b5cb7b , Is_Same = 1
+
+--------------------------------------------------
+
+Random Combinations
+
+--------------------------------------------------
+
+[          60.000 ns] : Enable_In = 0x1 , Data_A_In = 0x46df998d , Data_B_In = 0xb2c28465 , Multiplied_Result_Out = 0x317d52dda83e48a1 , tb_Multiplied_Result_Out = 0x317d52dda83e48a1 , Is_Same = 1
+[          80.000 ns] : Enable_In = 0x0 , Data_A_In = 0x00f3e301 , Data_B_In = 0x06d7cd0d , Multiplied_Result_Out = 0xzzzzzzzzzzzzzzzz , tb_Multiplied_Result_Out = 0xzzzzzzzzzzzzzzzz , Is_Same = 1
+[         100.000 ns] : Enable_In = 0x0 , Data_A_In = 0x1e8dcd3d , Data_B_In = 0x76d457ed , Multiplied_Result_Out = 0xzzzzzzzzzzzzzzzz , tb_Multiplied_Result_Out = 0xzzzzzzzzzzzzzzzz , Is_Same = 1
+[         120.000 ns] : Enable_In = 0x0 , Data_A_In = 0x7cfde9f9 , Data_B_In = 0xe33724c6 , Multiplied_Result_Out = 0xzzzzzzzzzzzzzzzz , tb_Multiplied_Result_Out = 0xzzzzzzzzzzzzzzzz , Is_Same = 1
+[         140.000 ns] : Enable_In = 0x1 , Data_A_In = 0xd513d2aa , Data_B_In = 0x72aff7e5 , Multiplied_Result_Out = 0x5f754ab171337812 , tb_Multiplied_Result_Out = 0x5f754ab171337812 , Is_Same = 1
+[         160.000 ns] : Enable_In = 0x1 , Data_A_In = 0x8932d612 , Data_B_In = 0x47ecdb8f , Multiplied_Result_Out = 0x268c09e7771efa0e , tb_Multiplied_Result_Out = 0x268c09e7771efa0e , Is_Same = 1
+[         180.000 ns] : Enable_In = 0x0 , Data_A_In = 0xe77696ce , Data_B_In = 0xf4007ae8 , Multiplied_Result_Out = 0xzzzzzzzzzzzzzzzz , tb_Multiplied_Result_Out = 0xzzzzzzzzzzzzzzzz , Is_Same = 1
+[         200.000 ns] : Enable_In = 0x1 , Data_A_In = 0x2e58495c , Data_B_In = 0xde8e28bd , Multiplied_Result_Out = 0x284a4bf67bac88ec , tb_Multiplied_Result_Out = 0x284a4bf67bac88ec , Is_Same = 1
+[         220.000 ns] : Enable_In = 0x1 , Data_A_In = 0xb2a72665 , Data_B_In = 0xb1ef6263 , Multiplied_Result_Out = 0x7c2ca041c0a1830f , tb_Multiplied_Result_Out = 0x7c2ca041c0a1830f , Is_Same = 1
+[         240.000 ns] : Enable_In = 0x0 , Data_A_In = 0xc03b2280 , Data_B_In = 0x10642120 , Multiplied_Result_Out = 0xzzzzzzzzzzzzzzzz , tb_Multiplied_Result_Out = 0xzzzzzzzzzzzzzzzz , Is_Same = 1
+[         260.000 ns] : Enable_In = 0x0 , Data_A_In = 0xcecccc9d , Data_B_In = 0xcb203e96 , Multiplied_Result_Out = 0xzzzzzzzzzzzzzzzz , tb_Multiplied_Result_Out = 0xzzzzzzzzzzzzzzzz , Is_Same = 1
+[         280.000 ns] : Enable_In = 0x1 , Data_A_In = 0x86bc380d , Data_B_In = 0xa9a7d653 , Multiplied_Result_Out = 0x594a96962b5c0a37 , tb_Multiplied_Result_Out = 0x594a96962b5c0a37 , Is_Same = 1
+[         300.000 ns] : Enable_In = 0x1 , Data_A_In = 0xeaa62ad5 , Data_B_In = 0x81174a02 , Multiplied_Result_Out = 0x765314590bd0e7aa , tb_Multiplied_Result_Out = 0x765314590bd0e7aa , Is_Same = 1
+[         320.000 ns] : Enable_In = 0x0 , Data_A_In = 0x0effe91d , Data_B_In = 0xe7c572cf , Multiplied_Result_Out = 0xzzzzzzzzzzzzzzzz , tb_Multiplied_Result_Out = 0xzzzzzzzzzzzzzzzz , Is_Same = 1
+[         340.000 ns] : Enable_In = 0x1 , Data_A_In = 0x0509650a , Data_B_In = 0xe5730aca , Multiplied_Result_Out = 0x0483aad0acda1de4 , tb_Multiplied_Result_Out = 0x0483aad0acda1de4 , Is_Same = 1
+[         360.000 ns] : Enable_In = 0x0 , Data_A_In = 0x7968bdf2 , Data_B_In = 0x452e618a , Multiplied_Result_Out = 0xzzzzzzzzzzzzzzzz , tb_Multiplied_Result_Out = 0xzzzzzzzzzzzzzzzz , Is_Same = 1
+[         380.000 ns] : Enable_In = 0x1 , Data_A_In = 0xec4b34d8 , Data_B_In = 0x3c20f378 , Multiplied_Result_Out = 0x37800a836169cd40 , tb_Multiplied_Result_Out = 0x37800a836169cd40 , Is_Same = 1
+[         400.000 ns] : Enable_In = 0x1 , Data_A_In = 0x75c50deb , Data_B_In = 0x5b0265b6 , Multiplied_Result_Out = 0x29de26471d6b9c12 , tb_Multiplied_Result_Out = 0x29de26471d6b9c12 , Is_Same = 1
+[         420.000 ns] : Enable_In = 0x0 , Data_A_In = 0x571513ae , Data_B_In = 0xde7502bc , Multiplied_Result_Out = 0xzzzzzzzzzzzzzzzz , tb_Multiplied_Result_Out = 0xzzzzzzzzzzzzzzzz , Is_Same = 1
+[         440.000 ns] : Enable_In = 0x0 , Data_A_In = 0x85d79a0b , Data_B_In = 0xb897be71 , Multiplied_Result_Out = 0xzzzzzzzzzzzzzzzz , tb_Multiplied_Result_Out = 0xzzzzzzzzzzzzzzzz , Is_Same = 1
+
+--------------------------------------------------
+Test Results :
+--------------------------------------------------
+Passed_Checks =          22
+Failed_Checks =           0
+Total_Checks  =          22
+--------------------------------------------------
+

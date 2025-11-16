@@ -1,0 +1,52 @@
+
+--------------------------------------------------
+
+Unsigned_Array_Multiplier_4_Bit - Test
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+A Few Combinations
+
+--------------------------------------------------
+
+[          20.000 ns] : Enable_In = 0x0 , Data_A_In = 0x4 , Data_B_In = 0x1 , Multiplied_Result_Out = 0xzz , tb_Multiplied_Result_Out = 0xzz , Is_Same = 1
+[          40.000 ns] : Enable_In = 0x1 , Data_A_In = 0x9 , Data_B_In = 0x3 , Multiplied_Result_Out = 0x1b , tb_Multiplied_Result_Out = 0x1b , Is_Same = 1
+
+--------------------------------------------------
+
+Random Combinations
+
+--------------------------------------------------
+
+[          60.000 ns] : Enable_In = 0x1 , Data_A_In = 0xd , Data_B_In = 0x5 , Multiplied_Result_Out = 0x41 , tb_Multiplied_Result_Out = 0x41 , Is_Same = 1
+[          80.000 ns] : Enable_In = 0x0 , Data_A_In = 0x1 , Data_B_In = 0xd , Multiplied_Result_Out = 0xzz , tb_Multiplied_Result_Out = 0xzz , Is_Same = 1
+[         100.000 ns] : Enable_In = 0x0 , Data_A_In = 0xd , Data_B_In = 0xd , Multiplied_Result_Out = 0xzz , tb_Multiplied_Result_Out = 0xzz , Is_Same = 1
+[         120.000 ns] : Enable_In = 0x0 , Data_A_In = 0x9 , Data_B_In = 0x6 , Multiplied_Result_Out = 0xzz , tb_Multiplied_Result_Out = 0xzz , Is_Same = 1
+[         140.000 ns] : Enable_In = 0x1 , Data_A_In = 0xa , Data_B_In = 0x5 , Multiplied_Result_Out = 0x32 , tb_Multiplied_Result_Out = 0x32 , Is_Same = 1
+[         160.000 ns] : Enable_In = 0x1 , Data_A_In = 0x2 , Data_B_In = 0xf , Multiplied_Result_Out = 0x1e , tb_Multiplied_Result_Out = 0x1e , Is_Same = 1
+[         180.000 ns] : Enable_In = 0x0 , Data_A_In = 0xe , Data_B_In = 0x8 , Multiplied_Result_Out = 0xzz , tb_Multiplied_Result_Out = 0xzz , Is_Same = 1
+[         200.000 ns] : Enable_In = 0x1 , Data_A_In = 0xc , Data_B_In = 0xd , Multiplied_Result_Out = 0x9c , tb_Multiplied_Result_Out = 0x9c , Is_Same = 1
+[         220.000 ns] : Enable_In = 0x1 , Data_A_In = 0x5 , Data_B_In = 0x3 , Multiplied_Result_Out = 0x0f , tb_Multiplied_Result_Out = 0x0f , Is_Same = 1
+[         240.000 ns] : Enable_In = 0x0 , Data_A_In = 0x0 , Data_B_In = 0x0 , Multiplied_Result_Out = 0xzz , tb_Multiplied_Result_Out = 0xzz , Is_Same = 1
+[         260.000 ns] : Enable_In = 0x0 , Data_A_In = 0xd , Data_B_In = 0x6 , Multiplied_Result_Out = 0xzz , tb_Multiplied_Result_Out = 0xzz , Is_Same = 1
+[         280.000 ns] : Enable_In = 0x1 , Data_A_In = 0xd , Data_B_In = 0x3 , Multiplied_Result_Out = 0x27 , tb_Multiplied_Result_Out = 0x27 , Is_Same = 1
+[         300.000 ns] : Enable_In = 0x1 , Data_A_In = 0x5 , Data_B_In = 0x2 , Multiplied_Result_Out = 0x0a , tb_Multiplied_Result_Out = 0x0a , Is_Same = 1
+[         320.000 ns] : Enable_In = 0x0 , Data_A_In = 0xd , Data_B_In = 0xf , Multiplied_Result_Out = 0xzz , tb_Multiplied_Result_Out = 0xzz , Is_Same = 1
+[         340.000 ns] : Enable_In = 0x1 , Data_A_In = 0xa , Data_B_In = 0xa , Multiplied_Result_Out = 0x64 , tb_Multiplied_Result_Out = 0x64 , Is_Same = 1
+[         360.000 ns] : Enable_In = 0x0 , Data_A_In = 0x2 , Data_B_In = 0xa , Multiplied_Result_Out = 0xzz , tb_Multiplied_Result_Out = 0xzz , Is_Same = 1
+[         380.000 ns] : Enable_In = 0x1 , Data_A_In = 0x8 , Data_B_In = 0x8 , Multiplied_Result_Out = 0x40 , tb_Multiplied_Result_Out = 0x40 , Is_Same = 1
+[         400.000 ns] : Enable_In = 0x1 , Data_A_In = 0xb , Data_B_In = 0x6 , Multiplied_Result_Out = 0x42 , tb_Multiplied_Result_Out = 0x42 , Is_Same = 1
+[         420.000 ns] : Enable_In = 0x0 , Data_A_In = 0xe , Data_B_In = 0xc , Multiplied_Result_Out = 0xzz , tb_Multiplied_Result_Out = 0xzz , Is_Same = 1
+[         440.000 ns] : Enable_In = 0x0 , Data_A_In = 0xb , Data_B_In = 0x1 , Multiplied_Result_Out = 0xzz , tb_Multiplied_Result_Out = 0xzz , Is_Same = 1
+
+--------------------------------------------------
+Test Results :
+--------------------------------------------------
+Passed_Checks =          22
+Failed_Checks =           0
+Total_Checks  =          22
+--------------------------------------------------
+

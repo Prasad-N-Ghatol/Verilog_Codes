@@ -1,0 +1,48 @@
+
+--------------------------------------------------
+
+Full_Subtractor - Test
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+All Input Combinations
+
+--------------------------------------------------
+
+[          20.000 ns] : Data_A_In = 0x0 , Data_B_In = 0x0 , Borrow_In = 0x0 , Borrow_Out = 0x0 , Sum_Out = 0x0 , tb_Borrow_Out = 0x0 , tb_Sum_Out = 0x0 , Is_Same = 1
+[          40.000 ns] : Data_A_In = 0x0 , Data_B_In = 0x0 , Borrow_In = 0x1 , Borrow_Out = 0x1 , Sum_Out = 0x1 , tb_Borrow_Out = 0x1 , tb_Sum_Out = 0x1 , Is_Same = 1
+[          60.000 ns] : Data_A_In = 0x0 , Data_B_In = 0x1 , Borrow_In = 0x0 , Borrow_Out = 0x1 , Sum_Out = 0x1 , tb_Borrow_Out = 0x1 , tb_Sum_Out = 0x1 , Is_Same = 1
+[          80.000 ns] : Data_A_In = 0x0 , Data_B_In = 0x1 , Borrow_In = 0x1 , Borrow_Out = 0x1 , Sum_Out = 0x0 , tb_Borrow_Out = 0x1 , tb_Sum_Out = 0x0 , Is_Same = 1
+[         100.000 ns] : Data_A_In = 0x1 , Data_B_In = 0x0 , Borrow_In = 0x0 , Borrow_Out = 0x0 , Sum_Out = 0x1 , tb_Borrow_Out = 0x0 , tb_Sum_Out = 0x1 , Is_Same = 1
+[         120.000 ns] : Data_A_In = 0x1 , Data_B_In = 0x0 , Borrow_In = 0x1 , Borrow_Out = 0x0 , Sum_Out = 0x0 , tb_Borrow_Out = 0x0 , tb_Sum_Out = 0x0 , Is_Same = 1
+[         140.000 ns] : Data_A_In = 0x1 , Data_B_In = 0x1 , Borrow_In = 0x0 , Borrow_Out = 0x0 , Sum_Out = 0x0 , tb_Borrow_Out = 0x0 , tb_Sum_Out = 0x0 , Is_Same = 1
+[         160.000 ns] : Data_A_In = 0x1 , Data_B_In = 0x1 , Borrow_In = 0x1 , Borrow_Out = 0x1 , Sum_Out = 0x1 , tb_Borrow_Out = 0x1 , tb_Sum_Out = 0x1 , Is_Same = 1
+
+--------------------------------------------------
+
+Random Input Combinations
+
+--------------------------------------------------
+
+[         220.000 ns] : Data_A_In = 0x0 , Data_B_In = 0x1 , Borrow_In = 0x1 , Borrow_Out = 0x1 , Sum_Out = 0x0 , tb_Borrow_Out = 0x1 , tb_Sum_Out = 0x0 , Is_Same = 1
+[         240.000 ns] : Data_A_In = 0x1 , Data_B_In = 0x1 , Borrow_In = 0x1 , Borrow_Out = 0x1 , Sum_Out = 0x1 , tb_Borrow_Out = 0x1 , tb_Sum_Out = 0x1 , Is_Same = 1
+[         260.000 ns] : Data_A_In = 0x1 , Data_B_In = 0x0 , Borrow_In = 0x1 , Borrow_Out = 0x0 , Sum_Out = 0x0 , tb_Borrow_Out = 0x0 , tb_Sum_Out = 0x0 , Is_Same = 1
+[         280.000 ns] : Data_A_In = 0x1 , Data_B_In = 0x0 , Borrow_In = 0x1 , Borrow_Out = 0x0 , Sum_Out = 0x0 , tb_Borrow_Out = 0x0 , tb_Sum_Out = 0x0 , Is_Same = 1
+[         300.000 ns] : Data_A_In = 0x1 , Data_B_In = 0x0 , Borrow_In = 0x1 , Borrow_Out = 0x0 , Sum_Out = 0x0 , tb_Borrow_Out = 0x0 , tb_Sum_Out = 0x0 , Is_Same = 1
+[         320.000 ns] : Data_A_In = 0x0 , Data_B_In = 0x1 , Borrow_In = 0x0 , Borrow_Out = 0x1 , Sum_Out = 0x1 , tb_Borrow_Out = 0x1 , tb_Sum_Out = 0x1 , Is_Same = 1
+[         340.000 ns] : Data_A_In = 0x1 , Data_B_In = 0x1 , Borrow_In = 0x0 , Borrow_Out = 0x0 , Sum_Out = 0x0 , tb_Borrow_Out = 0x0 , tb_Sum_Out = 0x0 , Is_Same = 1
+[         360.000 ns] : Data_A_In = 0x1 , Data_B_In = 0x0 , Borrow_In = 0x0 , Borrow_Out = 0x0 , Sum_Out = 0x1 , tb_Borrow_Out = 0x0 , tb_Sum_Out = 0x1 , Is_Same = 1
+[         380.000 ns] : Data_A_In = 0x0 , Data_B_In = 0x1 , Borrow_In = 0x0 , Borrow_Out = 0x1 , Sum_Out = 0x1 , tb_Borrow_Out = 0x1 , tb_Sum_Out = 0x1 , Is_Same = 1
+[         400.000 ns] : Data_A_In = 0x1 , Data_B_In = 0x1 , Borrow_In = 0x1 , Borrow_Out = 0x1 , Sum_Out = 0x1 , tb_Borrow_Out = 0x1 , tb_Sum_Out = 0x1 , Is_Same = 1
+
+--------------------------------------------------
+Test Results :
+--------------------------------------------------
+Passed_Checks =          18
+Failed_Checks =           0
+Total_Checks  =          18
+--------------------------------------------------
+
