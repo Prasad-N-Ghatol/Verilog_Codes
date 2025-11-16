@@ -33,6 +33,14 @@ Each module focuses on illustrating key concepts in **digital design, simulation
         📑 Basic Arithmetic
         📑 Comparator
         📑 Unsigned Array Multiplier
+    📂 Counters and Timers
+        📑 Decade Counter
+        📑 Gray Counter
+        📑 Johnson Counter
+        📑 MOD Counter
+        📑 Ring Counter
+        📑 Timer
+        📑 Up-Down MOD Counter
 ```
 
 ---
