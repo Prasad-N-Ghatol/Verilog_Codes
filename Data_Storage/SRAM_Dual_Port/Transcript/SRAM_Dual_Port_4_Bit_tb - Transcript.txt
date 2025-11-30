@@ -1,0 +1,281 @@
+
+--------------------------------------------------
+
+SRAM_Dual_Port_4_Bit - Test
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+Default State
+
+--------------------------------------------------
+
+[          20.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x0 , Port_1_Write_Data_In = 0x4 , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x0 , Port_2_Write_Data_In = 0x1 , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+[          40.000 ns] : Enable_In = 0x0 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x0 , Port_1_Write_Data_In = 0x9 , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x0 , Port_2_Write_Data_In = 0x3 , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+[          60.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x0 , Port_1_Write_Data_In = 0xd , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x0 , Port_2_Write_Data_In = 0xd , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+
+--------------------------------------------------
+[          60.000 ns] : Dump_Memory_Contents - DUT.SRAM_MEMORY and tb_SRAM_MEMORY 
+--------------------------------------------------
+DUT.SRAM_MEMORY[0x0] = 0xx , tb_SRAM_MEMORY[0x0] = 0xx
+DUT.SRAM_MEMORY[0x1] = 0xx , tb_SRAM_MEMORY[0x1] = 0xx
+DUT.SRAM_MEMORY[0x2] = 0xx , tb_SRAM_MEMORY[0x2] = 0xx
+DUT.SRAM_MEMORY[0x3] = 0xx , tb_SRAM_MEMORY[0x3] = 0xx
+DUT.SRAM_MEMORY[0x4] = 0xx , tb_SRAM_MEMORY[0x4] = 0xx
+DUT.SRAM_MEMORY[0x5] = 0xx , tb_SRAM_MEMORY[0x5] = 0xx
+DUT.SRAM_MEMORY[0x6] = 0xx , tb_SRAM_MEMORY[0x6] = 0xx
+DUT.SRAM_MEMORY[0x7] = 0xx , tb_SRAM_MEMORY[0x7] = 0xx
+DUT.SRAM_MEMORY[0x8] = 0xx , tb_SRAM_MEMORY[0x8] = 0xx
+DUT.SRAM_MEMORY[0x9] = 0xx , tb_SRAM_MEMORY[0x9] = 0xx
+DUT.SRAM_MEMORY[0xA] = 0xx , tb_SRAM_MEMORY[0xA] = 0xx
+DUT.SRAM_MEMORY[0xB] = 0xx , tb_SRAM_MEMORY[0xB] = 0xx
+DUT.SRAM_MEMORY[0xC] = 0xx , tb_SRAM_MEMORY[0xC] = 0xx
+DUT.SRAM_MEMORY[0xD] = 0xx , tb_SRAM_MEMORY[0xD] = 0xx
+DUT.SRAM_MEMORY[0xE] = 0xx , tb_SRAM_MEMORY[0xE] = 0xx
+DUT.SRAM_MEMORY[0xF] = 0xx , tb_SRAM_MEMORY[0xF] = 0xx
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+Write Data Operations
+
+--------------------------------------------------
+
+[         120.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x0 , Port_1_Write_Data_In = 0x5 , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x0 , Port_2_Write_Data_In = 0x2 , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+[         140.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x1 , Port_1_Write_Data_In = 0x1 , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x0 , Port_2_Write_Data_In = 0xd , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+[         160.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x2 , Port_1_Write_Data_In = 0x6 , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x0 , Port_2_Write_Data_In = 0xd , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+[         180.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x3 , Port_1_Write_Data_In = 0xd , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x0 , Port_2_Write_Data_In = 0xc , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+[         200.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x4 , Port_1_Write_Data_In = 0x9 , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x0 , Port_2_Write_Data_In = 0x6 , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+[         220.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x5 , Port_1_Write_Data_In = 0x5 , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x0 , Port_2_Write_Data_In = 0xa , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+[         240.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x6 , Port_1_Write_Data_In = 0x5 , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x0 , Port_2_Write_Data_In = 0x7 , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+[         260.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x7 , Port_1_Write_Data_In = 0x2 , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x0 , Port_2_Write_Data_In = 0xf , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+[         280.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x8 , Port_1_Write_Data_In = 0x2 , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x0 , Port_2_Write_Data_In = 0xe , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+[         300.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x9 , Port_1_Write_Data_In = 0x8 , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x0 , Port_2_Write_Data_In = 0x5 , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+[         320.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0xa , Port_1_Write_Data_In = 0xc , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x0 , Port_2_Write_Data_In = 0xd , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+[         340.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0xb , Port_1_Write_Data_In = 0xd , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x0 , Port_2_Write_Data_In = 0x5 , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+[         360.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0xc , Port_1_Write_Data_In = 0x3 , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x0 , Port_2_Write_Data_In = 0xa , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+[         380.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0xd , Port_1_Write_Data_In = 0x0 , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x0 , Port_2_Write_Data_In = 0x0 , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+[         400.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0xe , Port_1_Write_Data_In = 0xa , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x0 , Port_2_Write_Data_In = 0xd , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+[         420.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0xf , Port_1_Write_Data_In = 0x6 , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x0 , Port_2_Write_Data_In = 0x3 , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+[         440.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x0 , Port_1_Write_Data_In = 0xd , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x0 , Port_2_Write_Data_In = 0x3 , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+
+--------------------------------------------------
+
+After Data Write State
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+[         440.000 ns] : Dump_Memory_Contents - DUT.SRAM_MEMORY and tb_SRAM_MEMORY 
+--------------------------------------------------
+DUT.SRAM_MEMORY[0x0] = 0x5 , tb_SRAM_MEMORY[0x0] = 0x5
+DUT.SRAM_MEMORY[0x1] = 0x1 , tb_SRAM_MEMORY[0x1] = 0x1
+DUT.SRAM_MEMORY[0x2] = 0x6 , tb_SRAM_MEMORY[0x2] = 0x6
+DUT.SRAM_MEMORY[0x3] = 0xd , tb_SRAM_MEMORY[0x3] = 0xd
+DUT.SRAM_MEMORY[0x4] = 0x9 , tb_SRAM_MEMORY[0x4] = 0x9
+DUT.SRAM_MEMORY[0x5] = 0x5 , tb_SRAM_MEMORY[0x5] = 0x5
+DUT.SRAM_MEMORY[0x6] = 0x5 , tb_SRAM_MEMORY[0x6] = 0x5
+DUT.SRAM_MEMORY[0x7] = 0x2 , tb_SRAM_MEMORY[0x7] = 0x2
+DUT.SRAM_MEMORY[0x8] = 0x2 , tb_SRAM_MEMORY[0x8] = 0x2
+DUT.SRAM_MEMORY[0x9] = 0x8 , tb_SRAM_MEMORY[0x9] = 0x8
+DUT.SRAM_MEMORY[0xA] = 0xc , tb_SRAM_MEMORY[0xA] = 0xc
+DUT.SRAM_MEMORY[0xB] = 0xd , tb_SRAM_MEMORY[0xB] = 0xd
+DUT.SRAM_MEMORY[0xC] = 0x3 , tb_SRAM_MEMORY[0xC] = 0x3
+DUT.SRAM_MEMORY[0xD] = 0x0 , tb_SRAM_MEMORY[0xD] = 0x0
+DUT.SRAM_MEMORY[0xE] = 0xa , tb_SRAM_MEMORY[0xE] = 0xa
+DUT.SRAM_MEMORY[0xF] = 0x6 , tb_SRAM_MEMORY[0xF] = 0x6
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+Read Data Operations
+
+--------------------------------------------------
+
+[         500.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x0 , Port_1_Write_Data_In = 0xb , Port_1_Read_Data_Out = 0x5 , tb_Port_1_Read_Data_Out = 0x5 , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x1 , Port_2_Address_In = 0x1 , Port_2_Write_Data_In = 0x5 , Port_2_Read_Data_Out = 0x1 , tb_Port_2_Read_Data_Out = 0x1 , Is_Same = 1
+[         520.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x1 , Port_1_Write_Data_In = 0x2 , Port_1_Read_Data_Out = 0x1 , tb_Port_1_Read_Data_Out = 0x1 , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x1 , Port_2_Address_In = 0x2 , Port_2_Write_Data_In = 0xe , Port_2_Read_Data_Out = 0x6 , tb_Port_2_Read_Data_Out = 0x6 , Is_Same = 1
+[         540.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x2 , Port_1_Write_Data_In = 0xd , Port_1_Read_Data_Out = 0x6 , tb_Port_1_Read_Data_Out = 0x6 , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x1 , Port_2_Address_In = 0x3 , Port_2_Write_Data_In = 0xf , Port_2_Read_Data_Out = 0xd , tb_Port_2_Read_Data_Out = 0xd , Is_Same = 1
+[         560.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x3 , Port_1_Write_Data_In = 0x3 , Port_1_Read_Data_Out = 0xd , tb_Port_1_Read_Data_Out = 0xd , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x1 , Port_2_Address_In = 0x4 , Port_2_Write_Data_In = 0xa , Port_2_Read_Data_Out = 0x9 , tb_Port_2_Read_Data_Out = 0x9 , Is_Same = 1
+[         580.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x4 , Port_1_Write_Data_In = 0xa , Port_1_Read_Data_Out = 0x9 , tb_Port_1_Read_Data_Out = 0x9 , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x1 , Port_2_Address_In = 0x5 , Port_2_Write_Data_In = 0xc , Port_2_Read_Data_Out = 0x5 , tb_Port_2_Read_Data_Out = 0x5 , Is_Same = 1
+[         600.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x5 , Port_1_Write_Data_In = 0x2 , Port_1_Read_Data_Out = 0x5 , tb_Port_1_Read_Data_Out = 0x5 , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x1 , Port_2_Address_In = 0x6 , Port_2_Write_Data_In = 0xa , Port_2_Read_Data_Out = 0x5 , tb_Port_2_Read_Data_Out = 0x5 , Is_Same = 1
+[         620.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x6 , Port_1_Write_Data_In = 0x1 , Port_1_Read_Data_Out = 0x5 , tb_Port_1_Read_Data_Out = 0x5 , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x1 , Port_2_Address_In = 0x7 , Port_2_Write_Data_In = 0x8 , Port_2_Read_Data_Out = 0x2 , tb_Port_2_Read_Data_Out = 0x2 , Is_Same = 1
+[         640.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x7 , Port_1_Write_Data_In = 0x8 , Port_1_Read_Data_Out = 0x2 , tb_Port_1_Read_Data_Out = 0x2 , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x1 , Port_2_Address_In = 0x8 , Port_2_Write_Data_In = 0x9 , Port_2_Read_Data_Out = 0x2 , tb_Port_2_Read_Data_Out = 0x2 , Is_Same = 1
+[         660.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x8 , Port_1_Write_Data_In = 0xb , Port_1_Read_Data_Out = 0x2 , tb_Port_1_Read_Data_Out = 0x2 , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x1 , Port_2_Address_In = 0x9 , Port_2_Write_Data_In = 0x6 , Port_2_Read_Data_Out = 0x8 , tb_Port_2_Read_Data_Out = 0x8 , Is_Same = 1
+[         680.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x9 , Port_1_Write_Data_In = 0x6 , Port_1_Read_Data_Out = 0x8 , tb_Port_1_Read_Data_Out = 0x8 , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x1 , Port_2_Address_In = 0xa , Port_2_Write_Data_In = 0xe , Port_2_Read_Data_Out = 0xc , tb_Port_2_Read_Data_Out = 0xc , Is_Same = 1
+[         700.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0xa , Port_1_Write_Data_In = 0xc , Port_1_Read_Data_Out = 0xc , tb_Port_1_Read_Data_Out = 0xc , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x1 , Port_2_Address_In = 0xb , Port_2_Write_Data_In = 0xa , Port_2_Read_Data_Out = 0xd , tb_Port_2_Read_Data_Out = 0xd , Is_Same = 1
+[         720.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0xb , Port_1_Write_Data_In = 0xb , Port_1_Read_Data_Out = 0xd , tb_Port_1_Read_Data_Out = 0xd , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x1 , Port_2_Address_In = 0xc , Port_2_Write_Data_In = 0x1 , Port_2_Read_Data_Out = 0x3 , tb_Port_2_Read_Data_Out = 0x3 , Is_Same = 1
+[         740.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0xc , Port_1_Write_Data_In = 0x5 , Port_1_Read_Data_Out = 0x3 , tb_Port_1_Read_Data_Out = 0x3 , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x1 , Port_2_Address_In = 0xd , Port_2_Write_Data_In = 0xf , Port_2_Read_Data_Out = 0x0 , tb_Port_2_Read_Data_Out = 0x0 , Is_Same = 1
+[         760.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0xd , Port_1_Write_Data_In = 0xb , Port_1_Read_Data_Out = 0x0 , tb_Port_1_Read_Data_Out = 0x0 , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x1 , Port_2_Address_In = 0xe , Port_2_Write_Data_In = 0xa , Port_2_Read_Data_Out = 0xa , tb_Port_2_Read_Data_Out = 0xa , Is_Same = 1
+[         780.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0xe , Port_1_Write_Data_In = 0xe , Port_1_Read_Data_Out = 0xa , tb_Port_1_Read_Data_Out = 0xa , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x1 , Port_2_Address_In = 0xf , Port_2_Write_Data_In = 0x5 , Port_2_Read_Data_Out = 0x6 , tb_Port_2_Read_Data_Out = 0x6 , Is_Same = 1
+[         800.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0xf , Port_1_Write_Data_In = 0x1 , Port_1_Read_Data_Out = 0x6 , tb_Port_1_Read_Data_Out = 0x6 , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x1 , Port_2_Address_In = 0x0 , Port_2_Write_Data_In = 0x9 , Port_2_Read_Data_Out = 0x5 , tb_Port_2_Read_Data_Out = 0x5 , Is_Same = 1
+[         820.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0xf , Port_1_Write_Data_In = 0x2 , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x1 , Port_2_Write_Data_In = 0xc , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+
+--------------------------------------------------
+
+After Data Read State
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+[         820.000 ns] : Dump_Memory_Contents - DUT.SRAM_MEMORY and tb_SRAM_MEMORY 
+--------------------------------------------------
+DUT.SRAM_MEMORY[0x0] = 0x5 , tb_SRAM_MEMORY[0x0] = 0x5
+DUT.SRAM_MEMORY[0x1] = 0x1 , tb_SRAM_MEMORY[0x1] = 0x1
+DUT.SRAM_MEMORY[0x2] = 0x6 , tb_SRAM_MEMORY[0x2] = 0x6
+DUT.SRAM_MEMORY[0x3] = 0xd , tb_SRAM_MEMORY[0x3] = 0xd
+DUT.SRAM_MEMORY[0x4] = 0x9 , tb_SRAM_MEMORY[0x4] = 0x9
+DUT.SRAM_MEMORY[0x5] = 0x5 , tb_SRAM_MEMORY[0x5] = 0x5
+DUT.SRAM_MEMORY[0x6] = 0x5 , tb_SRAM_MEMORY[0x6] = 0x5
+DUT.SRAM_MEMORY[0x7] = 0x2 , tb_SRAM_MEMORY[0x7] = 0x2
+DUT.SRAM_MEMORY[0x8] = 0x2 , tb_SRAM_MEMORY[0x8] = 0x2
+DUT.SRAM_MEMORY[0x9] = 0x8 , tb_SRAM_MEMORY[0x9] = 0x8
+DUT.SRAM_MEMORY[0xA] = 0xc , tb_SRAM_MEMORY[0xA] = 0xc
+DUT.SRAM_MEMORY[0xB] = 0xd , tb_SRAM_MEMORY[0xB] = 0xd
+DUT.SRAM_MEMORY[0xC] = 0x3 , tb_SRAM_MEMORY[0xC] = 0x3
+DUT.SRAM_MEMORY[0xD] = 0x0 , tb_SRAM_MEMORY[0xD] = 0x0
+DUT.SRAM_MEMORY[0xE] = 0xa , tb_SRAM_MEMORY[0xE] = 0xa
+DUT.SRAM_MEMORY[0xF] = 0x6 , tb_SRAM_MEMORY[0xF] = 0x6
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+Enable/Read/Write - On/Off Data Operations
+
+--------------------------------------------------
+
+Enable On - No Operation
+[         880.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x2 , Port_1_Write_Data_In = 0xf , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x3 , Port_2_Write_Data_In = 0xf , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+Enable Off - No Operation
+[         900.000 ns] : Enable_In = 0x0 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x2 , Port_1_Write_Data_In = 0x8 , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x3 , Port_2_Write_Data_In = 0x7 , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+Enable Off - Write
+[         920.000 ns] : Enable_In = 0x0 , Port_1_Write_Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x2 , Port_1_Write_Data_In = 0xf , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x1 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x3 , Port_2_Write_Data_In = 0xc , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+[         940.000 ns] : Enable_In = 0x0 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x2 , Port_1_Write_Data_In = 0xb , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x3 , Port_2_Write_Data_In = 0x9 , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+Enable Off - Read
+[         960.000 ns] : Enable_In = 0x0 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x2 , Port_1_Write_Data_In = 0x9 , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x1 , Port_2_Address_In = 0x3 , Port_2_Write_Data_In = 0x0 , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+[         980.000 ns] : Enable_In = 0x0 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x2 , Port_1_Write_Data_In = 0x7 , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x3 , Port_2_Write_Data_In = 0x1 , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+Enable On - No Operation
+[        1000.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x2 , Port_1_Write_Data_In = 0x6 , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x3 , Port_2_Write_Data_In = 0xc , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+Enable On - Read
+[        1020.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x2 , Port_1_Write_Data_In = 0x2 , Port_1_Read_Data_Out = 0x6 , tb_Port_1_Read_Data_Out = 0x6 , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x1 , Port_2_Address_In = 0x3 , Port_2_Write_Data_In = 0x8 , Port_2_Read_Data_Out = 0xd , tb_Port_2_Read_Data_Out = 0xd , Is_Same = 1
+[        1040.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x2 , Port_1_Write_Data_In = 0x7 , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x3 , Port_2_Write_Data_In = 0xd , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+Enable On - Read Same Address
+[        1060.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x4 , Port_1_Write_Data_In = 0x2 , Port_1_Read_Data_Out = 0x9 , tb_Port_1_Read_Data_Out = 0x9 , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x1 , Port_2_Address_In = 0x4 , Port_2_Write_Data_In = 0xe , Port_2_Read_Data_Out = 0x9 , tb_Port_2_Read_Data_Out = 0x9 , Is_Same = 1
+[        1080.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x4 , Port_1_Write_Data_In = 0xd , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x4 , Port_2_Write_Data_In = 0x9 , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+Enable On - Write Same Address
+[        1100.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x4 , Port_1_Write_Data_In = 0xf , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x1 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x4 , Port_2_Write_Data_In = 0x3 , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+[        1120.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x4 , Port_1_Write_Data_In = 0x5 , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x4 , Port_2_Write_Data_In = 0x8 , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+Enable On - Read Same Address
+[        1140.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x4 , Port_1_Write_Data_In = 0xb , Port_1_Read_Data_Out = 0x3 , tb_Port_1_Read_Data_Out = 0x3 , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x1 , Port_2_Address_In = 0x4 , Port_2_Write_Data_In = 0x9 , Port_2_Read_Data_Out = 0x3 , tb_Port_2_Read_Data_Out = 0x3 , Is_Same = 1
+[        1160.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x4 , Port_1_Write_Data_In = 0xf , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x4 , Port_2_Write_Data_In = 0xa , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+Enable On - Write and Read Simultaneously
+[        1180.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x3 , Port_1_Write_Data_In = 0x0 , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x1 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x3 , Port_2_Write_Data_In = 0x6 , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+[        1200.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x3 , Port_1_Write_Data_In = 0x1 , Port_1_Read_Data_Out = 0x6 , tb_Port_1_Read_Data_Out = 0x6 , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x1 , Port_2_Address_In = 0x3 , Port_2_Write_Data_In = 0x7 , Port_2_Read_Data_Out = 0x6 , tb_Port_2_Read_Data_Out = 0x6 , Is_Same = 1
+[        1220.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x3 , Port_1_Write_Data_In = 0x3 , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x3 , Port_2_Write_Data_In = 0x8 , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+[        1240.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x3 , Port_1_Write_Data_In = 0x4 , Port_1_Read_Data_Out = 0x6 , tb_Port_1_Read_Data_Out = 0x6 , Port_2_Write_Enable_In = 0x1 , Port_2_Read_Enable_In = 0x1 , Port_2_Address_In = 0x3 , Port_2_Write_Data_In = 0x9 , Port_2_Read_Data_Out = 0x6 , tb_Port_2_Read_Data_Out = 0x6 , Is_Same = 1
+[        1260.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x3 , Port_1_Write_Data_In = 0x5 , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x3 , Port_2_Write_Data_In = 0xa , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+
+--------------------------------------------------
+
+After Enable/Read/Write - On/Off Data Operations State
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+[        1260.000 ns] : Dump_Memory_Contents - DUT.SRAM_MEMORY and tb_SRAM_MEMORY 
+--------------------------------------------------
+DUT.SRAM_MEMORY[0x0] = 0x5 , tb_SRAM_MEMORY[0x0] = 0x5
+DUT.SRAM_MEMORY[0x1] = 0x1 , tb_SRAM_MEMORY[0x1] = 0x1
+DUT.SRAM_MEMORY[0x2] = 0x6 , tb_SRAM_MEMORY[0x2] = 0x6
+DUT.SRAM_MEMORY[0x3] = 0x6 , tb_SRAM_MEMORY[0x3] = 0x6
+DUT.SRAM_MEMORY[0x4] = 0x3 , tb_SRAM_MEMORY[0x4] = 0x3
+DUT.SRAM_MEMORY[0x5] = 0x5 , tb_SRAM_MEMORY[0x5] = 0x5
+DUT.SRAM_MEMORY[0x6] = 0x5 , tb_SRAM_MEMORY[0x6] = 0x5
+DUT.SRAM_MEMORY[0x7] = 0x2 , tb_SRAM_MEMORY[0x7] = 0x2
+DUT.SRAM_MEMORY[0x8] = 0x2 , tb_SRAM_MEMORY[0x8] = 0x2
+DUT.SRAM_MEMORY[0x9] = 0x8 , tb_SRAM_MEMORY[0x9] = 0x8
+DUT.SRAM_MEMORY[0xA] = 0xc , tb_SRAM_MEMORY[0xA] = 0xc
+DUT.SRAM_MEMORY[0xB] = 0xd , tb_SRAM_MEMORY[0xB] = 0xd
+DUT.SRAM_MEMORY[0xC] = 0x3 , tb_SRAM_MEMORY[0xC] = 0x3
+DUT.SRAM_MEMORY[0xD] = 0x0 , tb_SRAM_MEMORY[0xD] = 0x0
+DUT.SRAM_MEMORY[0xE] = 0xa , tb_SRAM_MEMORY[0xE] = 0xa
+DUT.SRAM_MEMORY[0xF] = 0x6 , tb_SRAM_MEMORY[0xF] = 0x6
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+Random Operations
+
+--------------------------------------------------
+
+[        1320.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0xe , Port_1_Write_Data_In = 0xc , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x3 , Port_2_Write_Data_In = 0x3 , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+[        1340.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0xf , Port_1_Write_Data_In = 0x4 , Port_1_Read_Data_Out = 0x6 , tb_Port_1_Read_Data_Out = 0x6 , Port_2_Write_Enable_In = 0x1 , Port_2_Read_Enable_In = 0x1 , Port_2_Address_In = 0x6 , Port_2_Write_Data_In = 0xa , Port_2_Read_Data_Out = 0x5 , tb_Port_2_Read_Data_Out = 0x5 , Is_Same = 1
+[        1360.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0xa , Port_1_Write_Data_In = 0x5 , Port_1_Read_Data_Out = 0xc , tb_Port_1_Read_Data_Out = 0xc , Port_2_Write_Enable_In = 0x1 , Port_2_Read_Enable_In = 0x1 , Port_2_Address_In = 0x9 , Port_2_Write_Data_In = 0x4 , Port_2_Read_Data_Out = 0x8 , tb_Port_2_Read_Data_Out = 0x8 , Is_Same = 1
+[        1380.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0xb , Port_1_Write_Data_In = 0xe , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0xd , Port_2_Write_Data_In = 0x3 , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+[        1400.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x7 , Port_1_Write_Data_In = 0xa , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x9 , Port_2_Write_Data_In = 0x8 , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+[        1420.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x4 , Port_1_Write_Data_In = 0x9 , Port_1_Read_Data_Out = 0x3 , tb_Port_1_Read_Data_Out = 0x3 , Port_2_Write_Enable_In = 0x1 , Port_2_Read_Enable_In = 0x1 , Port_2_Address_In = 0x9 , Port_2_Write_Data_In = 0xd , Port_2_Read_Data_Out = 0x8 , tb_Port_2_Read_Data_Out = 0x8 , Is_Same = 1
+[        1440.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x6 , Port_1_Write_Data_In = 0x5 , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x7 , Port_2_Write_Data_In = 0x9 , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+[        1460.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x8 , Port_1_Write_Data_In = 0xd , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x1 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x8 , Port_2_Write_Data_In = 0xc , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+[        1480.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0xc , Port_1_Write_Data_In = 0x6 , Port_1_Read_Data_Out = 0x3 , tb_Port_1_Read_Data_Out = 0x3 , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x1 , Port_2_Address_In = 0x6 , Port_2_Write_Data_In = 0x0 , Port_2_Read_Data_Out = 0x5 , tb_Port_2_Read_Data_Out = 0x5 , Is_Same = 1
+[        1500.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0xe , Port_1_Write_Data_In = 0xa , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x1 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x9 , Port_2_Write_Data_In = 0x7 , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+[        1520.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x6 , Port_1_Write_Data_In = 0x6 , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x1 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x6 , Port_2_Write_Data_In = 0x8 , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+[        1540.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0xf , Port_1_Write_Data_In = 0x9 , Port_1_Read_Data_Out = 0x6 , tb_Port_1_Read_Data_Out = 0x6 , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x1 , Port_2_Address_In = 0x7 , Port_2_Write_Data_In = 0x1 , Port_2_Read_Data_Out = 0x2 , tb_Port_2_Read_Data_Out = 0x2 , Is_Same = 1
+[        1560.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x5 , Port_1_Write_Data_In = 0x5 , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x1 , Port_2_Read_Enable_In = 0x1 , Port_2_Address_In = 0x5 , Port_2_Write_Data_In = 0x8 , Port_2_Read_Data_Out = 0x5 , tb_Port_2_Read_Data_Out = 0x5 , Is_Same = 1
+[        1580.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0xc , Port_1_Write_Data_In = 0xa , Port_1_Read_Data_Out = 0x3 , tb_Port_1_Read_Data_Out = 0x3 , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0x9 , Port_2_Write_Data_In = 0x1 , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+[        1600.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0xf , Port_1_Write_Data_In = 0xa , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x1 , Port_2_Address_In = 0xe , Port_2_Write_Data_In = 0x8 , Port_2_Read_Data_Out = 0xa , tb_Port_2_Read_Data_Out = 0xa , Is_Same = 1
+[        1620.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0xa , Port_1_Write_Data_In = 0x3 , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x1 , Port_2_Read_Enable_In = 0x1 , Port_2_Address_In = 0x6 , Port_2_Write_Data_In = 0xa , Port_2_Read_Data_Out = 0x8 , tb_Port_2_Read_Data_Out = 0x8 , Is_Same = 1
+[        1640.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x2 , Port_1_Write_Data_In = 0x4 , Port_1_Read_Data_Out = 0x6 , tb_Port_1_Read_Data_Out = 0x6 , Port_2_Write_Enable_In = 0x1 , Port_2_Read_Enable_In = 0x0 , Port_2_Address_In = 0xa , Port_2_Write_Data_In = 0x2 , Port_2_Read_Data_Out = 0xz , tb_Port_2_Read_Data_Out = 0xz , Is_Same = 1
+[        1660.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x4 , Port_1_Write_Data_In = 0x4 , Port_1_Read_Data_Out = 0x3 , tb_Port_1_Read_Data_Out = 0x3 , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x1 , Port_2_Address_In = 0x1 , Port_2_Write_Data_In = 0xe , Port_2_Read_Data_Out = 0x1 , tb_Port_2_Read_Data_Out = 0x1 , Is_Same = 1
+[        1680.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0xf , Port_1_Write_Data_In = 0x9 , Port_1_Read_Data_Out = 0x6 , tb_Port_1_Read_Data_Out = 0x6 , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x1 , Port_2_Address_In = 0xf , Port_2_Write_Data_In = 0xb , Port_2_Read_Data_Out = 0x6 , tb_Port_2_Read_Data_Out = 0x6 , Is_Same = 1
+[        1700.000 ns] : Enable_In = 0x1 , Port_1_Write_Enable_In = 0x0 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0xb , Port_1_Write_Data_In = 0x2 , Port_1_Read_Data_Out = 0xz , tb_Port_1_Read_Data_Out = 0xz , Port_2_Write_Enable_In = 0x0 , Port_2_Read_Enable_In = 0x1 , Port_2_Address_In = 0xb , Port_2_Write_Data_In = 0x2 , Port_2_Read_Data_Out = 0xd , tb_Port_2_Read_Data_Out = 0xd , Is_Same = 1
+
+--------------------------------------------------
+
+After Random Operations Complete State
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+[        1700.000 ns] : Dump_Memory_Contents - DUT.SRAM_MEMORY and tb_SRAM_MEMORY 
+--------------------------------------------------
+DUT.SRAM_MEMORY[0x0] = 0x5 , tb_SRAM_MEMORY[0x0] = 0x5
+DUT.SRAM_MEMORY[0x1] = 0x1 , tb_SRAM_MEMORY[0x1] = 0x1
+DUT.SRAM_MEMORY[0x2] = 0x6 , tb_SRAM_MEMORY[0x2] = 0x6
+DUT.SRAM_MEMORY[0x3] = 0x6 , tb_SRAM_MEMORY[0x3] = 0x6
+DUT.SRAM_MEMORY[0x4] = 0x3 , tb_SRAM_MEMORY[0x4] = 0x3
+DUT.SRAM_MEMORY[0x5] = 0x5 , tb_SRAM_MEMORY[0x5] = 0x5
+DUT.SRAM_MEMORY[0x6] = 0x8 , tb_SRAM_MEMORY[0x6] = 0x8
+DUT.SRAM_MEMORY[0x7] = 0x2 , tb_SRAM_MEMORY[0x7] = 0x2
+DUT.SRAM_MEMORY[0x8] = 0xc , tb_SRAM_MEMORY[0x8] = 0xc
+DUT.SRAM_MEMORY[0x9] = 0x7 , tb_SRAM_MEMORY[0x9] = 0x7
+DUT.SRAM_MEMORY[0xA] = 0x2 , tb_SRAM_MEMORY[0xA] = 0x2
+DUT.SRAM_MEMORY[0xB] = 0xd , tb_SRAM_MEMORY[0xB] = 0xd
+DUT.SRAM_MEMORY[0xC] = 0x3 , tb_SRAM_MEMORY[0xC] = 0x3
+DUT.SRAM_MEMORY[0xD] = 0x0 , tb_SRAM_MEMORY[0xD] = 0x0
+DUT.SRAM_MEMORY[0xE] = 0xa , tb_SRAM_MEMORY[0xE] = 0xa
+DUT.SRAM_MEMORY[0xF] = 0x6 , tb_SRAM_MEMORY[0xF] = 0x6
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+Test Results :
+--------------------------------------------------
+Passed_Checks =          77
+Failed_Checks =           0
+Total_Checks  =          77
+--------------------------------------------------
+

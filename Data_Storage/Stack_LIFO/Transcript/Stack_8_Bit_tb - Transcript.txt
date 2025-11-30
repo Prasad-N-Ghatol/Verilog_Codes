@@ -1,0 +1,343 @@
+
+--------------------------------------------------
+
+Stack_8_Bit - Test
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+Reset and Enable
+
+--------------------------------------------------
+
+[          20.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x1 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xf , Stack_Write_Data_In = 0x00 , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x1 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xf , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[          40.000 ns] : Reset_In = 0x1 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x1 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xf , Stack_Write_Data_In = 0x00 , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x1 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xf , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[          60.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x1 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xf , Stack_Write_Data_In = 0x00 , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x1 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xf , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[          80.000 ns] : Reset_In = 0x0 , Enable_In = 0x0 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0xz , Stack_Full_Signal_Out = 0xz , Stack_Overflow_Signal_Out = 0xz , Stack_Underflow_Signal_Out = 0xz , SP_Value_Out = 0xz , Stack_Write_Data_In = 0x00 , Stack_Read_Data_Out = 0xzz , tb_Stack_Empty_Signal_Out = 0xz , tb_Stack_Full_Signal_Out = 0xz , tb_Stack_Overflow_Signal_Out = 0xz , tb_Stack_Underflow_Signal_Out = 0xz , tb_SP_Value_Out = 0xz , tb_Stack_Read_Data_Out = 0xzz , Is_Same = 1
+[         100.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x1 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xf , Stack_Write_Data_In = 0x00 , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x1 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xf , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+
+--------------------------------------------------
+[         100.000 ns] : Dump_Memory_Contents - DUT.SRAM_MEMORY and tb_SRAM_MEMORY 
+--------------------------------------------------
+DUT.SRAM_MEMORY[0x0] = 0xxx , tb_SRAM_MEMORY[0x0] = 0xxx
+DUT.SRAM_MEMORY[0x1] = 0xxx , tb_SRAM_MEMORY[0x1] = 0xxx
+DUT.SRAM_MEMORY[0x2] = 0xxx , tb_SRAM_MEMORY[0x2] = 0xxx
+DUT.SRAM_MEMORY[0x3] = 0xxx , tb_SRAM_MEMORY[0x3] = 0xxx
+DUT.SRAM_MEMORY[0x4] = 0xxx , tb_SRAM_MEMORY[0x4] = 0xxx
+DUT.SRAM_MEMORY[0x5] = 0xxx , tb_SRAM_MEMORY[0x5] = 0xxx
+DUT.SRAM_MEMORY[0x6] = 0xxx , tb_SRAM_MEMORY[0x6] = 0xxx
+DUT.SRAM_MEMORY[0x7] = 0xxx , tb_SRAM_MEMORY[0x7] = 0xxx
+DUT.SRAM_MEMORY[0x8] = 0xxx , tb_SRAM_MEMORY[0x8] = 0xxx
+DUT.SRAM_MEMORY[0x9] = 0xxx , tb_SRAM_MEMORY[0x9] = 0xxx
+DUT.SRAM_MEMORY[0xA] = 0xxx , tb_SRAM_MEMORY[0xA] = 0xxx
+DUT.SRAM_MEMORY[0xB] = 0xxx , tb_SRAM_MEMORY[0xB] = 0xxx
+DUT.SRAM_MEMORY[0xC] = 0xxx , tb_SRAM_MEMORY[0xC] = 0xxx
+DUT.SRAM_MEMORY[0xD] = 0xxx , tb_SRAM_MEMORY[0xD] = 0xxx
+DUT.SRAM_MEMORY[0xE] = 0xxx , tb_SRAM_MEMORY[0xE] = 0xxx
+DUT.SRAM_MEMORY[0xF] = 0xxx , tb_SRAM_MEMORY[0xF] = 0xxx
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+After Reset and Enable
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+[         100.000 ns] : Dump_Memory_Contents - DUT.SRAM_MEMORY and tb_SRAM_MEMORY 
+--------------------------------------------------
+DUT.SRAM_MEMORY[0x0] = 0xxx , tb_SRAM_MEMORY[0x0] = 0xxx
+DUT.SRAM_MEMORY[0x1] = 0xxx , tb_SRAM_MEMORY[0x1] = 0xxx
+DUT.SRAM_MEMORY[0x2] = 0xxx , tb_SRAM_MEMORY[0x2] = 0xxx
+DUT.SRAM_MEMORY[0x3] = 0xxx , tb_SRAM_MEMORY[0x3] = 0xxx
+DUT.SRAM_MEMORY[0x4] = 0xxx , tb_SRAM_MEMORY[0x4] = 0xxx
+DUT.SRAM_MEMORY[0x5] = 0xxx , tb_SRAM_MEMORY[0x5] = 0xxx
+DUT.SRAM_MEMORY[0x6] = 0xxx , tb_SRAM_MEMORY[0x6] = 0xxx
+DUT.SRAM_MEMORY[0x7] = 0xxx , tb_SRAM_MEMORY[0x7] = 0xxx
+DUT.SRAM_MEMORY[0x8] = 0xxx , tb_SRAM_MEMORY[0x8] = 0xxx
+DUT.SRAM_MEMORY[0x9] = 0xxx , tb_SRAM_MEMORY[0x9] = 0xxx
+DUT.SRAM_MEMORY[0xA] = 0xxx , tb_SRAM_MEMORY[0xA] = 0xxx
+DUT.SRAM_MEMORY[0xB] = 0xxx , tb_SRAM_MEMORY[0xB] = 0xxx
+DUT.SRAM_MEMORY[0xC] = 0xxx , tb_SRAM_MEMORY[0xC] = 0xxx
+DUT.SRAM_MEMORY[0xD] = 0xxx , tb_SRAM_MEMORY[0xD] = 0xxx
+DUT.SRAM_MEMORY[0xE] = 0xxx , tb_SRAM_MEMORY[0xE] = 0xxx
+DUT.SRAM_MEMORY[0xF] = 0xxx , tb_SRAM_MEMORY[0xF] = 0xxx
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+Push Operations - With Overflow
+
+--------------------------------------------------
+
+Till Stack Full
+[         160.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x1 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xe , Stack_Write_Data_In = 0x24 , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xe , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[         180.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x1 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xd , Stack_Write_Data_In = 0x81 , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xd , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[         200.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x1 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xc , Stack_Write_Data_In = 0x09 , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xc , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[         220.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x1 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xb , Stack_Write_Data_In = 0x63 , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xb , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[         240.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x1 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xa , Stack_Write_Data_In = 0x0d , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xa , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[         260.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x1 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0x9 , Stack_Write_Data_In = 0x8d , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0x9 , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[         280.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x1 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0x8 , Stack_Write_Data_In = 0x65 , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0x8 , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[         300.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x1 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0x7 , Stack_Write_Data_In = 0x12 , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0x7 , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[         320.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x1 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0x6 , Stack_Write_Data_In = 0x01 , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0x6 , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[         340.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x1 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0x5 , Stack_Write_Data_In = 0x0d , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0x5 , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[         360.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x1 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0x4 , Stack_Write_Data_In = 0x76 , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0x4 , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[         380.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x1 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0x3 , Stack_Write_Data_In = 0x3d , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0x3 , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[         400.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x1 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0x2 , Stack_Write_Data_In = 0xed , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0x2 , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[         420.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x1 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0x1 , Stack_Write_Data_In = 0x8c , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0x1 , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[         440.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x1 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0x0 , Stack_Write_Data_In = 0xf9 , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0x0 , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[         460.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x1 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x1 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xf , Stack_Write_Data_In = 0xc6 , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x1 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xf , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+Stack Over-Full
+[         480.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x1 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xf , Stack_Write_Data_In = 0xc5 , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x1 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xf , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[         500.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x1 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x1 , Stack_Overflow_Signal_Out = 0x1 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xf , Stack_Write_Data_In = 0xaa , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x1 , tb_Stack_Overflow_Signal_Out = 0x1 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xf , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[         520.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x1 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xf , Stack_Write_Data_In = 0xe5 , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x1 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xf , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+
+--------------------------------------------------
+
+After Push Operations
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+[         520.000 ns] : Dump_Memory_Contents - DUT.SRAM_MEMORY and tb_SRAM_MEMORY 
+--------------------------------------------------
+DUT.SRAM_MEMORY[0x0] = 0xc6 , tb_SRAM_MEMORY[0x0] = 0xc6
+DUT.SRAM_MEMORY[0x1] = 0xf9 , tb_SRAM_MEMORY[0x1] = 0xf9
+DUT.SRAM_MEMORY[0x2] = 0x8c , tb_SRAM_MEMORY[0x2] = 0x8c
+DUT.SRAM_MEMORY[0x3] = 0xed , tb_SRAM_MEMORY[0x3] = 0xed
+DUT.SRAM_MEMORY[0x4] = 0x3d , tb_SRAM_MEMORY[0x4] = 0x3d
+DUT.SRAM_MEMORY[0x5] = 0x76 , tb_SRAM_MEMORY[0x5] = 0x76
+DUT.SRAM_MEMORY[0x6] = 0x0d , tb_SRAM_MEMORY[0x6] = 0x0d
+DUT.SRAM_MEMORY[0x7] = 0x01 , tb_SRAM_MEMORY[0x7] = 0x01
+DUT.SRAM_MEMORY[0x8] = 0x12 , tb_SRAM_MEMORY[0x8] = 0x12
+DUT.SRAM_MEMORY[0x9] = 0x65 , tb_SRAM_MEMORY[0x9] = 0x65
+DUT.SRAM_MEMORY[0xA] = 0x8d , tb_SRAM_MEMORY[0xA] = 0x8d
+DUT.SRAM_MEMORY[0xB] = 0x0d , tb_SRAM_MEMORY[0xB] = 0x0d
+DUT.SRAM_MEMORY[0xC] = 0x63 , tb_SRAM_MEMORY[0xC] = 0x63
+DUT.SRAM_MEMORY[0xD] = 0x09 , tb_SRAM_MEMORY[0xD] = 0x09
+DUT.SRAM_MEMORY[0xE] = 0x81 , tb_SRAM_MEMORY[0xE] = 0x81
+DUT.SRAM_MEMORY[0xF] = 0x24 , tb_SRAM_MEMORY[0xF] = 0x24
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+Peak Operation
+
+--------------------------------------------------
+
+[         580.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x1 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xf , Stack_Write_Data_In = 0x77 , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x1 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xf , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[         600.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x1 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x1 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xf , Stack_Write_Data_In = 0x12 , Stack_Read_Data_Out = 0xc6 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x1 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xf , tb_Stack_Read_Data_Out = 0xc6 , Is_Same = 1
+[         620.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x1 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xf , Stack_Write_Data_In = 0x8f , Stack_Read_Data_Out = 0xc6 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x1 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xf , tb_Stack_Read_Data_Out = 0xc6 , Is_Same = 1
+
+--------------------------------------------------
+
+After Peak Operation
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+[         620.000 ns] : Dump_Memory_Contents - DUT.SRAM_MEMORY and tb_SRAM_MEMORY 
+--------------------------------------------------
+DUT.SRAM_MEMORY[0x0] = 0xc6 , tb_SRAM_MEMORY[0x0] = 0xc6
+DUT.SRAM_MEMORY[0x1] = 0xf9 , tb_SRAM_MEMORY[0x1] = 0xf9
+DUT.SRAM_MEMORY[0x2] = 0x8c , tb_SRAM_MEMORY[0x2] = 0x8c
+DUT.SRAM_MEMORY[0x3] = 0xed , tb_SRAM_MEMORY[0x3] = 0xed
+DUT.SRAM_MEMORY[0x4] = 0x3d , tb_SRAM_MEMORY[0x4] = 0x3d
+DUT.SRAM_MEMORY[0x5] = 0x76 , tb_SRAM_MEMORY[0x5] = 0x76
+DUT.SRAM_MEMORY[0x6] = 0x0d , tb_SRAM_MEMORY[0x6] = 0x0d
+DUT.SRAM_MEMORY[0x7] = 0x01 , tb_SRAM_MEMORY[0x7] = 0x01
+DUT.SRAM_MEMORY[0x8] = 0x12 , tb_SRAM_MEMORY[0x8] = 0x12
+DUT.SRAM_MEMORY[0x9] = 0x65 , tb_SRAM_MEMORY[0x9] = 0x65
+DUT.SRAM_MEMORY[0xA] = 0x8d , tb_SRAM_MEMORY[0xA] = 0x8d
+DUT.SRAM_MEMORY[0xB] = 0x0d , tb_SRAM_MEMORY[0xB] = 0x0d
+DUT.SRAM_MEMORY[0xC] = 0x63 , tb_SRAM_MEMORY[0xC] = 0x63
+DUT.SRAM_MEMORY[0xD] = 0x09 , tb_SRAM_MEMORY[0xD] = 0x09
+DUT.SRAM_MEMORY[0xE] = 0x81 , tb_SRAM_MEMORY[0xE] = 0x81
+DUT.SRAM_MEMORY[0xF] = 0x24 , tb_SRAM_MEMORY[0xF] = 0x24
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+Pop Operations - With Underflow
+
+--------------------------------------------------
+
+Till Stack Empty
+[         680.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x1 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0x0 , Stack_Write_Data_In = 0xf2 , Stack_Read_Data_Out = 0xc6 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0x0 , tb_Stack_Read_Data_Out = 0xc6 , Is_Same = 1
+[         700.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x1 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0x1 , Stack_Write_Data_In = 0xce , Stack_Read_Data_Out = 0xf9 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0x1 , tb_Stack_Read_Data_Out = 0xf9 , Is_Same = 1
+[         720.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x1 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0x2 , Stack_Write_Data_In = 0xe8 , Stack_Read_Data_Out = 0x8c , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0x2 , tb_Stack_Read_Data_Out = 0x8c , Is_Same = 1
+[         740.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x1 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0x3 , Stack_Write_Data_In = 0xc5 , Stack_Read_Data_Out = 0xed , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0x3 , tb_Stack_Read_Data_Out = 0xed , Is_Same = 1
+[         760.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x1 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0x4 , Stack_Write_Data_In = 0x5c , Stack_Read_Data_Out = 0x3d , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0x4 , tb_Stack_Read_Data_Out = 0x3d , Is_Same = 1
+[         780.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x1 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0x5 , Stack_Write_Data_In = 0xbd , Stack_Read_Data_Out = 0x76 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0x5 , tb_Stack_Read_Data_Out = 0x76 , Is_Same = 1
+[         800.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x1 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0x6 , Stack_Write_Data_In = 0x2d , Stack_Read_Data_Out = 0x0d , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0x6 , tb_Stack_Read_Data_Out = 0x0d , Is_Same = 1
+[         820.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x1 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0x7 , Stack_Write_Data_In = 0x65 , Stack_Read_Data_Out = 0x01 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0x7 , tb_Stack_Read_Data_Out = 0x01 , Is_Same = 1
+[         840.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x1 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0x8 , Stack_Write_Data_In = 0x63 , Stack_Read_Data_Out = 0x12 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0x8 , tb_Stack_Read_Data_Out = 0x12 , Is_Same = 1
+[         860.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x1 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0x9 , Stack_Write_Data_In = 0x0a , Stack_Read_Data_Out = 0x65 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0x9 , tb_Stack_Read_Data_Out = 0x65 , Is_Same = 1
+[         880.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x1 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xa , Stack_Write_Data_In = 0x80 , Stack_Read_Data_Out = 0x8d , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xa , tb_Stack_Read_Data_Out = 0x8d , Is_Same = 1
+[         900.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x1 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xb , Stack_Write_Data_In = 0x20 , Stack_Read_Data_Out = 0x0d , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xb , tb_Stack_Read_Data_Out = 0x0d , Is_Same = 1
+[         920.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x1 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xc , Stack_Write_Data_In = 0xaa , Stack_Read_Data_Out = 0x63 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xc , tb_Stack_Read_Data_Out = 0x63 , Is_Same = 1
+[         940.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x1 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xd , Stack_Write_Data_In = 0x9d , Stack_Read_Data_Out = 0x09 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xd , tb_Stack_Read_Data_Out = 0x09 , Is_Same = 1
+[         960.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x1 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xe , Stack_Write_Data_In = 0x96 , Stack_Read_Data_Out = 0x81 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xe , tb_Stack_Read_Data_Out = 0x81 , Is_Same = 1
+[         980.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x1 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x1 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xf , Stack_Write_Data_In = 0x13 , Stack_Read_Data_Out = 0x24 , tb_Stack_Empty_Signal_Out = 0x1 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xf , tb_Stack_Read_Data_Out = 0x24 , Is_Same = 1
+Stack Over-Full
+[        1000.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x1 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xf , Stack_Write_Data_In = 0x0d , Stack_Read_Data_Out = 0x24 , tb_Stack_Empty_Signal_Out = 0x1 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xf , tb_Stack_Read_Data_Out = 0x24 , Is_Same = 1
+[        1020.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x1 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x1 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x1 , SP_Value_Out = 0xf , Stack_Write_Data_In = 0x53 , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x1 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x1 , tb_SP_Value_Out = 0xf , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[        1040.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x1 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xf , Stack_Write_Data_In = 0x6b , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x1 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xf , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+
+--------------------------------------------------
+
+After Pop Operations
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+[        1040.000 ns] : Dump_Memory_Contents - DUT.SRAM_MEMORY and tb_SRAM_MEMORY 
+--------------------------------------------------
+DUT.SRAM_MEMORY[0x0] = 0xc6 , tb_SRAM_MEMORY[0x0] = 0xc6
+DUT.SRAM_MEMORY[0x1] = 0xf9 , tb_SRAM_MEMORY[0x1] = 0xf9
+DUT.SRAM_MEMORY[0x2] = 0x8c , tb_SRAM_MEMORY[0x2] = 0x8c
+DUT.SRAM_MEMORY[0x3] = 0xed , tb_SRAM_MEMORY[0x3] = 0xed
+DUT.SRAM_MEMORY[0x4] = 0x3d , tb_SRAM_MEMORY[0x4] = 0x3d
+DUT.SRAM_MEMORY[0x5] = 0x76 , tb_SRAM_MEMORY[0x5] = 0x76
+DUT.SRAM_MEMORY[0x6] = 0x0d , tb_SRAM_MEMORY[0x6] = 0x0d
+DUT.SRAM_MEMORY[0x7] = 0x01 , tb_SRAM_MEMORY[0x7] = 0x01
+DUT.SRAM_MEMORY[0x8] = 0x12 , tb_SRAM_MEMORY[0x8] = 0x12
+DUT.SRAM_MEMORY[0x9] = 0x65 , tb_SRAM_MEMORY[0x9] = 0x65
+DUT.SRAM_MEMORY[0xA] = 0x8d , tb_SRAM_MEMORY[0xA] = 0x8d
+DUT.SRAM_MEMORY[0xB] = 0x0d , tb_SRAM_MEMORY[0xB] = 0x0d
+DUT.SRAM_MEMORY[0xC] = 0x63 , tb_SRAM_MEMORY[0xC] = 0x63
+DUT.SRAM_MEMORY[0xD] = 0x09 , tb_SRAM_MEMORY[0xD] = 0x09
+DUT.SRAM_MEMORY[0xE] = 0x81 , tb_SRAM_MEMORY[0xE] = 0x81
+DUT.SRAM_MEMORY[0xF] = 0x24 , tb_SRAM_MEMORY[0xF] = 0x24
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+Some Operations and Reset
+
+--------------------------------------------------
+
+[        1100.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x1 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xf , Stack_Write_Data_In = 0xd5 , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x1 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xf , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[        1120.000 ns] : Reset_In = 0x1 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x1 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xf , Stack_Write_Data_In = 0x02 , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x1 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xf , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[        1140.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x1 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xf , Stack_Write_Data_In = 0xae , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x1 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xf , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[        1160.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x1 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xe , Stack_Write_Data_In = 0x1d , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xe , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[        1180.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x1 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xd , Stack_Write_Data_In = 0xcf , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xd , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[        1200.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x1 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xc , Stack_Write_Data_In = 0x23 , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xc , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[        1220.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xc , Stack_Write_Data_In = 0x0a , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xc , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[        1240.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x1 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xd , Stack_Write_Data_In = 0xca , Stack_Read_Data_Out = 0x23 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xd , tb_Stack_Read_Data_Out = 0x23 , Is_Same = 1
+[        1260.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x1 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xe , Stack_Write_Data_In = 0x3c , Stack_Read_Data_Out = 0xcf , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xe , tb_Stack_Read_Data_Out = 0xcf , Is_Same = 1
+[        1280.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xe , Stack_Write_Data_In = 0xf2 , Stack_Read_Data_Out = 0xcf , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xe , tb_Stack_Read_Data_Out = 0xcf , Is_Same = 1
+[        1300.000 ns] : Reset_In = 0x1 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x1 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xf , Stack_Write_Data_In = 0x8a , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x1 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xf , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[        1320.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x1 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xf , Stack_Write_Data_In = 0x41 , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x1 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xf , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+
+--------------------------------------------------
+
+After Some Operations and Reset
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+[        1320.000 ns] : Dump_Memory_Contents - DUT.SRAM_MEMORY and tb_SRAM_MEMORY 
+--------------------------------------------------
+DUT.SRAM_MEMORY[0x0] = 0xc6 , tb_SRAM_MEMORY[0x0] = 0xc6
+DUT.SRAM_MEMORY[0x1] = 0xf9 , tb_SRAM_MEMORY[0x1] = 0xf9
+DUT.SRAM_MEMORY[0x2] = 0x8c , tb_SRAM_MEMORY[0x2] = 0x8c
+DUT.SRAM_MEMORY[0x3] = 0xed , tb_SRAM_MEMORY[0x3] = 0xed
+DUT.SRAM_MEMORY[0x4] = 0x3d , tb_SRAM_MEMORY[0x4] = 0x3d
+DUT.SRAM_MEMORY[0x5] = 0x76 , tb_SRAM_MEMORY[0x5] = 0x76
+DUT.SRAM_MEMORY[0x6] = 0x0d , tb_SRAM_MEMORY[0x6] = 0x0d
+DUT.SRAM_MEMORY[0x7] = 0x01 , tb_SRAM_MEMORY[0x7] = 0x01
+DUT.SRAM_MEMORY[0x8] = 0x12 , tb_SRAM_MEMORY[0x8] = 0x12
+DUT.SRAM_MEMORY[0x9] = 0x65 , tb_SRAM_MEMORY[0x9] = 0x65
+DUT.SRAM_MEMORY[0xA] = 0x8d , tb_SRAM_MEMORY[0xA] = 0x8d
+DUT.SRAM_MEMORY[0xB] = 0x0d , tb_SRAM_MEMORY[0xB] = 0x0d
+DUT.SRAM_MEMORY[0xC] = 0x63 , tb_SRAM_MEMORY[0xC] = 0x63
+DUT.SRAM_MEMORY[0xD] = 0x23 , tb_SRAM_MEMORY[0xD] = 0x23
+DUT.SRAM_MEMORY[0xE] = 0xcf , tb_SRAM_MEMORY[0xE] = 0xcf
+DUT.SRAM_MEMORY[0xF] = 0x1d , tb_SRAM_MEMORY[0xF] = 0x1d
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+Random Operations
+
+--------------------------------------------------
+
+[        1380.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x1 , Stack_Empty_Signal_Out = 0x1 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x1 , SP_Value_Out = 0xf , Stack_Write_Data_In = 0xeb , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x1 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x1 , tb_SP_Value_Out = 0xf , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[        1400.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x1 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xf , Stack_Write_Data_In = 0xbc , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x1 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xf , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[        1420.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x1 , Peak_Data_Signal_In = 0x1 , Stack_Empty_Signal_Out = 0x1 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x1 , SP_Value_Out = 0xf , Stack_Write_Data_In = 0x85 , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x1 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x1 , tb_SP_Value_Out = 0xf , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[        1440.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x1 , Pop_Data_Signal_In = 0x1 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x1 , SP_Value_Out = 0xe , Stack_Write_Data_In = 0x7e , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x1 , tb_SP_Value_Out = 0xe , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[        1460.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x1 , Pop_Data_Signal_In = 0x1 , Peak_Data_Signal_In = 0x1 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x1 , SP_Value_Out = 0xd , Stack_Write_Data_In = 0x62 , Stack_Read_Data_Out = 0x00 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x1 , tb_SP_Value_Out = 0xd , tb_Stack_Read_Data_Out = 0x00 , Is_Same = 1
+[        1480.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x1 , Peak_Data_Signal_In = 0x1 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xe , Stack_Write_Data_In = 0xf8 , Stack_Read_Data_Out = 0x62 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xe , tb_Stack_Read_Data_Out = 0x62 , Is_Same = 1
+[        1500.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x1 , Pop_Data_Signal_In = 0x1 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xd , Stack_Write_Data_In = 0x5b , Stack_Read_Data_Out = 0x62 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xd , tb_Stack_Read_Data_Out = 0x62 , Is_Same = 1
+[        1520.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x1 , Pop_Data_Signal_In = 0x1 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xc , Stack_Write_Data_In = 0xd7 , Stack_Read_Data_Out = 0x62 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xc , tb_Stack_Read_Data_Out = 0x62 , Is_Same = 1
+[        1540.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x1 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xb , Stack_Write_Data_In = 0xc2 , Stack_Read_Data_Out = 0x62 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xb , tb_Stack_Read_Data_Out = 0x62 , Is_Same = 1
+[        1560.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x1 , Peak_Data_Signal_In = 0x1 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xc , Stack_Write_Data_In = 0x12 , Stack_Read_Data_Out = 0xc2 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xc , tb_Stack_Read_Data_Out = 0xc2 , Is_Same = 1
+[        1580.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x1 , Peak_Data_Signal_In = 0x1 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xd , Stack_Write_Data_In = 0x1f , Stack_Read_Data_Out = 0xd7 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xd , tb_Stack_Read_Data_Out = 0xd7 , Is_Same = 1
+[        1600.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x1 , Pop_Data_Signal_In = 0x1 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xc , Stack_Write_Data_In = 0x5b , Stack_Read_Data_Out = 0xd7 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xc , tb_Stack_Read_Data_Out = 0xd7 , Is_Same = 1
+[        1620.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x1 , Pop_Data_Signal_In = 0x1 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xb , Stack_Write_Data_In = 0x58 , Stack_Read_Data_Out = 0xd7 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xb , tb_Stack_Read_Data_Out = 0xd7 , Is_Same = 1
+[        1640.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xb , Stack_Write_Data_In = 0xfa , Stack_Read_Data_Out = 0xd7 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xb , tb_Stack_Read_Data_Out = 0xd7 , Is_Same = 1
+[        1660.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x1 , Peak_Data_Signal_In = 0x1 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xc , Stack_Write_Data_In = 0x2f , Stack_Read_Data_Out = 0x58 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xc , tb_Stack_Read_Data_Out = 0x58 , Is_Same = 1
+[        1680.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x1 , Pop_Data_Signal_In = 0x1 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xb , Stack_Write_Data_In = 0xf7 , Stack_Read_Data_Out = 0x58 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xb , tb_Stack_Read_Data_Out = 0x58 , Is_Same = 1
+[        1700.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x1 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0xa , Stack_Write_Data_In = 0x29 , Stack_Read_Data_Out = 0x58 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0xa , tb_Stack_Read_Data_Out = 0x58 , Is_Same = 1
+[        1720.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x1 , Pop_Data_Signal_In = 0x0 , Peak_Data_Signal_In = 0x1 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0x9 , Stack_Write_Data_In = 0xb5 , Stack_Read_Data_Out = 0x58 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0x9 , tb_Stack_Read_Data_Out = 0x58 , Is_Same = 1
+[        1740.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x1 , Pop_Data_Signal_In = 0x1 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0x8 , Stack_Write_Data_In = 0xd0 , Stack_Read_Data_Out = 0x58 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0x8 , tb_Stack_Read_Data_Out = 0x58 , Is_Same = 1
+[        1760.000 ns] : Reset_In = 0x0 , Enable_In = 0x1 , Push_Data_Signal_In = 0x0 , Pop_Data_Signal_In = 0x1 , Peak_Data_Signal_In = 0x0 , Stack_Empty_Signal_Out = 0x0 , Stack_Full_Signal_Out = 0x0 , Stack_Overflow_Signal_Out = 0x0 , Stack_Underflow_Signal_Out = 0x0 , SP_Value_Out = 0x9 , Stack_Write_Data_In = 0xdc , Stack_Read_Data_Out = 0xd0 , tb_Stack_Empty_Signal_Out = 0x0 , tb_Stack_Full_Signal_Out = 0x0 , tb_Stack_Overflow_Signal_Out = 0x0 , tb_Stack_Underflow_Signal_Out = 0x0 , tb_SP_Value_Out = 0x9 , tb_Stack_Read_Data_Out = 0xd0 , Is_Same = 1
+
+--------------------------------------------------
+
+After Random Operations
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+[        1760.000 ns] : Dump_Memory_Contents - DUT.SRAM_MEMORY and tb_SRAM_MEMORY 
+--------------------------------------------------
+DUT.SRAM_MEMORY[0x0] = 0xc6 , tb_SRAM_MEMORY[0x0] = 0xc6
+DUT.SRAM_MEMORY[0x1] = 0xf9 , tb_SRAM_MEMORY[0x1] = 0xf9
+DUT.SRAM_MEMORY[0x2] = 0x8c , tb_SRAM_MEMORY[0x2] = 0x8c
+DUT.SRAM_MEMORY[0x3] = 0xed , tb_SRAM_MEMORY[0x3] = 0xed
+DUT.SRAM_MEMORY[0x4] = 0x3d , tb_SRAM_MEMORY[0x4] = 0x3d
+DUT.SRAM_MEMORY[0x5] = 0x76 , tb_SRAM_MEMORY[0x5] = 0x76
+DUT.SRAM_MEMORY[0x6] = 0x0d , tb_SRAM_MEMORY[0x6] = 0x0d
+DUT.SRAM_MEMORY[0x7] = 0x01 , tb_SRAM_MEMORY[0x7] = 0x01
+DUT.SRAM_MEMORY[0x8] = 0x12 , tb_SRAM_MEMORY[0x8] = 0x12
+DUT.SRAM_MEMORY[0x9] = 0xd0 , tb_SRAM_MEMORY[0x9] = 0xd0
+DUT.SRAM_MEMORY[0xA] = 0xb5 , tb_SRAM_MEMORY[0xA] = 0xb5
+DUT.SRAM_MEMORY[0xB] = 0x29 , tb_SRAM_MEMORY[0xB] = 0x29
+DUT.SRAM_MEMORY[0xC] = 0xf7 , tb_SRAM_MEMORY[0xC] = 0xf7
+DUT.SRAM_MEMORY[0xD] = 0x5b , tb_SRAM_MEMORY[0xD] = 0x5b
+DUT.SRAM_MEMORY[0xE] = 0x5b , tb_SRAM_MEMORY[0xE] = 0x5b
+DUT.SRAM_MEMORY[0xF] = 0x7e , tb_SRAM_MEMORY[0xF] = 0x7e
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+Test Results :
+--------------------------------------------------
+Passed_Checks =          78
+Failed_Checks =           0
+Total_Checks  =          78
+--------------------------------------------------
+

@@ -47,6 +47,13 @@ Each module focuses on illustrating key concepts in **digital design, simulation
         📑 DeMultiplxer (DEMUX)
         📑 Encoder
         📑 Multiplxer (MUX)
+    📂 Data Storage
+        📑 Queue (FIFO)
+        📑 SRAM - Dual Port
+        📑 SRAM - Single Port
+        📑 SROM - Dual Port
+        📑 SROM - Single Port
+        📑 Stack (LIFO)
     📂 Flip Flops
         📑 Flip Flop
 ```

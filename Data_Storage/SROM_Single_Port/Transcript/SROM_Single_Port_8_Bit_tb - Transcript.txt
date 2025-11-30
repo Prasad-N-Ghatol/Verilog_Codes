@@ -1,0 +1,209 @@
+
+--------------------------------------------------
+
+SROM_Single_Port_8_Bit - Test
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+Default State
+
+--------------------------------------------------
+
+[          20.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x0 , Port_1_Read_Data_Out = 0xzz , tb_Port_1_Read_Data_Out = 0xzz , Is_Same = 1
+[          40.000 ns] : Enable_In = 0x0 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x0 , Port_1_Read_Data_Out = 0xzz , tb_Port_1_Read_Data_Out = 0xzz , Is_Same = 1
+[          60.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x0 , Port_1_Read_Data_Out = 0xzz , tb_Port_1_Read_Data_Out = 0xzz , Is_Same = 1
+
+--------------------------------------------------
+[          60.000 ns] : Dump_Memory_Contents - DUT.SROM_MEMORY and tb_SROM_MEMORY 
+--------------------------------------------------
+DUT.SROM_MEMORY[0x0] = 0x52 , tb_SROM_MEMORY[0x0] = 0x52
+DUT.SROM_MEMORY[0x1] = 0xf6 , tb_SROM_MEMORY[0x1] = 0xf6
+DUT.SROM_MEMORY[0x2] = 0xed , tb_SROM_MEMORY[0x2] = 0xed
+DUT.SROM_MEMORY[0x3] = 0x9b , tb_SROM_MEMORY[0x3] = 0x9b
+DUT.SROM_MEMORY[0x4] = 0x12 , tb_SROM_MEMORY[0x4] = 0x12
+DUT.SROM_MEMORY[0x5] = 0x15 , tb_SROM_MEMORY[0x5] = 0x15
+DUT.SROM_MEMORY[0x6] = 0xb3 , tb_SROM_MEMORY[0x6] = 0xb3
+DUT.SROM_MEMORY[0x7] = 0xe0 , tb_SROM_MEMORY[0x7] = 0xe0
+DUT.SROM_MEMORY[0x8] = 0x56 , tb_SROM_MEMORY[0x8] = 0x56
+DUT.SROM_MEMORY[0x9] = 0x6e , tb_SROM_MEMORY[0x9] = 0x6e
+DUT.SROM_MEMORY[0xA] = 0x20 , tb_SROM_MEMORY[0xA] = 0x20
+DUT.SROM_MEMORY[0xB] = 0x6e , tb_SROM_MEMORY[0xB] = 0x6e
+DUT.SROM_MEMORY[0xC] = 0x01 , tb_SROM_MEMORY[0xC] = 0x01
+DUT.SROM_MEMORY[0xD] = 0xd4 , tb_SROM_MEMORY[0xD] = 0xd4
+DUT.SROM_MEMORY[0xE] = 0x9e , tb_SROM_MEMORY[0xE] = 0x9e
+DUT.SROM_MEMORY[0xF] = 0xf7 , tb_SROM_MEMORY[0xF] = 0xf7
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+Read Data Operations
+
+--------------------------------------------------
+
+[         120.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x0 , Port_1_Read_Data_Out = 0x52 , tb_Port_1_Read_Data_Out = 0x52 , Is_Same = 1
+[         140.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x1 , Port_1_Read_Data_Out = 0xf6 , tb_Port_1_Read_Data_Out = 0xf6 , Is_Same = 1
+[         160.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x2 , Port_1_Read_Data_Out = 0xed , tb_Port_1_Read_Data_Out = 0xed , Is_Same = 1
+[         180.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x3 , Port_1_Read_Data_Out = 0x9b , tb_Port_1_Read_Data_Out = 0x9b , Is_Same = 1
+[         200.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x4 , Port_1_Read_Data_Out = 0x12 , tb_Port_1_Read_Data_Out = 0x12 , Is_Same = 1
+[         220.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x5 , Port_1_Read_Data_Out = 0x15 , tb_Port_1_Read_Data_Out = 0x15 , Is_Same = 1
+[         240.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x6 , Port_1_Read_Data_Out = 0xb3 , tb_Port_1_Read_Data_Out = 0xb3 , Is_Same = 1
+[         260.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x7 , Port_1_Read_Data_Out = 0xe0 , tb_Port_1_Read_Data_Out = 0xe0 , Is_Same = 1
+[         280.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x8 , Port_1_Read_Data_Out = 0x56 , tb_Port_1_Read_Data_Out = 0x56 , Is_Same = 1
+[         300.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x9 , Port_1_Read_Data_Out = 0x6e , tb_Port_1_Read_Data_Out = 0x6e , Is_Same = 1
+[         320.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0xa , Port_1_Read_Data_Out = 0x20 , tb_Port_1_Read_Data_Out = 0x20 , Is_Same = 1
+[         340.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0xb , Port_1_Read_Data_Out = 0x6e , tb_Port_1_Read_Data_Out = 0x6e , Is_Same = 1
+[         360.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0xc , Port_1_Read_Data_Out = 0x01 , tb_Port_1_Read_Data_Out = 0x01 , Is_Same = 1
+[         380.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0xd , Port_1_Read_Data_Out = 0xd4 , tb_Port_1_Read_Data_Out = 0xd4 , Is_Same = 1
+[         400.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0xe , Port_1_Read_Data_Out = 0x9e , tb_Port_1_Read_Data_Out = 0x9e , Is_Same = 1
+[         420.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0xf , Port_1_Read_Data_Out = 0xf7 , tb_Port_1_Read_Data_Out = 0xf7 , Is_Same = 1
+[         440.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0xf , Port_1_Read_Data_Out = 0xzz , tb_Port_1_Read_Data_Out = 0xzz , Is_Same = 1
+
+--------------------------------------------------
+
+After Data Read State
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+[         440.000 ns] : Dump_Memory_Contents - DUT.SROM_MEMORY and tb_SROM_MEMORY 
+--------------------------------------------------
+DUT.SROM_MEMORY[0x0] = 0x52 , tb_SROM_MEMORY[0x0] = 0x52
+DUT.SROM_MEMORY[0x1] = 0xf6 , tb_SROM_MEMORY[0x1] = 0xf6
+DUT.SROM_MEMORY[0x2] = 0xed , tb_SROM_MEMORY[0x2] = 0xed
+DUT.SROM_MEMORY[0x3] = 0x9b , tb_SROM_MEMORY[0x3] = 0x9b
+DUT.SROM_MEMORY[0x4] = 0x12 , tb_SROM_MEMORY[0x4] = 0x12
+DUT.SROM_MEMORY[0x5] = 0x15 , tb_SROM_MEMORY[0x5] = 0x15
+DUT.SROM_MEMORY[0x6] = 0xb3 , tb_SROM_MEMORY[0x6] = 0xb3
+DUT.SROM_MEMORY[0x7] = 0xe0 , tb_SROM_MEMORY[0x7] = 0xe0
+DUT.SROM_MEMORY[0x8] = 0x56 , tb_SROM_MEMORY[0x8] = 0x56
+DUT.SROM_MEMORY[0x9] = 0x6e , tb_SROM_MEMORY[0x9] = 0x6e
+DUT.SROM_MEMORY[0xA] = 0x20 , tb_SROM_MEMORY[0xA] = 0x20
+DUT.SROM_MEMORY[0xB] = 0x6e , tb_SROM_MEMORY[0xB] = 0x6e
+DUT.SROM_MEMORY[0xC] = 0x01 , tb_SROM_MEMORY[0xC] = 0x01
+DUT.SROM_MEMORY[0xD] = 0xd4 , tb_SROM_MEMORY[0xD] = 0xd4
+DUT.SROM_MEMORY[0xE] = 0x9e , tb_SROM_MEMORY[0xE] = 0x9e
+DUT.SROM_MEMORY[0xF] = 0xf7 , tb_SROM_MEMORY[0xF] = 0xf7
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+Enable/Read/Write - On/Off Data Operations
+
+--------------------------------------------------
+
+Enable On - No Operation
+[         500.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x2 , Port_1_Read_Data_Out = 0xzz , tb_Port_1_Read_Data_Out = 0xzz , Is_Same = 1
+Enable Off - No Operation
+[         520.000 ns] : Enable_In = 0x0 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x2 , Port_1_Read_Data_Out = 0xzz , tb_Port_1_Read_Data_Out = 0xzz , Is_Same = 1
+Enable Off - Read
+[         540.000 ns] : Enable_In = 0x0 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x2 , Port_1_Read_Data_Out = 0xzz , tb_Port_1_Read_Data_Out = 0xzz , Is_Same = 1
+[         560.000 ns] : Enable_In = 0x0 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x2 , Port_1_Read_Data_Out = 0xzz , tb_Port_1_Read_Data_Out = 0xzz , Is_Same = 1
+Enable On - No Operation
+[         580.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x2 , Port_1_Read_Data_Out = 0xzz , tb_Port_1_Read_Data_Out = 0xzz , Is_Same = 1
+Enable On - Read
+[         600.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x2 , Port_1_Read_Data_Out = 0xed , tb_Port_1_Read_Data_Out = 0xed , Is_Same = 1
+[         620.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x2 , Port_1_Read_Data_Out = 0xzz , tb_Port_1_Read_Data_Out = 0xzz , Is_Same = 1
+
+--------------------------------------------------
+
+After Enable/Read - On/Off Data Operations State
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+[         620.000 ns] : Dump_Memory_Contents - DUT.SROM_MEMORY and tb_SROM_MEMORY 
+--------------------------------------------------
+DUT.SROM_MEMORY[0x0] = 0x52 , tb_SROM_MEMORY[0x0] = 0x52
+DUT.SROM_MEMORY[0x1] = 0xf6 , tb_SROM_MEMORY[0x1] = 0xf6
+DUT.SROM_MEMORY[0x2] = 0xed , tb_SROM_MEMORY[0x2] = 0xed
+DUT.SROM_MEMORY[0x3] = 0x9b , tb_SROM_MEMORY[0x3] = 0x9b
+DUT.SROM_MEMORY[0x4] = 0x12 , tb_SROM_MEMORY[0x4] = 0x12
+DUT.SROM_MEMORY[0x5] = 0x15 , tb_SROM_MEMORY[0x5] = 0x15
+DUT.SROM_MEMORY[0x6] = 0xb3 , tb_SROM_MEMORY[0x6] = 0xb3
+DUT.SROM_MEMORY[0x7] = 0xe0 , tb_SROM_MEMORY[0x7] = 0xe0
+DUT.SROM_MEMORY[0x8] = 0x56 , tb_SROM_MEMORY[0x8] = 0x56
+DUT.SROM_MEMORY[0x9] = 0x6e , tb_SROM_MEMORY[0x9] = 0x6e
+DUT.SROM_MEMORY[0xA] = 0x20 , tb_SROM_MEMORY[0xA] = 0x20
+DUT.SROM_MEMORY[0xB] = 0x6e , tb_SROM_MEMORY[0xB] = 0x6e
+DUT.SROM_MEMORY[0xC] = 0x01 , tb_SROM_MEMORY[0xC] = 0x01
+DUT.SROM_MEMORY[0xD] = 0xd4 , tb_SROM_MEMORY[0xD] = 0xd4
+DUT.SROM_MEMORY[0xE] = 0x9e , tb_SROM_MEMORY[0xE] = 0x9e
+DUT.SROM_MEMORY[0xF] = 0xf7 , tb_SROM_MEMORY[0xF] = 0xf7
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+Random Operations
+
+--------------------------------------------------
+
+[         680.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x1 , Port_1_Read_Data_Out = 0xzz , tb_Port_1_Read_Data_Out = 0xzz , Is_Same = 1
+[         700.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x3 , Port_1_Read_Data_Out = 0x9b , tb_Port_1_Read_Data_Out = 0x9b , Is_Same = 1
+[         720.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0xd , Port_1_Read_Data_Out = 0xd4 , tb_Port_1_Read_Data_Out = 0xd4 , Is_Same = 1
+[         740.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x2 , Port_1_Read_Data_Out = 0xed , tb_Port_1_Read_Data_Out = 0xed , Is_Same = 1
+[         760.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0xd , Port_1_Read_Data_Out = 0xd4 , tb_Port_1_Read_Data_Out = 0xd4 , Is_Same = 1
+[         780.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0xd , Port_1_Read_Data_Out = 0xzz , tb_Port_1_Read_Data_Out = 0xzz , Is_Same = 1
+[         800.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0xc , Port_1_Read_Data_Out = 0x01 , tb_Port_1_Read_Data_Out = 0x01 , Is_Same = 1
+[         820.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x6 , Port_1_Read_Data_Out = 0xb3 , tb_Port_1_Read_Data_Out = 0xb3 , Is_Same = 1
+[         840.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0xa , Port_1_Read_Data_Out = 0x20 , tb_Port_1_Read_Data_Out = 0x20 , Is_Same = 1
+[         860.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x7 , Port_1_Read_Data_Out = 0xe0 , tb_Port_1_Read_Data_Out = 0xe0 , Is_Same = 1
+[         880.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0xf , Port_1_Read_Data_Out = 0xzz , tb_Port_1_Read_Data_Out = 0xzz , Is_Same = 1
+[         900.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0xe , Port_1_Read_Data_Out = 0xzz , tb_Port_1_Read_Data_Out = 0xzz , Is_Same = 1
+[         920.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x5 , Port_1_Read_Data_Out = 0xzz , tb_Port_1_Read_Data_Out = 0xzz , Is_Same = 1
+[         940.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0xd , Port_1_Read_Data_Out = 0xzz , tb_Port_1_Read_Data_Out = 0xzz , Is_Same = 1
+[         960.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x5 , Port_1_Read_Data_Out = 0x15 , tb_Port_1_Read_Data_Out = 0x15 , Is_Same = 1
+[         980.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0xa , Port_1_Read_Data_Out = 0x20 , tb_Port_1_Read_Data_Out = 0x20 , Is_Same = 1
+[        1000.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x0 , Port_1_Read_Data_Out = 0xzz , tb_Port_1_Read_Data_Out = 0xzz , Is_Same = 1
+[        1020.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0xd , Port_1_Read_Data_Out = 0xzz , tb_Port_1_Read_Data_Out = 0xzz , Is_Same = 1
+[        1040.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x0 , Port_1_Address_In = 0x3 , Port_1_Read_Data_Out = 0xzz , tb_Port_1_Read_Data_Out = 0xzz , Is_Same = 1
+[        1060.000 ns] : Enable_In = 0x1 , Port_1_Read_Enable_In = 0x1 , Port_1_Address_In = 0x3 , Port_1_Read_Data_Out = 0x9b , tb_Port_1_Read_Data_Out = 0x9b , Is_Same = 1
+
+--------------------------------------------------
+
+After Random Operations Complete State
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+[        1060.000 ns] : Dump_Memory_Contents - DUT.SROM_MEMORY and tb_SROM_MEMORY 
+--------------------------------------------------
+DUT.SROM_MEMORY[0x0] = 0x52 , tb_SROM_MEMORY[0x0] = 0x52
+DUT.SROM_MEMORY[0x1] = 0xf6 , tb_SROM_MEMORY[0x1] = 0xf6
+DUT.SROM_MEMORY[0x2] = 0xed , tb_SROM_MEMORY[0x2] = 0xed
+DUT.SROM_MEMORY[0x3] = 0x9b , tb_SROM_MEMORY[0x3] = 0x9b
+DUT.SROM_MEMORY[0x4] = 0x12 , tb_SROM_MEMORY[0x4] = 0x12
+DUT.SROM_MEMORY[0x5] = 0x15 , tb_SROM_MEMORY[0x5] = 0x15
+DUT.SROM_MEMORY[0x6] = 0xb3 , tb_SROM_MEMORY[0x6] = 0xb3
+DUT.SROM_MEMORY[0x7] = 0xe0 , tb_SROM_MEMORY[0x7] = 0xe0
+DUT.SROM_MEMORY[0x8] = 0x56 , tb_SROM_MEMORY[0x8] = 0x56
+DUT.SROM_MEMORY[0x9] = 0x6e , tb_SROM_MEMORY[0x9] = 0x6e
+DUT.SROM_MEMORY[0xA] = 0x20 , tb_SROM_MEMORY[0xA] = 0x20
+DUT.SROM_MEMORY[0xB] = 0x6e , tb_SROM_MEMORY[0xB] = 0x6e
+DUT.SROM_MEMORY[0xC] = 0x01 , tb_SROM_MEMORY[0xC] = 0x01
+DUT.SROM_MEMORY[0xD] = 0xd4 , tb_SROM_MEMORY[0xD] = 0xd4
+DUT.SROM_MEMORY[0xE] = 0x9e , tb_SROM_MEMORY[0xE] = 0x9e
+DUT.SROM_MEMORY[0xF] = 0xf7 , tb_SROM_MEMORY[0xF] = 0xf7
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+Test Results :
+--------------------------------------------------
+Passed_Checks =          47
+Failed_Checks =           0
+Total_Checks  =          47
+--------------------------------------------------
+
