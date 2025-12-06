@@ -1,0 +1,67 @@
+
+--------------------------------------------------
+
+Parallel_In_Parallel_Out_PIPO_16_Bit - Test
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+Reset
+
+--------------------------------------------------
+
+[          20.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0x3524 , Parallel_Data_Out = 0x0000 , tb_Parallel_Data_Out = 0x0000 , Is_Same = 1
+[          40.000 ns] : Reset_In = 1 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0x5e81 , Parallel_Data_Out = 0x0000 , tb_Parallel_Data_Out = 0x0000 , Is_Same = 1
+[          60.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0xd609 , Parallel_Data_Out = 0x0000 , tb_Parallel_Data_Out = 0x0000 , Is_Same = 1
+[          80.000 ns] : Reset_In = 0 , Enable_In = 0 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0x5663 , Parallel_Data_Out = 0xzzzz , tb_Parallel_Data_Out = 0xzzzz , Is_Same = 1
+[         100.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0x7b0d , Parallel_Data_Out = 0x0000 , tb_Parallel_Data_Out = 0x0000 , Is_Same = 1
+
+--------------------------------------------------
+
+Shift Data In
+
+--------------------------------------------------
+
+[         160.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0x998d , Parallel_Data_Out = 0x0000 , tb_Parallel_Data_Out = 0x0000 , Is_Same = 1
+[         180.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0x8465 , Parallel_Data_Out = 0x8465 , tb_Parallel_Data_Out = 0x8465 , Is_Same = 1
+[         200.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0x5212 , Parallel_Data_Out = 0x5212 , tb_Parallel_Data_Out = 0x5212 , Is_Same = 1
+[         220.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0xe301 , Parallel_Data_Out = 0xe301 , tb_Parallel_Data_Out = 0xe301 , Is_Same = 1
+[         240.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0xcd0d , Parallel_Data_Out = 0xcd0d , tb_Parallel_Data_Out = 0xcd0d , Is_Same = 1
+
+--------------------------------------------------
+
+Random Operations
+
+--------------------------------------------------
+
+[         300.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0xcd3d , Parallel_Data_Out = 0xcd0d , tb_Parallel_Data_Out = 0xcd0d , Is_Same = 1
+[         320.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0xf78c , Parallel_Data_Out = 0xf78c , tb_Parallel_Data_Out = 0xf78c , Is_Same = 1
+[         340.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0x24c6 , Parallel_Data_Out = 0x24c6 , tb_Parallel_Data_Out = 0x24c6 , Is_Same = 1
+[         360.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0xd2aa , Parallel_Data_Out = 0xd2aa , tb_Parallel_Data_Out = 0xd2aa , Is_Same = 1
+[         380.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0x7277 , Parallel_Data_Out = 0x7277 , tb_Parallel_Data_Out = 0x7277 , Is_Same = 1
+[         400.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0xdb8f , Parallel_Data_Out = 0x7277 , tb_Parallel_Data_Out = 0x7277 , Is_Same = 1
+[         420.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0x96ce , Parallel_Data_Out = 0x7277 , tb_Parallel_Data_Out = 0x7277 , Is_Same = 1
+[         440.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0x4ec5 , Parallel_Data_Out = 0x7277 , tb_Parallel_Data_Out = 0x7277 , Is_Same = 1
+[         460.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0x28bd , Parallel_Data_Out = 0x7277 , tb_Parallel_Data_Out = 0x7277 , Is_Same = 1
+[         480.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0x2665 , Parallel_Data_Out = 0x2665 , tb_Parallel_Data_Out = 0x2665 , Is_Same = 1
+[         500.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0x870a , Parallel_Data_Out = 0x870a , tb_Parallel_Data_Out = 0x870a , Is_Same = 1
+[         520.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0x2120 , Parallel_Data_Out = 0x870a , tb_Parallel_Data_Out = 0x870a , Is_Same = 1
+[         540.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0xcc9d , Parallel_Data_Out = 0x870a , tb_Parallel_Data_Out = 0x870a , Is_Same = 1
+[         560.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0xb813 , Parallel_Data_Out = 0x870a , tb_Parallel_Data_Out = 0x870a , Is_Same = 1
+[         580.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0xd653 , Parallel_Data_Out = 0xd653 , tb_Parallel_Data_Out = 0xd653 , Is_Same = 1
+[         600.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0x2ad5 , Parallel_Data_Out = 0x2ad5 , tb_Parallel_Data_Out = 0x2ad5 , Is_Same = 1
+[         620.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0x3eae , Parallel_Data_Out = 0x2ad5 , tb_Parallel_Data_Out = 0x2ad5 , Is_Same = 1
+[         640.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0x72cf , Parallel_Data_Out = 0x72cf , tb_Parallel_Data_Out = 0x72cf , Is_Same = 1
+[         660.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0x650a , Parallel_Data_Out = 0x650a , tb_Parallel_Data_Out = 0x650a , Is_Same = 1
+[         680.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0x4c3c , Parallel_Data_Out = 0x650a , tb_Parallel_Data_Out = 0x650a , Is_Same = 1
+
+--------------------------------------------------
+Test Results :
+--------------------------------------------------
+Passed_Checks =          30
+Failed_Checks =           0
+Total_Checks  =          30
+--------------------------------------------------
+

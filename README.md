@@ -56,6 +56,12 @@ Each module focuses on illustrating key concepts in **digital design, simulation
         📑 Stack (LIFO)
     📂 Flip Flops
         📑 Flip Flop
+    📂 Shift Registers
+        📑 Parallel-In-Parallel-Out (PIPO)
+        📑 Parallel-In-Serial-Out (PISO)
+        📑 Serial-In-Parallel-Out (SIPO)
+        📑 Serial-In-Serial-Out (SISO)
+        📑 Universal Shift Register (USR)
 ```
 
 ---

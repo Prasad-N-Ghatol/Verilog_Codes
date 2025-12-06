@@ -1,0 +1,67 @@
+
+--------------------------------------------------
+
+Parallel_In_Parallel_Out_PIPO_32_Bit - Test
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+Reset
+
+--------------------------------------------------
+
+[          20.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0x12153524 , Parallel_Data_Out = 0x00000000 , tb_Parallel_Data_Out = 0x00000000 , Is_Same = 1
+[          40.000 ns] : Reset_In = 1 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0xc0895e81 , Parallel_Data_Out = 0x00000000 , tb_Parallel_Data_Out = 0x00000000 , Is_Same = 1
+[          60.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0x8484d609 , Parallel_Data_Out = 0x00000000 , tb_Parallel_Data_Out = 0x00000000 , Is_Same = 1
+[          80.000 ns] : Reset_In = 0 , Enable_In = 0 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0xb1f05663 , Parallel_Data_Out = 0xzzzzzzzz , tb_Parallel_Data_Out = 0xzzzzzzzz , Is_Same = 1
+[         100.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0x06b97b0d , Parallel_Data_Out = 0x00000000 , tb_Parallel_Data_Out = 0x00000000 , Is_Same = 1
+
+--------------------------------------------------
+
+Shift Data In
+
+--------------------------------------------------
+
+[         160.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0x46df998d , Parallel_Data_Out = 0x00000000 , tb_Parallel_Data_Out = 0x00000000 , Is_Same = 1
+[         180.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0xb2c28465 , Parallel_Data_Out = 0xb2c28465 , tb_Parallel_Data_Out = 0xb2c28465 , Is_Same = 1
+[         200.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0x89375212 , Parallel_Data_Out = 0x89375212 , tb_Parallel_Data_Out = 0x89375212 , Is_Same = 1
+[         220.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0x00f3e301 , Parallel_Data_Out = 0x00f3e301 , tb_Parallel_Data_Out = 0x00f3e301 , Is_Same = 1
+[         240.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0x06d7cd0d , Parallel_Data_Out = 0x06d7cd0d , tb_Parallel_Data_Out = 0x06d7cd0d , Is_Same = 1
+
+--------------------------------------------------
+
+Random Operations
+
+--------------------------------------------------
+
+[         300.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0x1e8dcd3d , Parallel_Data_Out = 0x06d7cd0d , tb_Parallel_Data_Out = 0x06d7cd0d , Is_Same = 1
+[         320.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0x462df78c , Parallel_Data_Out = 0x462df78c , tb_Parallel_Data_Out = 0x462df78c , Is_Same = 1
+[         340.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0xe33724c6 , Parallel_Data_Out = 0xe33724c6 , tb_Parallel_Data_Out = 0xe33724c6 , Is_Same = 1
+[         360.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0xd513d2aa , Parallel_Data_Out = 0xd513d2aa , tb_Parallel_Data_Out = 0xd513d2aa , Is_Same = 1
+[         380.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0xbbd27277 , Parallel_Data_Out = 0xbbd27277 , tb_Parallel_Data_Out = 0xbbd27277 , Is_Same = 1
+[         400.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0x47ecdb8f , Parallel_Data_Out = 0xbbd27277 , tb_Parallel_Data_Out = 0xbbd27277 , Is_Same = 1
+[         420.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0xe77696ce , Parallel_Data_Out = 0xbbd27277 , tb_Parallel_Data_Out = 0xbbd27277 , Is_Same = 1
+[         440.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0xe2ca4ec5 , Parallel_Data_Out = 0xbbd27277 , tb_Parallel_Data_Out = 0xbbd27277 , Is_Same = 1
+[         460.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0xde8e28bd , Parallel_Data_Out = 0xbbd27277 , tb_Parallel_Data_Out = 0xbbd27277 , Is_Same = 1
+[         480.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0xb2a72665 , Parallel_Data_Out = 0xb2a72665 , tb_Parallel_Data_Out = 0xb2a72665 , Is_Same = 1
+[         500.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0x0573870a , Parallel_Data_Out = 0x0573870a , tb_Parallel_Data_Out = 0x0573870a , Is_Same = 1
+[         520.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0x10642120 , Parallel_Data_Out = 0x0573870a , tb_Parallel_Data_Out = 0x0573870a , Is_Same = 1
+[         540.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0xcecccc9d , Parallel_Data_Out = 0x0573870a , tb_Parallel_Data_Out = 0x0573870a , Is_Same = 1
+[         560.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0x8983b813 , Parallel_Data_Out = 0x0573870a , tb_Parallel_Data_Out = 0x0573870a , Is_Same = 1
+[         580.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0xa9a7d653 , Parallel_Data_Out = 0xa9a7d653 , tb_Parallel_Data_Out = 0xa9a7d653 , Is_Same = 1
+[         600.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0xeaa62ad5 , Parallel_Data_Out = 0xeaa62ad5 , tb_Parallel_Data_Out = 0xeaa62ad5 , Is_Same = 1
+[         620.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0xd7563eae , Parallel_Data_Out = 0xeaa62ad5 , tb_Parallel_Data_Out = 0xeaa62ad5 , Is_Same = 1
+[         640.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0xe7c572cf , Parallel_Data_Out = 0xe7c572cf , tb_Parallel_Data_Out = 0xe7c572cf , Is_Same = 1
+[         660.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0x0509650a , Parallel_Data_Out = 0x0509650a , tb_Parallel_Data_Out = 0x0509650a , Is_Same = 1
+[         680.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0x9e314c3c , Parallel_Data_Out = 0x0509650a , tb_Parallel_Data_Out = 0x0509650a , Is_Same = 1
+
+--------------------------------------------------
+Test Results :
+--------------------------------------------------
+Passed_Checks =          30
+Failed_Checks =           0
+Total_Checks  =          30
+--------------------------------------------------
+

@@ -1,0 +1,67 @@
+
+--------------------------------------------------
+
+Parallel_In_Parallel_Out_PIPO_4_Bit - Test
+
+--------------------------------------------------
+
+
+--------------------------------------------------
+
+Reset
+
+--------------------------------------------------
+
+[          20.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0x4 , Parallel_Data_Out = 0x0 , tb_Parallel_Data_Out = 0x0 , Is_Same = 1
+[          40.000 ns] : Reset_In = 1 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0x1 , Parallel_Data_Out = 0x0 , tb_Parallel_Data_Out = 0x0 , Is_Same = 1
+[          60.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0x9 , Parallel_Data_Out = 0x0 , tb_Parallel_Data_Out = 0x0 , Is_Same = 1
+[          80.000 ns] : Reset_In = 0 , Enable_In = 0 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0x3 , Parallel_Data_Out = 0xz , tb_Parallel_Data_Out = 0xz , Is_Same = 1
+[         100.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0xd , Parallel_Data_Out = 0x0 , tb_Parallel_Data_Out = 0x0 , Is_Same = 1
+
+--------------------------------------------------
+
+Shift Data In
+
+--------------------------------------------------
+
+[         160.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0xd , Parallel_Data_Out = 0x0 , tb_Parallel_Data_Out = 0x0 , Is_Same = 1
+[         180.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0x5 , Parallel_Data_Out = 0x5 , tb_Parallel_Data_Out = 0x5 , Is_Same = 1
+[         200.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0x2 , Parallel_Data_Out = 0x2 , tb_Parallel_Data_Out = 0x2 , Is_Same = 1
+[         220.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0x1 , Parallel_Data_Out = 0x1 , tb_Parallel_Data_Out = 0x1 , Is_Same = 1
+[         240.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0xd , Parallel_Data_Out = 0xd , tb_Parallel_Data_Out = 0xd , Is_Same = 1
+
+--------------------------------------------------
+
+Random Operations
+
+--------------------------------------------------
+
+[         300.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0xd , Parallel_Data_Out = 0xd , tb_Parallel_Data_Out = 0xd , Is_Same = 1
+[         320.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0xc , Parallel_Data_Out = 0xc , tb_Parallel_Data_Out = 0xc , Is_Same = 1
+[         340.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0x6 , Parallel_Data_Out = 0x6 , tb_Parallel_Data_Out = 0x6 , Is_Same = 1
+[         360.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0xa , Parallel_Data_Out = 0xa , tb_Parallel_Data_Out = 0xa , Is_Same = 1
+[         380.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0x7 , Parallel_Data_Out = 0x7 , tb_Parallel_Data_Out = 0x7 , Is_Same = 1
+[         400.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0xf , Parallel_Data_Out = 0x7 , tb_Parallel_Data_Out = 0x7 , Is_Same = 1
+[         420.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0xe , Parallel_Data_Out = 0x7 , tb_Parallel_Data_Out = 0x7 , Is_Same = 1
+[         440.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0x5 , Parallel_Data_Out = 0x7 , tb_Parallel_Data_Out = 0x7 , Is_Same = 1
+[         460.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0xd , Parallel_Data_Out = 0x7 , tb_Parallel_Data_Out = 0x7 , Is_Same = 1
+[         480.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0x5 , Parallel_Data_Out = 0x5 , tb_Parallel_Data_Out = 0x5 , Is_Same = 1
+[         500.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0xa , Parallel_Data_Out = 0xa , tb_Parallel_Data_Out = 0xa , Is_Same = 1
+[         520.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0x0 , Parallel_Data_Out = 0xa , tb_Parallel_Data_Out = 0xa , Is_Same = 1
+[         540.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0xd , Parallel_Data_Out = 0xa , tb_Parallel_Data_Out = 0xa , Is_Same = 1
+[         560.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0x3 , Parallel_Data_Out = 0xa , tb_Parallel_Data_Out = 0xa , Is_Same = 1
+[         580.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0x3 , Parallel_Data_Out = 0x3 , tb_Parallel_Data_Out = 0x3 , Is_Same = 1
+[         600.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0x5 , Parallel_Data_Out = 0x5 , tb_Parallel_Data_Out = 0x5 , Is_Same = 1
+[         620.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0xe , Parallel_Data_Out = 0x5 , tb_Parallel_Data_Out = 0x5 , Is_Same = 1
+[         640.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0xf , Parallel_Data_Out = 0xf , tb_Parallel_Data_Out = 0xf , Is_Same = 1
+[         660.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 1 , Parallel_Data_In = 0xa , Parallel_Data_Out = 0xa , tb_Parallel_Data_Out = 0xa , Is_Same = 1
+[         680.000 ns] : Reset_In = 0 , Enable_In = 1 , Load_Data_Signal_In = 0 , Parallel_Data_In = 0xc , Parallel_Data_Out = 0xa , tb_Parallel_Data_Out = 0xa , Is_Same = 1
+
+--------------------------------------------------
+Test Results :
+--------------------------------------------------
+Passed_Checks =          30
+Failed_Checks =           0
+Total_Checks  =          30
+--------------------------------------------------
+
